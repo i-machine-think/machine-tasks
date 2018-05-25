@@ -13,7 +13,7 @@ A dataset proposed in [[2]](https://arxiv.org/abs/1802.06467) to evaluate compos
 
 ## Symbol-rewriting
 
-A dataset proposed in [[3]] (https://arxiv.org/abs/1805.01445) to evaluate a model's ability to generalise on a simple symbol rewriting task.
+A dataset proposed in [[3]](https://arxiv.org/abs/1805.01445) to evaluate a model's ability to generalise on a simple symbol rewriting task.
 
 ## References
 \[1\] Brenden M. Lake and Marco Baroni. Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks, 2017.
