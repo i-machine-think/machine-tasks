@@ -1,4 +1,28 @@
 # -*- coding: utf-8 -*-
+
+"""
+Script to generate of the lookup tables problem.
+
+Running this script will save the following files in /dir/ or /dir/sample<i>/ if n_samples > 1:
+- train.tsv
+- validation.tsv
+- heldout_inputs.tsv
+- heldout_compositions
+- heldout_tables
+- new_compositions
+- longer_seen_1.tsv
+- longer_incremental_1.tsv
+- longer_new_1.tsv
+...
+- longer_seen_n.tsv
+- longer_incremental_n.tsv
+- longer_new_n.tsv
+
+with n is the max number of additional compositions in test compared to train.
+
+Help : `python make_lookup_tables.py -h`
+"""
+
 from __future__ import unicode_literals, division, absolute_import, print_function
 
 import sys
@@ -21,7 +45,7 @@ def parse_arguments(args):
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument('-d', '--dir', default='.', help='Path to the directory where to save the generated data.')
-    parser.add_argument('-s', '--n-samples', type=int, default=1, help='Path to the directory where to save the generated data.')
+    parser.add_argument('-s', '--n-samples', type=int, default=1, help='Number of different samples to generate. If greater than 1, will save the files for a single sample in /dir/sample<i>/*.tsv.')
 
     parser.add_argument('-v', '--validation-size', type=float, default=0.1, help='Percentage of training set to use as validation.')
     parser.add_argument('-c', '--max-composition-train', type=int, default=4, help='Max length of compositions in training set.')
