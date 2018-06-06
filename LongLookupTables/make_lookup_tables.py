@@ -51,17 +51,18 @@ def parse_arguments(args):
     parser.add_argument('-c', '--max-composition-train', type=int, default=4, help='Max length of compositions in training set.')
     parser.add_argument('-t', '--n-unary-tables', type=int, default=8, help='Number of different lookup tables.')
     parser.add_argument('-T', '--n-heldout-tables', type=int, default=2, help='Number of tables that would only be seen in unary.')
-    parser.add_argument('-C', '--n-heldout-compositions', type=int, default=50, help='Number of compositions to randomly remove.')
+    parser.add_argument('-C', '--n-heldout-compositions', type=int, default=100, help='Number of compositions to randomly remove.')
     parser.add_argument('-I', '--n-heldout-inputs', type=int, default=2, help='Number of inputs to heldout from training.')
-    parser.add_argument('-l', '--n-longer', type=int, default=2, help='Number of additional tables to add to `longer` test data.')
+    parser.add_argument('-l', '--n-longer', type=int, default=5, help='Number of additional tables to add to `longer` test data.')
+    parser.add_argument('--reverse', action='store_true', help='Reverses the input sequence to match the mathematical composition. I.e if given, then uses `t1(t2(input))` without parenthesis instead of `input t2 t1`.')
+    parser.add_argument('--not-copy-input', action='store_true', help='Removes the copy of the input in the target sequence.')
     parser.add_argument('--not-intermediate', action='store_true', help='Removes intermediate step in the target sequence.')
-    parser.add_argument('--not_shuffle', action='store_true', help='Disables shuffling of the outputed datasets')
-    parser.add_argument('--not_reverse', action='store_true', help='Disables reversing of the input sequence. I.e if given, then uses `t1∘t2 input` instead of `input t2 t1`.')
-    parser.add_argument('--not_stratify', action='store_true', help='Disables the balancing of the lookups in train and validation set.')
+    parser.add_argument('--not-shuffle', action='store_true', help='Disables shuffling of the outputed datasets')
+    parser.add_argument('--not-stratify', action='store_true', help='Disables the balancing of the lookups in train and validation set.')
     parser.add_argument('-e', '--eos', default='.', help='EOS token to append at the end of each input.')
-    parser.add_argument('-b', '--bound-longer', type=int, default=10**4, help='Bounds the maximum number of permuted compositions in `longer`')
+    parser.add_argument('-b', '--bound-test', type=int, default=5000, help='Bound the number of rows in each test files.')
     parser.add_argument('-a', '--alphabet', metavar=('letter1', 'letter2'), nargs='*', default=['0', '1'], help='Possible characters given as input.')
-    parser.add_argument('-r', '--n-repeats', type=int, default=3, help='Number of characters in `alphabet` used in each input and output.')
+    parser.add_argument('-r', '--n-repeats', type=int, default=3, help='Number of characters in `alphabet` used in each input and output. If the alphabet==bits, then this corresponds to `n` in `n-bits`.')
     parser.add_argument('-S', '--seed', type=int, default=123, help='Random seed.')
 
     args = parser.parse_args(args)
@@ -72,7 +73,6 @@ def main(args):
     random.seed(args.seed)
     for sample in range(args.n_samples):
         seed = args.seed if args.n_samples == 1 else random.randint(0, 1e5)
-        print(seed)
         out = table_lookup_dataset(validation_size=args.validation_size,
                                    max_composition_train=args.max_composition_train,
                                    n_unary_tables=args.n_unary_tables,
@@ -80,12 +80,13 @@ def main(args):
                                    n_heldout_compositions=args.n_heldout_compositions,
                                    n_heldout_inputs=args.n_heldout_inputs,
                                    add_composition_test=args.n_longer,
+                                   is_reverse=args.reverse,
+                                   is_copy_input=not args.not_copy_input,
                                    is_intermediate=not args.not_intermediate,
                                    is_shuffle=not args.not_shuffle,
-                                   is_reverse=not args.not_reverse,
                                    is_stratify=not args.not_stratify,
                                    eos=args.eos,
-                                   max_longer=args.bound_longer,
+                                   bound_test=args.bound_test,
                                    seed=seed,
                                    alphabet=args.alphabet,
                                    n_repeats=args.n_repeats)
@@ -106,12 +107,13 @@ def table_lookup_dataset(validation_size=0.11,
                          n_heldout_compositions=8,
                          n_heldout_inputs=2,
                          add_composition_test=1,
+                         is_reverse=False,
+                         is_copy_input=True,
                          is_intermediate=True,
                          is_shuffle=True,
-                         is_reverse=True,
                          is_stratify=True,
                          eos=".",
-                         max_longer=10**4,
+                         bound_test=10**4,
                          seed=123,
                          **kwargs):
     r"""Prepare the table lookup dataset.
@@ -126,14 +128,15 @@ def table_lookup_dataset(validation_size=0.11,
         add_composition_test (int, optional): additional composition to add for the `longer_*` test data.
             Those test sets will then include compositions between `max_composition_train` and
             `max_composition_train + add_composition_test` tables.
+        is_reverse (bool, optional): whether to reverse the  input sequence to match the mathematical composition.
+            I.e if given, then uses `t1(t2(input))` without parenthesis instead of `input t2 t1`.'
+        is_copy_input (bool, optional): whether to include a copy of the initial input results in the output.
         is_intermediate (bool, optional): whether to include intermediate results in the output.
         is_shuffle (bool, optional): whether to shuffle the outputed datasets.
-        is_reverse (bool, optional): whether to have the inputs first and then the tables. Ex: if reverse:
-            001 t1 t2 else t2 t1 001.
         is_stratify (bool, optional): whether to split validation to approximately balance each lookup table.
             `validation_size` may have to be larger when using this.
         eos (str, optional): str to append at the end of each input.
-        max_longer (int, optional): bounds the maximum number of rows in `longer`.
+        bound_test (int, optional): bounds the number of rows in each test files.
         seed (int, optional): sets the seed for generating random numbers.
         kwargs: Additional arguments to `create_N_table_lookup`.
 
@@ -159,6 +162,7 @@ def table_lookup_dataset(validation_size=0.11,
     random.seed(seed)
 
     unary_functions = create_N_table_lookup(N=n_unary_tables, seed=seed, **kwargs)
+    n_inputs = len(unary_functions[0])
     names_unary_train = {t.name for t in unary_functions[:-n_heldout_tables]}
     names_unary_test = {t.name for t in unary_functions[-n_heldout_tables:]}
     multiary_functions = flatten([[reduce(lambda x, y: compose_table_lookups(x, y, is_intermediate=is_intermediate),
@@ -187,26 +191,38 @@ def table_lookup_dataset(validation_size=0.11,
     longest_multiary_functions = [t for t in multiary_functions if len(t.name.split()) == max_composition_train]
     longer = [compose_table_lookups(x, y) for x, y in itertools.product(unary_functions, longest_multiary_functions)]
     for _ in range(add_composition_test):
-        if len(longer) > max_longer:
-            warnings.warn("Randomly select tables as len(longer)={} is larger than max_longer={}.".format(len(longer), max_longer))
-            longer = random.sample(longer, max_longer)
-
         longer_seen, longer_incremental, longer_new = _split_seen_unseen_new(longer,
                                                                              names_unary_train,
                                                                              names_unary_test)
-        longer_seens.append(longer_seen)
-        longer_incrementals.append(longer_incremental)
-        longer_news.append(longer_new)
+
+        for longer_i, longer_i_list in zip([longer_seen, longer_incremental, longer_new],
+                                           [longer_seens, longer_incrementals, longer_news]):
+            # uses round(bound_test/n_inputs) because at that moment we have a list of composed tables with each
+            # `n_inputs` rows. At the end we will merge those and bound_test should filter the total number of rows.
+            if len(longer_i) * n_inputs > bound_test:
+                warnings.warn("Randomly select tables as len(longer)={} is larger than bound_test={}.".format(n_inputs * len(longer_i),
+                                                                                                              bound_test))
+                longer_i = random.sample(longer_i, round(bound_test / n_inputs))
+
+            longer_i_list.append(longer_i)
+
+        longer = flatten([longer_seens[-1], longer_incrementals[-1], longer_news[-1]])
         longer = [compose_table_lookups(x, y) for x, y in itertools.product(unary_functions, longer)]
 
     # formats
-    longer_seens = _merge_format_inputs(longer_seens, is_shuffle, seed=seed, is_reverse=is_reverse, eos=eos)
-    longer_incrementals = _merge_format_inputs(longer_incrementals, is_shuffle, seed=seed, is_reverse=is_reverse, eos=eos)
-    longer_news = _merge_format_inputs(longer_news, is_shuffle, seed=seed, is_reverse=is_reverse, eos=eos)
+    longer_seens = _merge_format_inputs(longer_seens, is_shuffle, bound_test=bound_test, seed=seed,
+                                        is_reverse=is_reverse, eos=eos)
+    longer_incrementals = _merge_format_inputs(longer_incrementals, is_shuffle, bound_test=bound_test,
+                                               seed=seed, is_reverse=is_reverse, eos=eos)
+    longer_news = _merge_format_inputs(longer_news, is_shuffle, bound_test=bound_test, seed=seed,
+                                       is_reverse=is_reverse, eos=eos)
 
     building_blocks = (unary_functions, multiary_train, heldout_inputs, heldout_compositions, heldout_tables, new_compositions)
-    building_blocks = _merge_format_inputs(building_blocks, is_shuffle, seed=seed, is_reverse=is_reverse, eos=eos)
-    _check_sizes(building_blocks, max_composition_train, n_unary_tables, n_heldout_tables, n_heldout_compositions, n_heldout_inputs)
+    # don't bound test because size check after
+    building_blocks = _merge_format_inputs(building_blocks, is_shuffle, bound_test=None, seed=seed, is_reverse=is_reverse, eos=eos)
+    _check_sizes(building_blocks, n_inputs, max_composition_train, n_unary_tables, n_heldout_tables, n_heldout_compositions, n_heldout_inputs)
+    if bound_test is not None:
+        building_blocks = [df.iloc[:bound_test] for df in building_blocks]
     unary_functions, multiary_train, heldout_inputs, heldout_compositions, heldout_tables, new_compositions = building_blocks
 
     # validation
@@ -270,25 +286,32 @@ def compose_table_lookups(table1, table2, is_intermediate=True):
     return merged_serie
 
 
-def format_input(table, is_reverse=True, eos=None):
+def format_input(table, is_copy_input=True, is_reverse=False, eos=None):
     """Formats the input of the task.
 
     Args:
         table (pd.Series, optional): Serie where keys->input, data->output, name->namer(i)
-        is_reverse (bool, optional): whether to have the inputs first and then the tables. Ex: if reverse:
+        is_copy_input (bool, optional): whether to have the inputs first and then the tables. Ex: if reverse:
             001 t1 t2 else t2 t1 001.
+        is_reverse (bool, optional): whether to reverse the  input sequence to match the mathematical composition.
+            I.e if given, then uses `t1(t2(input))` without parenthesis instead of `input t2 t1`.'
         eos (str, optional): str to append at the end of each input.
 
     Returns:
         out (pd.Series): Serie where keys->input+name, data->output, name->namer(i).
     """
+    inputs = table.index
+
     table.index = ["{} {}".format(table.name, i) for i in table.index]
 
-    if is_reverse:
+    if not is_reverse:
         table.index = [" ".join(i.split()[::-1]) for i in table.index]
 
-    if eos is not None and eos != "":
+    if eos is not None:
         table.index = ["{} {}".format(i, eos) for i in table.index]
+
+    if is_copy_input:
+        table.iloc[:] = inputs + " " + table
 
     return table
 
@@ -332,13 +355,17 @@ def _split_seen_unseen_new(dfs, name_train, name_test):
     return seen, unseen, new
 
 
-def _merge_format_inputs(list_dfs, is_shuffle, seed=None, **kwargs):
+def _merge_format_inputs(list_dfs, is_shuffle, bound_test=None, seed=None, **kwargs):
     list_df = [pd.concat([format_input(df, **kwargs) for df in dfs],
                          axis=0)
                for dfs in list_dfs]
 
     if is_shuffle:
         list_df = [df.sample(frac=1, random_state=seed) for df in list_df]
+
+    if bound_test is not None:
+        # better to use is_shuffle when bounding test
+        list_df = [df.iloc[:bound_test] for df in list_df]
 
     return list_df
 
@@ -360,13 +387,10 @@ def _uniform_split(to_split, table_names, validation_size=0.1, seed=None, is_str
     return train, test
 
 
-def _check_sizes(dfs, max_length, n_unary_tables, n_heldout_tables, n_heldout_compositions, n_heldout_inputs):
+def _check_sizes(dfs, n_inputs, max_length, n_unary_tables, n_heldout_tables, n_heldout_compositions, n_heldout_inputs):
     unary_functions, multiary_train, heldout_inputs, heldout_compositions, heldout_tables, new_compositions = dfs
 
-    n_repeats = len(unary_functions.iloc[0])
-    alphabet = len(set("".join(unary_functions)))
-
-    n_inputs = alphabet**n_repeats
+    # n_inputs is alphabet**n_repeats
     n_train_tables = n_unary_tables - n_heldout_tables
     n_train_compositions = sum(n_train_tables**i for i in range(2, max_length + 1)) - n_heldout_compositions
 
