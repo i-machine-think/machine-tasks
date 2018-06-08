@@ -47,11 +47,11 @@ def parse_arguments(args):
     parser.add_argument('-d', '--dir', default='.', help='Path to the directory where to save the generated data.')
     parser.add_argument('-s', '--n-samples', type=int, default=1, help='Number of different samples to generate. If greater than 1, will save the files for a single sample in /dir/sample<i>/*.tsv.')
 
-    parser.add_argument('-v', '--validation-size', type=float, default=0.1, help='Percentage of training set to use as validation.')
-    parser.add_argument('-c', '--max-composition-train', type=int, default=4, help='Max length of compositions in training set.')
+    parser.add_argument('-v', '--validation-size', type=float, default=0.05, help='Percentage of training set to use as validation.')
+    parser.add_argument('-c', '--max-composition-train', type=int, default=4, help='Max length of compositions in training set, also the length of compositions of the test sets.')
     parser.add_argument('-t', '--n-unary-tables', type=int, default=8, help='Number of different lookup tables.')
     parser.add_argument('-T', '--n-heldout-tables', type=int, default=2, help='Number of tables that would only be seen in unary.')
-    parser.add_argument('-C', '--n-heldout-compositions', type=int, default=100, help='Number of compositions to randomly remove.')
+    parser.add_argument('-C', '--n-heldout-compositions', type=int, default=50, help='Number of compositions to randomly remove.')
     parser.add_argument('-I', '--n-heldout-inputs', type=int, default=2, help='Number of inputs to heldout from training.')
     parser.add_argument('-l', '--n-longer', type=int, default=5, help='Number of additional tables to add to `longer` test data.')
     parser.add_argument('--reverse', action='store_true', help='Reverses the input sequence to match the mathematical composition. I.e if given, then uses `t1(t2(input))` without parenthesis instead of `input t2 t1`.')
@@ -123,8 +123,10 @@ def table_lookup_dataset(validation_size=0.11,
         max_composition_train (int, optional): max length of compositions in training set.
         n_unary_tables (int, optional): number of different lookup tables.
         n_heldout_tables (int, optional): number of tables that would only be seen in unary.
-        n_heldout_compositions (int, optional): number of compositions to randomly remove.
-        n_heldout_inputs (int, optional): the number of inputs to heldout from training.
+        n_heldout_compositions (int, optional): number of compositions of len `max_composition_train`
+            to heldout from training.
+        n_heldout_inputs (int, optional): the number of inputs of tables of len `max_composition_train`
+            to heldout from training.
         add_composition_test (int, optional): additional composition to add for the `longer_*` test data.
             Those test sets will then include compositions between `max_composition_train` and
             `max_composition_train + add_composition_test` tables.
@@ -165,30 +167,35 @@ def table_lookup_dataset(validation_size=0.11,
     n_inputs = len(unary_functions[0])
     names_unary_train = {t.name for t in unary_functions[:-n_heldout_tables]}
     names_unary_test = {t.name for t in unary_functions[-n_heldout_tables:]}
-    multiary_functions = flatten([[reduce(lambda x, y: compose_table_lookups(x, y, is_intermediate=is_intermediate),
-                                          fs)
-                                   for fs in itertools.product(unary_functions, repeat=repeat)]
-                                  for repeat in range(2, max_composition_train + 1)])
-    multiary_train, heldout_tables, new_compositions = _split_seen_unseen_new(multiary_functions,
-                                                                              names_unary_train,
-                                                                              names_unary_test)
-    random.shuffle(multiary_train)
+    multiary_functions = [[reduce(lambda x, y: compose_table_lookups(x, y, is_intermediate=is_intermediate),
+                                  fs)
+                           for fs in itertools.product(unary_functions, repeat=repeat)]
+                          for repeat in range(2, max_composition_train + 1)]
+    longest_multiary_functions = multiary_functions[-1]
+    multiary_functions = flatten(multiary_functions[:-1])
+    longest_multiary_train, heldout_tables, new_compositions = _split_seen_unseen_new(longest_multiary_functions,
+                                                                                      names_unary_train,
+                                                                                      names_unary_test)
+    multiary_train, _, _ = _split_seen_unseen_new(multiary_functions,
+                                                  names_unary_train,
+                                                  names_unary_test)
+    random.shuffle(longest_multiary_train)
 
     # heldout
-    heldout_compositions = multiary_train[-n_heldout_compositions:]
+    heldout_compositions = longest_multiary_train[-n_heldout_compositions:]
 
-    multiary_train = multiary_train[:-n_heldout_compositions]
+    longest_multiary_train = longest_multiary_train[:-n_heldout_compositions]
     drop_inputs = [np.random.choice(table.index, n_heldout_inputs, replace=False)
-                   for table in multiary_train]
-    heldout_inputs = [table[held_inputs] for held_inputs, table in zip(drop_inputs, multiary_train)]
+                   for table in longest_multiary_train]
+    heldout_inputs = [table[held_inputs] for held_inputs, table in zip(drop_inputs, longest_multiary_train)]
 
-    multiary_train = [table.drop(held_inputs) for held_inputs, table in zip(drop_inputs, multiary_train)]
+    longest_multiary_train = [table.drop(held_inputs) for held_inputs, table in zip(drop_inputs,
+                                                                                    longest_multiary_train)]
 
     # longer
     longer_seens = []
     longer_incrementals = []
     longer_news = []
-    longest_multiary_functions = [t for t in multiary_functions if len(t.name.split()) == max_composition_train]
     longer = [compose_table_lookups(x, y) for x, y in itertools.product(unary_functions, longest_multiary_functions)]
     for _ in range(add_composition_test):
         longer_seen, longer_incremental, longer_new = _split_seen_unseen_new(longer,
@@ -217,12 +224,14 @@ def table_lookup_dataset(validation_size=0.11,
     longer_news = _merge_format_inputs(longer_news, is_shuffle, bound_test=bound_test, seed=seed,
                                        is_reverse=is_reverse, eos=eos)
 
+    multiary_train += longest_multiary_train
     building_blocks = (unary_functions, multiary_train, heldout_inputs, heldout_compositions, heldout_tables, new_compositions)
     # don't bound test because size check after
     building_blocks = _merge_format_inputs(building_blocks, is_shuffle, bound_test=None, seed=seed, is_reverse=is_reverse, eos=eos)
     _check_sizes(building_blocks, n_inputs, max_composition_train, n_unary_tables, n_heldout_tables, n_heldout_compositions, n_heldout_inputs)
     if bound_test is not None:
-        building_blocks = [df.iloc[:bound_test] for df in building_blocks]
+        # bound only testing sets
+        building_blocks[2:] = [df.iloc[:bound_test] for df in building_blocks[2:]]
     unary_functions, multiary_train, heldout_inputs, heldout_compositions, heldout_tables, new_compositions = building_blocks
 
     # validation
@@ -356,8 +365,12 @@ def _split_seen_unseen_new(dfs, name_train, name_test):
 
 
 def _merge_format_inputs(list_dfs, is_shuffle, bound_test=None, seed=None, **kwargs):
+    if list_dfs == []:
+        return []
+
     list_df = [pd.concat([format_input(df, **kwargs) for df in dfs],
                          axis=0)
+               if dfs != [] else pd.DataFrame()
                for dfs in list_dfs]
 
     if is_shuffle:
@@ -394,17 +407,16 @@ def _check_sizes(dfs, n_inputs, max_length, n_unary_tables, n_heldout_tables, n_
     n_train_tables = n_unary_tables - n_heldout_tables
     n_train_compositions = sum(n_train_tables**i for i in range(2, max_length + 1)) - n_heldout_compositions
 
-    def _size_permute_compose(n_tables):
-        return sum(n_tables**i * n_inputs for i in range(2, max_length + 1))
+    def _size_compose(n_tables):
+        return n_tables**max_length * n_inputs
 
     assert_equal(len(unary_functions), n_unary_tables * n_inputs)
-    assert_equal(len(multiary_train), n_train_compositions * (n_inputs - n_heldout_inputs))
-    assert_equal(len(heldout_inputs), n_train_compositions * n_heldout_inputs)
+    assert_equal(len(heldout_inputs), (n_train_tables**max_length - n_heldout_compositions) * n_heldout_inputs)
+    assert_equal(len(multiary_train), n_train_compositions * n_inputs - len(heldout_inputs))
     assert_equal(len(heldout_compositions), n_heldout_compositions * n_inputs)
-    assert_equal(len(heldout_tables), _size_permute_compose(n_train_tables + n_heldout_tables) -
-                 _size_permute_compose(n_train_tables) -
-                 _size_permute_compose(n_heldout_tables))
-    assert_equal(len(new_compositions), _size_permute_compose(n_heldout_tables))
+    assert_equal(len(heldout_tables),
+                 _size_compose(n_train_tables + n_heldout_tables) - _size_compose(n_train_tables) - _size_compose(n_heldout_tables))
+    assert_equal(len(new_compositions), _size_compose(n_heldout_tables))
 
 
 ### SCRIPT ###
