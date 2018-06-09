@@ -59,6 +59,7 @@ def parse_arguments(args):
     parser.add_argument('--not-intermediate', action='store_true', help='Removes intermediate step in the target sequence.')
     parser.add_argument('--not-shuffle', action='store_true', help='Disables shuffling of the outputed datasets')
     parser.add_argument('--not-stratify', action='store_true', help='Disables the balancing of the lookups in train and validation set.')
+    parser.add_argument('--is-target-attention', action='store_true', help='Append the target attention as an additional column.')
     parser.add_argument('-e', '--eos', default='.', help='EOS token to append at the end of each input.')
     parser.add_argument('-b', '--bound-test', type=int, default=5000, help='Bound the number of rows in each test files.')
     parser.add_argument('-a', '--alphabet', metavar=('letter1', 'letter2'), nargs='*', default=['0', '1'], help='Possible characters given as input.')
@@ -85,6 +86,7 @@ def main(args):
                                    is_intermediate=not args.not_intermediate,
                                    is_shuffle=not args.not_shuffle,
                                    is_stratify=not args.not_stratify,
+                                   is_target_attention=args.is_target_attention,
                                    eos=args.eos,
                                    bound_test=args.bound_test,
                                    seed=seed,
@@ -112,6 +114,7 @@ def table_lookup_dataset(validation_size=0.11,
                          is_intermediate=True,
                          is_shuffle=True,
                          is_stratify=True,
+                         is_target_attention=False,
                          eos=".",
                          bound_test=10**4,
                          seed=123,
@@ -137,7 +140,8 @@ def table_lookup_dataset(validation_size=0.11,
         is_shuffle (bool, optional): whether to shuffle the outputed datasets.
         is_stratify (bool, optional): whether to split validation to approximately balance each lookup table.
             `validation_size` may have to be larger when using this.
-        eos (str, optional): str to append at the end of each input.
+        is_target_attention (bool, optional): whether to append the target attention as an additional column.
+        eos (str, optional): token to append at the end of each input.
         bound_test (int, optional): bounds the number of rows in each test files.
         seed (int, optional): sets the seed for generating random numbers.
         kwargs: Additional arguments to `create_N_table_lookup`.
@@ -160,6 +164,10 @@ def table_lookup_dataset(validation_size=0.11,
         longer_news (list of pd.Series): ist of len `add_composition_test`. Where the ith element is a
             dataframe composed of `max_composition_train+i` tables that have never been composed in the training set.
     """
+    assert " " not in eos, "Cannot have spaces in the <eos> token."
+    if not is_copy_input and is_target_attention:
+        raise NotImplementedError("`is_target_attention` with `is_copy=False` not implemented yet.")
+
     np.random.seed(seed)
     random.seed(seed)
 
@@ -238,15 +246,16 @@ def table_lookup_dataset(validation_size=0.11,
     multiary_train, validation = _uniform_split(multiary_train, names_unary_train, validation_size=validation_size, seed=seed)
     train = pd.concat([unary_functions, multiary_train], axis=0)
 
-    return (train,
-            validation,
-            heldout_inputs,
-            heldout_compositions,
-            heldout_tables,
-            new_compositions,
-            longer_seens,
-            longer_incrementals,
-            longer_news)
+    out = (train, validation, heldout_inputs, heldout_compositions, heldout_tables, new_compositions,
+           longer_seens, longer_incrementals, longer_news)
+
+    # adds target attention
+    if is_target_attention:
+        out = [_append_target_attention(o, eos, is_reverse) for o in out[:-3]]
+        for longer in (longer_seens, longer_incrementals, longer_news):
+            out.append([_append_target_attention(o, eos, is_reverse) for o in longer])
+
+    return out
 
 
 def create_N_table_lookup(N=None,
@@ -335,9 +344,13 @@ def _save_tsv(data, name, path):
 
     if isinstance(data, list):
         for i, df in enumerate(data):
-            df.to_csv(os.path.join(path, "{}_{}.tsv".format(name, i + 1)), sep=str('\t'))  # wraps sep around str for python 2
+            df.to_csv(os.path.join(path, "{}_{}.tsv".format(name, i + 1)),
+                      header=False,
+                      sep=str('\t'))  # wraps sep around str for python 2
     else:
-        data.to_csv(os.path.join(path, "{}.tsv".format(name)), sep=str('\t'))  # wraps sep around str for python 2
+        data.to_csv(os.path.join(path, "{}.tsv".format(name)),
+                    header=False,
+                    sep=str('\t'))  # wraps sep around str for python 2
 
 
 def flatten(l):
@@ -417,6 +430,20 @@ def _check_sizes(dfs, n_inputs, max_length, n_unary_tables, n_heldout_tables, n_
     assert_equal(len(heldout_tables),
                  _size_compose(n_train_tables + n_heldout_tables) - _size_compose(n_train_tables) - _size_compose(n_heldout_tables))
     assert_equal(len(new_compositions), _size_compose(n_heldout_tables))
+
+
+def _append_target_attention(df, eos, is_reverse):
+    """Appends the target attention by returning a datfarme with the attention given a series."""
+    def _len_no_eos(s):
+        return len([el for el in s.split() if el != eos])
+
+    df = df.to_frame()
+    df["taget attention"] = [" ".join(str(i) for i in range(_len_no_eos(inp))) for inp in df.index]
+    if is_reverse:
+        df["taget attention"] = [ta[::-1] for ta in df["taget attention"]]
+    if eos != "":
+        df["taget attention"] = [ta + " " + str(len(ta.split())) for ta in df["taget attention"]]
+    return df
 
 
 ### SCRIPT ###
