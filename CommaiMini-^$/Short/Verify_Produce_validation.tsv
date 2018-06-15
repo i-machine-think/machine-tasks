@@ -1,0 +1,1200 @@
+verify ^ <sep> x	no
+verify , <sep> ? p , v	yes
+verify B or W or / <sep> u $	no
+produce G or % or E	E G
+produce K and not Y	K 5
+produce ^ or c	c
+verify y and k and $ and 0 <sep> ( u g @ ^	no
+produce X and 9	X 9
+verify % <sep> % k 8 Y 1	yes
+produce \ and not J and +	\ 4 +
+produce not 1 and not } and not ,	Y M $
+verify W <sep> u h - M S x g	no
+verify { <sep> o _ H N u ) 6	no
+produce not X and not w and not C	b e _
+verify k or , or C <sep> \ % M	no
+produce c or c or a or <	< a c
+verify = and Z <sep> 6 I 1 i ]	no
+verify not 2 and and not " and and not m <sep> M o N # x F m 2 "	no
+verify p and l and < and j <sep> 9 j S	no
+verify not " and and not l and and B and 8 <sep> e , v * H f r s + l "	no
+verify g and not / <sep> + n 0 | /	no
+produce not x and t	D t
+produce & or | or C	C &
+verify \ or T <sep> x q i \	yes
+produce not V and *	+ *
+produce not j and | and 0 and O	I | 0 O
+verify B or j or g <sep> B C g X U	yes
+produce n and ] and v	v n ]
+produce not Y and R	+ R
+verify y or % <sep> y `	yes
+produce @ or A or Q or T	Q
+verify W <sep> E W @	yes
+produce | or j or *	*
+verify not : and and z and not 8 and and not L <sep> N X ! < Q ` b L : 8	no
+verify < and 2 and not m and and not v <sep> a _ m v	no
+verify 8 or W or n or I <sep> j C o w k 8 2 v	yes
+verify \ or \ or w <sep> j \ k ^	no
+produce not " and Q and not {	2 Q P
+produce ; or 2 or e	; 2
+verify I <sep> 8 _ | 4 I	yes
+produce f and not P	f _
+verify . or ; or Q <sep> V B	no
+produce not , and not [ and not h	6 - 9
+produce C and not . and H	C L H
+produce : and 9 and 2	: 2 9
+verify c <sep> x	no
+produce M or 9 or C or Q	Q 9 M
+produce L and S and f and g	S L f g
+verify not 9 and and not * and and not Q <sep> : X e c m 7 ' B	yes
+verify R <sep> D W 4 9 %	no
+produce B and not V and '	B g '
+produce = and not ] and ~	= ~ ~
+verify C <sep> s	no
+produce C and J	C J
+verify L or ! or < or u <sep> ) e & ` y C	no
+verify < or > or 3 or q <sep> W	no
+verify not ) and and not 4 and and not = <sep> ] H s 0 M F ; M	yes
+produce not ) and g	T g
+produce Y or t or L or (	Y L
+verify A <sep> Q	no
+produce = or } or /	=
+produce t and not a and S	t + S
+verify not > and and not I and and not L and and not > and and <sep> A X $ I 4 & I L >	no
+produce b and h and ^	b ^ h
+verify not C and and , and not Z <sep> { l 7 Q S 2 U u , h	yes
+produce Z or d	d Z
+verify e or ( or V or t <sep> A	no
+verify U or 9 or N <sep> P U &	yes
+produce U or t or )	) U t
+produce not R and not ~ and 5 and not ~ and	r L 5 ;
+verify [ and 6 <sep> [	no
+produce not ! and not T and not 9	z _ j
+produce not ! and k	g k
+verify } and } and C <sep> : C } }	yes
+produce k or ! or &	!
+produce : or {	{
+produce k and . and '	' . k
+verify not $ and and ? and { <sep> Y ? {	yes
+verify d and | and t and K <sep> t d | K ?	yes
+produce N and G and '	G ' N
+verify not < and and not v <sep> V P [ y / ;	yes
+produce & and Q	Q &
+verify not S and and not Z and and not # <sep> t ? 9 ( z	yes
+produce = and n and = and	= n =
+verify | and { and y and C <sep> U @ { G | : y T C !	yes
+verify i or 9 or R <sep> 9 / R i ]	yes
+produce E and 0 and ! and :	! E : 0
+verify 9 or 3 <sep> ~ S V / c ' 9	yes
+verify x and h and k and ) <sep> ] q C } l ` '	no
+produce not 5 and not b and not 8	| v `
+produce I and d and A	A d I
+produce Y or 5 or ,	5 ,
+verify not , and and not A <sep> V t 9 , A	no
+produce B and not :	B H
+verify l or U or H <sep> } ^ Q : U <	yes
+produce @ and Q and 6 and .	Q @ 6 .
+produce o or 1 or - or D	D o -
+verify M and N and J and G <sep> 5	no
+produce o and ] and [ and a	a o ] [
+verify . or 8 or ] <sep> - 9 J % K : (	no
+produce G and not I and not 9	G 0 I
+produce Z and not \ and not I	Z i R
+verify not p and and not W <sep> \ l {	yes
+produce 9 and w	w 9
+produce 2 or m or " or :	: 2 "
+verify not t and and not A <sep> d O 6 7 L Q R d A t	no
+produce not / and not K and not g and a	S t p a
+verify ] or u or 8 or Q <sep> / p < 6 [ ~ J	no
+verify C <sep> r	no
+verify i <sep> i d ? ( i	yes
+produce not D and not W and not D and	F f T
+verify a <sep> [ % @ - Y ) *	no
+verify H or > or ^ <sep> X _	no
+produce m or m or	m
+verify O and H <sep> Q ( A e # 4 <	no
+produce not 5 and not _ and not P and not ]	4 ; h v
+verify q or P <sep> P u a o j 4	yes
+verify a <sep> " 6 a	yes
+produce A or A or	A
+verify not @ and and ' and k and { <sep> { 4 P 3 U E , z @	no
+produce . and I and # and {	# I . {
+verify ! or q <sep> /	no
+verify = and not 0 and and not % <sep> l ) Q S > X ~ 3 e % 0	no
+produce / and )	/ )
+verify E or s or 1 or ' <sep> l D h = ' > A I	yes
+produce x or p	x
+produce X or e	X
+verify i or > <sep> s Y w	no
+produce r and 6 and N and !	! N 6 r
+produce o and ^ and not ~ and p	o ^ b p
+produce not U and not ( and not }	2 " m
+verify x or , or ? or e <sep> = e 8 N E ? B x X ,	yes
+produce k and 0	k 0
+verify - or h or C or a <sep> h G i k	yes
+produce not \ and not E	< N
+produce B or V	V
+produce B or k or u or y	B k u y
+produce & or & or A or i	A
+produce e and d	d e
+produce - and R and p	p R -
+verify 6 <sep> J 6	yes
+verify f and C <sep> C / f	yes
+verify n <sep> B	no
+produce I and not '	I ]
+produce not P and s and >	J s >
+verify { <sep> R 8 + s T O {	yes
+verify , and ' and 1 and a <sep> , a 1 4 '	yes
+verify 2 and " and z and ! <sep> ) " z 2 c H !	yes
+verify not ^ and and not 2 and and not L and and not > <sep> 0 V ; A X p ^ L 2 >	no
+produce M and + and ; and z	z + ; M
+produce $ and g and ^ and [	^ g [ $
+verify [ and ~ and not T and and a <sep> r k ~ a y [ t i	yes
+verify not ; and and not n and and not ` and and not " <sep> a x } . 5 f 2 Z U	yes
+produce g or o	g o
+verify not G and and 8 and not R <sep> % t O 8 6 X	yes
+verify - or % or | or ( <sep> |	yes
+verify ] or 7 <sep> j	no
+verify Y and t and \ <sep> \ c f Y g ! t	yes
+produce u and 2 and l	2 l u
+verify not V and and not 4 and and not T <sep> > e h 4 V T	no
+produce not m and not j and not T and not B	s s p &
+produce K or / or 8	K 8
+produce ] and 1	1 ]
+produce 0 and l and not T and not z	0 l h Z
+verify + or @ or 4 or [ <sep> h q T | ( E 4 , [ @ +	yes
+produce w or A or w or *	* w w
+produce Z or I or w	I Z w
+produce b and n and U	n b U
+produce & or N	N
+produce 0 and . and I and M	I . 0 M
+verify e and \ and k <sep> C	no
+verify ; and " and c and m <sep> V j c |	no
+produce | or C or T	C
+produce 0 or d or *	*
+verify . and not m and and not W <sep> ] n ? T R m W	no
+produce not d and not I and not 6 and not H	P d $ N
+verify ) or 1 <sep> 1 +	yes
+produce 9 and | and | and	| | 9
+verify not H and and l <sep> # 6 K H	no
+verify ) and S and not x <sep> ) r S	yes
+produce E and Z and not z and not "	E Z ! *
+verify $ and 1 and % <sep> L s u 2 $ B 1 o %	yes
+verify S or 5 or ? or 1 <sep> >	no
+produce M and C	M C
+produce { and 2	2 {
+produce not & and I and not ; and not Z	T I < b
+produce y or Z or r or B	B r y
+produce C and not !	C e
+verify o and ^ and N and i <sep> ^ q i I N o a p 1 =	yes
+verify j or i or 2 <sep> U	no
+verify k or Y or f or - <sep> Q < ;	no
+verify ^ <sep> j 3 T D ^	yes
+verify ^ and j and ! <sep> ^ ! j	yes
+verify b and T and % and E <sep> t E = V O X T \ % b J	yes
+verify $ <sep> W n r ? P	no
+verify U and ! and i <sep> O	no
+verify R and P <sep> @ * . z | O	no
+produce . and e	. e
+produce not r and I and not 9 and not J	Y I 0 7
+produce x or h	x
+produce V and "	" V
+produce not t and / and not U	R / k
+produce d and not N	d q
+verify I or c or l <sep> g	no
+verify 5 or s or T or # <sep> J * n s 0	no
+produce o or ? or t or ^	^ ?
+verify % <sep> y	no
+produce not x and not 3	q 2
+verify - or k or _ or ~ <sep> 0	no
+verify c and g and I <sep> R z ] %	no
+verify not P and and not z <sep> b ? # } ! z P	no
+verify 2 and : <sep> | a : G 2	yes
+produce | and { and Q and r	Q { | r
+produce 4 or S	S
+produce F and not n and F and not P	F { F 9
+verify not . and and not i and and P and not > <sep> Y ! c p u 2 I - P D	yes
+verify ~ and t and not r <sep> _ ~ w l ~ O S t	yes
+verify not K and and b and not y and and not | <sep> v q m X 9 b	yes
+produce ` or <	` <
+produce ^ or g or a or c	c ^ g
+produce s or g or ^ or _	_ s
+verify + and V <sep> % 4 T X $ 0 E	no
+verify B or . or : or ! <sep> c " - v u #	no
+verify 9 and z <sep> 2	no
+produce not X and not j and not . and not i	b r O g
+produce a and - and ^ and b	- a ^ b
+produce p or g	p g
+produce not g and } and L	L } L
+produce \ and z	z \
+produce m or *	*
+verify not y and and k and not ~ <sep> P ; v 8 k 1 B N	yes
+produce > and ` and not n and W	> ` e W
+produce not m and not 6 and not m and :	F D + :
+produce r and not w	r =
+verify ; and v <sep> v W ; 0	yes
+verify S and V and ~ and \ <sep> S \ ~ V	yes
+verify A and h <sep> V ` z	no
+verify x and not d <sep> G x u m # k f %	yes
+produce 8 or , or g	8 , g
+verify q or j or 9 <sep> : ! j C q 9	yes
+produce not | and not % and { and not X	M M { |
+produce h or ( or ?	h
+verify 4 and 1 and y <sep> / = 1 c 4 y	yes
+produce not O and V and &	& V &
+produce % and 9 and G	9 % G
+verify d and , and 5 and 1 <sep> H E w a D 1 m	no
+produce C and \ and z	z C \
+produce n and g and ( and b	b n g (
+verify not @ and and not 6 and and $ and not s <sep> 2 ( $ + < 1 R ;	yes
+produce u and .	. u
+verify M and F <sep> K c 3 M 0	no
+verify l or < <sep> : j 1 \ G S	no
+verify not v and and not U and and not 9 and and i <sep> W B y s { 8 i	yes
+produce V or y or *	y *
+produce P or 5 or F or S	S F P
+verify not u and and 3 and not l <sep> 7 6 L 4 z _ l u	no
+produce - and $	$ -
+verify 2 <sep> ' f \ e ` V (	no
+verify ^ or : or & <sep> l I T 6 c a	no
+verify not : and and not 3 and and not U and and not I <sep> x x 6 Z Z	yes
+produce Z and k	k Z
+produce A or &	& A
+verify p and Q and o and j <sep> p ] > Q o j	yes
+verify ~ and Y and = <sep> k ] / i L	no
+verify # <sep> # @ -	yes
+verify ) and 1 and [ and f <sep> B / 9 # S )	no
+verify 3 and B and not Q <sep> c 5 + O i { ^ 6 Q	no
+produce ? and n	? n
+verify / and . and M and L <sep> l a ; L X M / .	yes
+produce F or t or _ or 7	F t 7 _
+produce g and g and W and $	$ g W g
+produce } and ? and ) and q	) ? q }
+produce v and 1 and U	v 1 U
+verify / <sep> 4 * P Z	no
+produce . or i or V	.
+produce n or ]	] n
+produce Z or r or V or l	V l r Z
+verify not X and and not B <sep> \ x T X B	no
+verify l or F or U <sep> e	no
+verify a and Y <sep> S a a 7 L Y G	yes
+verify c and J and F and ! <sep> 7 @ U	no
+produce w and 0	0 w
+verify ' or E or r or f <sep> # l g r i U	no
+produce 1 or 5 or ` or =	1 `
+verify 8 or R or L or H <sep> 8 L R	yes
+verify , <sep> h ,	yes
+verify W <sep> ' H	no
+verify m or X <sep> 7 m X J e ` Z G j	yes
+produce # and . and M and 9	M . # 9
+verify not b and and not 4 and and not x and and not A <sep> X | 3 N e Z d ;	yes
+verify y <sep> y U	yes
+produce Z and '	' Z
+produce Y or ^	Y
+produce % or A or ' or N	% N A '
+verify ~ and not Y and and not 4 <sep> = V / t / 0 4 Y	no
+verify V <sep> V	yes
+verify not | and and not # and and not 5 <sep> v 9 Z ^ q s "	yes
+verify % and - and C and ' <sep> 5 c ! | k	no
+produce c and ? and 5 and F	5 F ? c
+verify # or f or , or t <sep> S ) * J w z #	no
+verify q <sep> , q	yes
+produce not Z and : and @	X : @
+produce [ or ) or K	[
+produce 2 and E and not l	2 E +
+produce not ? and s and not U and not o	W s Y f
+verify Z and $ <sep> q @ 7 ]	no
+verify . or W or o <sep> <	no
+produce + and Q and X and I	X + I Q
+verify x <sep> Z W R @ I	no
+verify B or H or < <sep> / < B H	yes
+produce not k and O and not : and not &	Z O / p
+verify h <sep> X Z # K P d	no
+produce G and . and &	. G &
+verify not U and and O and not / and and 2 <sep> = ( C _ N < k O ; / U	no
+produce not k and not u and not H and not e	M V f Z
+verify G and not B and and not < <sep> R b 7 ( G C r F p s	yes
+produce % or { or m	% {
+verify b or s or t <sep> y o n r	no
+produce > and not a	> 8
+verify K or k or T or 4 <sep> 4 K k	yes
+verify E and , <sep> , n Y E	yes
+verify \ <sep> E h Z m	no
+verify r or | or _ <sep> U s	no
+verify t <sep> t	yes
+verify 6 or @ or ( <sep> _ 6 ( O . K Z	yes
+produce not f and ~ and not 3	" ~ 2
+verify > or : or F or R <sep> c : 0 f M # V [	yes
+verify w or D <sep> 3 T j w Z 4 D B	yes
+verify X or L or M <sep> j L X 0 a 7	yes
+verify | or Z <sep> * m Z + t |	yes
+verify ; <sep> : ;	yes
+produce = and S and ~	S = ~
+verify not @ and and not T and and not Y and and not ? <sep> F Y c z a H ^ w e	yes
+produce not W and not ^ and not t and not _	e & G 2
+verify l <sep> a l	yes
+produce q and ^ and Y and S	Y S q ^
+produce P and b and $	P $ b
+produce T or . or y or &	. & T
+verify Y or V or ' or 0 <sep> ( a	no
+produce B and A and V and %	B A V %
+verify E <sep> @ G	no
+verify 0 and ? and A and K <sep> D y Z 9 M { [	no
+produce # or k or e	e # k
+produce not d and M and B	z M B
+produce not 7 and ( and not n	: ( 4
+verify = or ( or Y or # <sep> ( = Y	yes
+verify not b and and not x and and not [ <sep> j ] n P m % x b [	no
+produce not A and not + and not e	l R v
+produce not U and not ? and 7	; 0 7
+produce not { and 0 and \ and not *	l 0 \ M
+verify , <sep> 4 s [ R , ,	yes
+produce e and 0 and N	0 e N
+produce not V and not | and e	T { e
+produce , or q or `	q ,
+verify O and X and I and g <sep> O a g X I "	yes
+produce not O and not # and not X and not k	V $ % Z
+produce s or c	s c
+verify c and B and U <sep> N " c B U O 9 1 C	yes
+produce not / and $	8 $
+produce not \ and not w and ! and not e	! + ! N
+produce ! and r and not C	! r d
+verify q and G and H <sep> q H G	yes
+produce f and ? and 1 and g	f ? g 1
+verify { and w and b and d <sep> " 9 = n b w D d @ { I	yes
+produce u or ! or u or y	!
+produce not ` and not - and not } and not P	5 L 4 r
+verify Z and Y and e <sep> I 6 Y e v W - Z 0 t	yes
+produce not 3 and ^	? ^
+produce J or B	J
+produce 3 and W and F and R	W F R 3
+verify u <sep> , q u P p u % n	yes
+produce * and # and e	# e *
+produce X and . and Q and l	l . X Q
+produce i or ;	; i
+produce 4 or q or 4 or o	4 4 q
+produce not { and i and not j	y i 4
+produce V or &	V &
+produce ! or 6	! 6
+verify not n and and not n and and not 9 and and I <sep> 4 ( [ n 9	no
+verify 2 or W or X or ; <sep> P 2 X E ;	yes
+produce r and E and '	r ' E
+produce l and not #	l l
+produce 4 or - or <	- < 4
+verify not Y and and not - and and 5 and not h <sep> g S , 5 f # $	yes
+verify Q or l or I or 8 <sep> 8 I l	yes
+verify " and 3 and J and & <sep> H E U	no
+produce 5 and $ and }	$ 5 }
+produce ! and i and & and l	l & i !
+verify not g and and not " and and / <sep> m r , g M m / v	yes
+produce not N and G and not J and \	h G , \
+verify D or + or y or } <sep> $ .	no
+verify ] and j and not q <sep> 5 Y C ) M { o O q	no
+produce not < and not Y and not < and	> V 5
+produce b or ~ or 7 or f	f b 7 ~
+verify H or Q <sep> } { ] &	no
+verify not M and and not ; and and not > <sep> c e : S # H	yes
+verify Q or v or 8 <sep> (	no
+verify + <sep> Q 5	no
+produce g and s and f and o	o g s f
+produce Q and { and N	Q { N
+produce , and [ and S and 3	[ 3 S ,
+produce d and % and | and {	% { d |
+verify | and Z and 5 and [ <sep> s l { v 0	no
+produce ' and C and C and "	' C " C
+verify z <sep> ` 0 y | z I	yes
+produce c or ? or F or L	F L c
+verify ! and ` and u <sep> ` ! u O	yes
+verify % or x <sep> [ S % V L	no
+produce [ and ~ and ~ and	~ ~ [
+produce N and B and m	m N B
+verify K and b and C <sep> @ I K 3 Q b C	yes
+verify not 4 and and not s and and not [ and and ) <sep> c ) 2 " \	yes
+produce e and C	e C
+verify M or q or g or m <sep> i I - W = N {	no
+verify | and 5 and $ and s <sep> | s 5 F / $ l	yes
+verify D or w or r or ? <sep> w D f ? r	yes
+verify h <sep> Y ^ # F g h +	yes
+produce not o and ?	# ?
+produce + or d or T or V	V T
+produce S or < or 3	S <
+verify # and not [ <sep> E i A #	yes
+verify $ <sep> & B h j	no
+verify not 5 and and x and not K and and _ <sep> r \ K 5	no
+verify Y and b and ) <sep> r | N Q >	no
+produce Z or J or " or X	X Z J "
+verify $ <sep> $ r	yes
+produce 3 and 8 and [	3 [ 8
+verify O <sep> O s W	yes
+verify not W and and " and P and > <sep> J 3 P " > G \	yes
+verify 7 or n or P <sep> 7 + C	yes
+produce C and y and 0 and @	0 C y @
+produce $ or = or a or Y	a
+produce O and T and 9	O T 9
+produce c and 7 and R and t	c R t 7
+produce : and Q and ! and y	Q ! : y
+produce X or u	X
+produce B and not X and { and not 2	B } { 7
+verify m and R and p and 3 <sep> v R r ] s 3 m p	yes
+produce not c and not R and not ] and ,	3 S a ,
+produce n and , and [ and P	, n [ P
+verify not ` and and / <sep> / A	yes
+produce not d and not 9 and not # and not H	) D / L
+verify w and d and a <sep> x - a w 5 2 d	yes
+verify i or F <sep> o i Y U F w `	yes
+produce S and n	n S
+verify y <sep> p y	yes
+verify P and ; and : and p <sep> H } P 7 b p T ; Q + :	yes
+produce / and 7 and D	7 / D
+verify A <sep> Q H	no
+verify P or m <sep> z ` F i T a	no
+produce T or j or :	j T :
+produce { or i or M	{
+verify Q or p <sep> i - ~ ? ; E B	no
+verify 0 and - and $ <sep> +	no
+verify h and not - and and | and w <sep> % s -	no
+verify R or O or q <sep> C E Q T Y < i	no
+produce X or i or M or Q	X Q
+produce : and '	: '
+verify not q and and j and not c <sep> P V y 8 x | $ ) q c	no
+produce not < and not [	R d
+verify j <sep> 8 { j T H > $	yes
+produce i and *	* i
+verify not _ and and \ and , and not 4 <sep> 1 , \ , K	yes
+produce > or 8 or < or L	8 <
+produce W or > or p or $	W
+produce l and G and O and :	G O l :
+verify < or / or Q or c <sep> e l y o Q	no
+produce not o and W and _	W W _
+verify 0 or s or b <sep> . Y 9 D	no
+produce not ` and -	o -
+verify | and S <sep> | S	yes
+verify G <sep> S	no
+verify F and & and o and O <sep> S e	no
+produce J and not j and m and not "	J Z m b
+verify W and j <sep> v	no
+produce & or T or w	&
+verify % or A or D <sep> &	no
+produce not D and `	P `
+produce ~ and ]	] ~
+produce 0 or 0 or M or 2	M
+verify % and k and 4 <sep> 4 v m 7 R * % h % k	yes
+verify u and > and / and I <sep> N u > I k /	yes
+produce E or " or B	E B
+produce not r and not H and not i and not :	q j p p
+produce not = and not 4	c x
+produce not ; and not j	} \
+produce 7 or 5 or ? or 7 or	? 7 5
+produce ~ or `	` ~
+verify H and c and > and X <sep> X H 9 | i j C > c Q 5	yes
+produce < or /	< /
+produce 4 and _ and 3	_ 4 3
+verify U or ` <sep> U K ` F 7 D t	yes
+verify : or U or " <sep> %	no
+verify r or S <sep> + T 9 h S	yes
+verify | and , <sep> - P / W d	no
+produce = and 8 and 1 and K	K 8 = 1
+produce 3 and 4 and c and _	_ 3 4 c
+verify not W and and not m and and not H <sep> = = e x @	yes
+produce t and 8 and <	8 t <
+produce l or z or G	G l
+verify B or j or l <sep> l j X	yes
+verify 7 and not / and and I <sep> 2 V Q N U # /	no
+verify % and | <sep> H | l z K ' % ` ~	yes
+produce | or @ or d or J	@
+produce W and a	W a
+produce 6 and # and B	6 # B
+produce not 2 and not J and not %	8 7 <
+produce ? or P or a	a P ?
+produce . and not 0 and Z and !	. ! Z !
+verify not 4 and and not e <sep> Q 7 w O a	yes
+verify t or ( <sep> Y B e j	no
+produce not % and not &	- w
+produce L and x	L x
+verify B and : and g and X <sep> u F ' ] >	no
+verify / and L and v and 3 <sep> f ; Z 9 W 6	no
+verify k <sep> k S w F E O q f	yes
+verify q <sep> Y # 6	no
+verify 0 and not Z and and t <sep> [ f S Z	no
+produce r or \ or r or	r
+produce not : and not z and @	< D @
+produce not x and ) and not x and not 8	- ) g !
+produce ~ and 8 and not 5	~ 8 *
+verify not > and and not 9 and and not U and and not i <sep> g X 9 : \ s k D ; C	yes
+produce not > and not $ and not 7	& i $
+verify m <sep> 2 { [ U ; Q	no
+verify a <sep> b ^ a | Y	yes
+verify Z and 0 and 1 <sep> @ q 1 m 0 j v Z 4	yes
+verify c or ` or 8 <sep> q c ; = E ^ j | ` 8	yes
+produce ] or [ or a	] a
+verify l <sep> % k } I i = w	no
+produce w and X and \	X w \
+produce h and not L and h and not v	h 6 h Z
+verify ^ or l or ; <sep> E f - +	no
+produce { or I	I
+produce 9 and & and B and {	{ B & 9
+produce = and ~ and s and _	s _ = ~
+verify o and not 9 <sep> o ] & e L	yes
+produce not $ and not K and a	= n a
+verify X <sep> j X e A b	no
+produce not ( and not D	{ d
+verify not ' and and a and S <sep> 4 a H N f S . [ 3 I	yes
+produce A and e and A and	e A A
+produce . and not G and m	. D m
+verify C <sep> C !	yes
+produce not P and not }	j $
+produce P and ~ and =	P ~ =
+verify n and m and q <sep> 3 : - , ) H U	no
+produce Q or "	" Q
+produce } and not <	} @
+verify h <sep> y b c % F h > 1	yes
+produce 1 and ) and S and ~	~ 1 ) S
+verify not y and and not a <sep> - F	yes
+produce not 1 and not o and not _	I | s
+verify p or 2 <sep> 2 1 q X	yes
+verify / or J or G <sep> g / G ~ U J	yes
+produce A and * and 2 and not V	A * 2 v
+produce m or E	m
+produce + or w or y	y
+produce v or n or ^	n
+produce * or | or k or H	| H *
+verify k and { <sep> k d r 2 {	yes
+produce ' or 0 or ' or	' ' 0
+verify H and 7 and ` and J <sep> ` J 7 H e ? M	yes
+produce ( or L or 4	( L
+produce ` or n or K or 4	n `
+verify 1 and not E and and not | <sep> 3 W 1	yes
+produce , and c	c ,
+produce 3 and p and x	3 p x
+produce } or 5 or v or =	v 5 = }
+produce | and 6 and m and :	| m 6 :
+verify _ and ' and ) <sep> v K x ' r ) l % _	yes
+verify T <sep> '	no
+produce U and not ~ and p and q	U \ p q
+verify G and o and u and O <sep> : t v ] 7 2 u	no
+produce not U and $ and not ^ and not U and	! $ k q
+produce 0 and not I	0 y
+produce not ! and not V and not \	k q Z
+verify @ <sep> 5 K	no
+produce not & and d and 0	9 d 0
+verify X and ! <sep> e ! X	yes
+produce not c and [ and not D and not 8	: [ ; ~
+produce X and 6 and M and &	X 6 & M
+verify not P and and not F and and not * <sep> S \ Y 4 [ * U x	yes
+produce ] or n	n
+verify . or 3 or X or ] <sep> H	no
+verify } and x <sep> g	no
+verify U and < and W <sep> 8 j < W U m	yes
+verify y and s and f and % <sep> s % y 5 E f Z	yes
+verify . and g and p and not W <sep> F W	no
+verify ' and \ and - and ) <sep> T W L	no
+verify v or F or / <sep> * Y ) J <	no
+produce ^ or c	c
+produce j or \ or M	\ M
+produce U and $ and x	$ U x
+produce ; and not m and not y	; U X
+produce not U and not o and not n	% m O
+produce not y and not Z and not 2	# u !
+verify = and not A <sep> P @ 2 . R U 0 A	no
+produce - and ^ and f	^ - f
+verify not _ and and not ) and and not = and and a <sep> b ; U t + c 1 _ ) =	no
+produce . and Q and not I and not X	. Q / P
+verify not & and and 8 <sep> t x 8	yes
+verify not + and and not Y and and h <sep> X m p S " q C + Y	no
+produce H and Q and +	Q H +
+verify not A and and not f and and not s <sep> 1 V P d m | / ? 9 u s A f	no
+verify 0 and % and \ <sep> = % : \ 0 !	yes
+produce not _ and 1 and L	h 1 L
+produce l or H	l
+verify not & and and not Q and and O <sep> L O `	yes
+verify * or < or & <sep> ' v & r * ` > 9	yes
+verify H <sep> O	no
+verify 9 and Q <sep> 9 K Q	yes
+produce M and 9 and ;	; 9 M
+produce v and =	= v
+verify 5 and ( <sep> V "	no
+produce } and q and = and ^	q } ^ =
+produce M or 2	2 M
+produce not [ and not c and not }	Q 8 R
+verify not D and and not % and and not b and and not y <sep> | b 2 ' ?	yes
+verify V and - <sep> s j F	no
+produce r or G or O or &	G
+produce not X and *	G *
+produce not Y and not h and not W and not 7	M a u -
+produce Y and a and (	Y ( a
+produce P and not n	P /
+produce a or - or [ or $	- $
+produce < and not K	< |
+produce G and j and 2 and E	G j 2 E
+produce not 8 and 4 and not c	] 4 ]
+verify F or H or O <sep> o	no
+verify ! or Q or v <sep> V E v \ Q @ 6 $	yes
+produce < and s and P and 1	P < 1 s
+produce } and L	} L
+produce a and not _	a m
+produce { and z and { and	z { {
+produce z and { and not ! and not E	z { D G
+verify not ] and and not / and and not U and and not g <sep> | z X I k * ] / g U	no
+verify not ? and and ) and y and + <sep> ( y G , - O j ?	no
+produce ] and f	] f
+produce " or j or . or V	j
+produce not W and not s	T )
+verify v and / <sep> j 5 U > c d %	no
+verify J and not 3 and and not L <sep> ! O s L 3	no
+verify z <sep> =	no
+produce F or 8	F 8
+produce a and 4 and s	s 4 a
+verify ! <sep> ! * c o	yes
+verify not ~ and and not 0 and and not 4 and and not h <sep> M y c ~ X h I	yes
+produce not > and not s	H X
+produce k and not \ and not M	k A r
+verify ( and not D and and not y and and not s <sep> * ! w p $ D s y	no
+produce not r and % and k and not r and	Y % k k
+produce not ~ and b and not >	S b j
+produce n and /	/ n
+produce not e and not e and not w and H	# R U H
+verify G <sep> 4 w C & s	no
+produce [ or t or D	[ t
+produce I or m or Z	Z m
+produce 7 or D	7
+verify ~ and % and s and b <sep> O 5 " 8 u y %	no
+verify 0 or C or | or V <sep> k	no
+verify z and n and M <sep> U z 2 h D e /	no
+produce not * and not @	~ =
+verify s and $ and 1 <sep> S r h z k	no
+produce not @ and not | and not 9	" H C
+produce a and h and P	P h a
+produce not ) and / and b	h / b
+verify M or X <sep> -	no
+produce 1 and h and `	` h 1
+produce i or + or *	+
+verify not o and and not B <sep> ^ " C % | g \ F ~	yes
+produce G and Q	G Q
+produce not & and not G	: ;
+verify w <sep> R D w . a !	yes
+produce not t and b	* b
+produce r and E	r E
+produce ' and &	& '
+produce J or B	B J
+verify b and Z and - <sep> 1 U b / e ) ? w Z -	yes
+produce " and 0 and not N	" 0 $
+produce & or w or y or T	w T y
+produce * or w or V	w
+produce 9 or r or r or 9 or	r r
+verify - and s and E <sep> f E Q 0 s A - o t	yes
+verify ~ <sep> c & U K C - _	no
+verify D or Z <sep> g D _ : e [ .	yes
+verify * <sep> * 4 i * C G b 1	yes
+produce ` and not } and [	` | [
+produce U or D	D
+verify ) and = <sep> / " ^ = )	yes
+produce not 0 and not ! and not 0 and @	> e , @
+produce + and m and '	m ' +
+verify 0 <sep> = < W t : #	no
+verify / <sep> t $ i " 4 Q /	yes
+produce R and ~ and Y and 7	R 7 ~ Y
+verify - <sep> + -	yes
+verify W or 8 <sep> 8 / W W p A	yes
+produce " and A	A "
+verify K and $ and A and ' <sep> b	no
+produce 7 or / or ( or p	p ( 7 /
+verify u or Q <sep> ' Q q u	yes
+verify v <sep> e > ]	no
+verify not I and and not p and and not U and and not M <sep> c f I P 4	yes
+verify q <sep> + X C I W q # 5	yes
+verify B and 7 and R and J <sep> O	no
+produce s or 8	s 8
+verify m or n or p <sep> r N a i	no
+verify x or 4 <sep> W e	no
+verify N <sep> N T	yes
+verify < <sep> )	no
+verify Z and Y and t and d <sep> } G \	no
+produce not k and not l and not y	# V 7
+verify 3 <sep> 3 0 # * F ) C U	yes
+verify ( <sep> P E q \ . R y	no
+produce % and w and N and .	N . % w
+verify ] <sep> m ] P W *	yes
+produce not l and 0 and not H	; 0 8
+verify 8 <sep> n J 8	yes
+verify | and not b and and - <sep> [ c f | o S Y -	yes
+produce not ^ and } and } and ~	@ } } ~
+produce | or { or A or H	A H { |
+verify s and = and \ and d <sep> { > e A 1 b J	no
+verify y or d <sep> d	yes
+verify , and k and not $ and and } <sep> , = r k f } t N	yes
+verify i and ! and I <sep> U V | T	no
+produce C and ' and m	' C m
+produce H or l or Z	H l
+produce k and I and w and k and	k I w k
+verify \ or \ or ' or @ <sep> " @ \ ' 2 b o D V	yes
+verify , <sep> ' H U z V }	no
+verify _ and not + <sep> S N z 6 _	yes
+produce y and Q and l and ;	l Q y ;
+verify : and p and 2 <sep> D l o - # % u	no
+produce P or s	s P
+produce C or z or 6	z C 6
+verify $ and A and S <sep> f V	no
+produce 4 or D or ~	D ~ 4
+produce = or 7 or U or /	U
+produce not W and P	p P
+produce * and \ and 2 and not .	* \ 2 ~
+verify / or n or L <sep> R k / 2 O %	no
+produce not X and not N and not N and	b | i
+produce not < and } and not p and not F	K } = !
+verify l or < or P or c <sep> ` E L	no
+produce not E and not #	} V
+produce E or 2 or . or d	E d 2 .
+verify ? or 0 <sep> } 0 _ [ ? R \	yes
+produce y and M and not & and not {	y M E =
+produce A or N	A N
+produce 6 and not +	6 n
+produce e and j and !	! j e
+verify { or x <sep> {	yes
+produce not u and not C and 0	_ O 0
+produce r and I and N	r I N
+produce b or S	b S
+verify 3 or L <sep> L	yes
+produce not o and not a and not } and D	, & 7 D
+produce U and / and D	U / D
+verify ~ or % or e or @ <sep> 4 [	no
+verify } and T <sep> } t T Q 8 r j 2 Y	yes
+verify " and c and z and g <sep> " f g z c	yes
+verify 0 or _ or b or Z <sep> 9 ~	no
+verify } and ' <sep> ' V ^ a | } [	yes
+produce ! and N and ! and #	N ! ! #
+produce not a and F and , and not ?	: F , J
+produce F and L and = and <	L < F =
+produce z or H or * or w	* w
+produce k and not l and not . and i	k { % i
+produce } and D and v and 3	} 3 D v
+verify not R and and not ] <sep> h 5 ] R	no
+verify not p and and not p and and <sep> 4 7 "	yes
+produce P or q	P
+verify ) and # and - and T <sep> ) - . [ T / # n Z ) q	yes
+produce not f and not _ and not _ and S	$ 1 R S
+produce not ] and not ?	O y
+verify I and P <sep> w \ M ) 2 , _	no
+produce { and l and * and m	{ m * l
+produce s or } or ) or >	> )
+verify " <sep> q e J b G g	no
+produce a or 5	a
+produce u or j or : or {	{ j :
+produce ^ or q or _ or ]	q ^
+produce not 4 and not 8	N ;
+verify 1 and ~ and E <sep> l S	no
+produce b and < and c	b < c
+produce V and d	d V
+verify a or s or f <sep> i	no
+produce ( and F	( F
+verify @ and ~ and Z <sep> &	no
+verify D and Z and C <sep> b 9 7 | 4 I	no
+verify D <sep> X T D 5 2	yes
+verify } <sep> }	yes
+produce > or g	> g
+produce ( or W	W
+verify . and R <sep> . ' R w h ~ 6 }	yes
+produce not i and not : and not y and C	B o i C
+verify not T and and not D and and not e and and not , <sep> a { ^ _ { + e D , T	no
+produce not { and O	0 O
+produce not : and not 0 and not C and not %	/ = L F
+verify . <sep> q > g a	no
+verify - or 1 or _ <sep> ! _ . 1 b ` y u	yes
+verify H or p or X <sep> A p N } X g { Z >	yes
+verify not v and and not ^ and and L <sep> > J ? v ^	no
+verify not ' and and y and not Y <sep> P ` B m n y '	yes
+produce [ and `	` [
+produce 3 or P or p or ?	p
+verify @ <sep> 6 @ W	yes
+verify h or y or x <sep> > [ f } '	no
+produce b and not W and 8	b < 8
+verify E and 6 <sep> n - \ k ; ^	no
+produce not Q and A and O and not 0	> A O >
+verify not a and and not r and and w and not @ <sep> S w z } w	yes
+verify ? and w and t <sep> _ o P 0 8 n	no
+verify p and ^ and R and 8 <sep> ^ . 8 p R	yes
+produce + and 6 and 6 and not y	+ 6 6 L
+produce not K and not > and 8	\ * 8
+produce n and h	h n
+produce - or $	$ -
+produce not H and not + and j and not r	) 7 j 9
+produce R or S or S or	S S
+verify V <sep> j m 4 = ! _ V	yes
+produce not ( and not b and not t and not ]	z e y A
+produce L and 5	L 5
+produce not h and not ( and not 1	; < 3
+verify > or g <sep> L	no
+verify ! <sep> } 7 v o l K \	no
+produce Z and not H	Z C
+produce } or (	( }
+produce not 0 and not B and not I	r y *
+produce A and G and e	A e G
+produce x and p and t	x p t
+produce y and :	y :
+produce ' or { or G	' G
+produce K or (	K (
+verify 8 <sep> l ) k B	no
+verify 6 and b and r <sep> 8 }	no
+produce not [ and , and not P and D	E , ^ D
+verify T <sep> I b 4	no
+produce not @ and not : and not N	s g `
+produce @ and 2	@ 2
+produce 1 or q or [ or Y	Y 1
+verify not M and and not M and and <sep> T [ m : y r M	no
+verify F <sep> 7 > & f	no
+verify not 1 and and not + and and not \ and and not _ <sep> x @ 0 x U P h	yes
+verify { and S and d <sep> d X { I < v S ( M	yes
+produce a and F	F a
+verify 3 and not ] <sep> M K s 4 ? 3 f `	yes
+produce . or & or " or A	. " &
+produce not 6 and Z	. Z
+produce l or ! or C	C
+verify Q <sep> 1 L A Z < P	no
+verify # and [ and | <sep> # [ ? $ |	yes
+produce 5 or 4 or q	q
+produce not g and ]	\ ]
+verify T <sep> P p | T )	yes
+verify not # and and not # and and \ and % <sep> \ . v %	yes
+produce / or 8	/ 8
+verify i <sep> F i	yes
+verify ? and e and not ' <sep> e ? <	yes
+produce not P and 4 and not ` and not ?	c 4 . 6
+produce T and A and e	A T e
+produce r and B and {	B { r
+verify 5 or } or a <sep> ; 5 } a |	yes
+verify 7 and ^ <sep> x L 9 *	no
+produce M and I	M I
+verify " or c <sep> " c	yes
+verify T or D or \ <sep> ] D W % \ d x V	yes
+produce O and ! and |	| O !
+produce not ] and [ and U	x [ U
+produce not & and not & and @ and w	u t @ w
+produce < or `	` <
+produce ) or o	)
+produce l and not u	l M
+produce not g and x and ? and not W	i x ? c
+produce K or / or v or v or	K / v v
+produce # and j and r	# j r
+produce not 4 and not P and not W	} v \
+verify 8 and H and L and g <sep> r	no
+produce not q and not S	J \
+verify ; <sep> ; + j E ! 7 } |	yes
+produce + and y and X	+ y X
+verify u or R or H <sep> R Z r u z H	yes
+produce - and 5 and , and <	, - < 5
+verify l <sep> ]	no
+produce not M and not w and A and not J	= 7 A x
+produce I and X and .	X . I
+produce 6 or l or r	6 l r
+verify t and not A and and Y and C <sep> 4 ( t C Y	yes
+produce not k and not ; and not A and not y	^ = ? W
+produce h or o	h o
+verify G <sep> ] G	yes
+verify U and not q and and m and not N <sep> b 9 q N	no
+produce k or 2 or k or	k 2
+verify o and W and ` <sep> I 3 w H	no
+produce @ or X or !	X @ !
+produce j or u or y	u y j
+verify & or ^ <sep> : Q 2 w	no
+verify " or c or ! or I <sep> Z	no
+verify w <sep> T w	yes
+verify D <sep> D	yes
+produce not v and q	) q
+verify s and { <sep> < s a p	no
+produce ! and J and k	! k J
+produce not f and not W and not v	6 I =
+verify a or K or k or Y <sep> `	no
+verify ] or Q <sep> D ' u w 2 x	no
+verify " <sep> " o	yes
+verify p or 3 or n or H <sep> j @ Q K L	no
+produce not @ and " and not 9 and not +	= " F >
+produce I and " and %	I " %
+verify . and ` and X and z <sep> M . X ` . U z ' N 0 E	yes
+verify _ <sep> ^ A " <	no
+verify g or 9 or & <sep> ; x V	no
+produce T and * and \ and Q	* Q \ T
+produce B and 2 and e	2 B e
+verify ! <sep> ` 9 3 T c <	no
+produce u or B	u
+produce L or v or t	t
+produce A and N and V	N A V
+produce E and z and + and r	r + z E
+produce not u and not u and not O and not T	p q | x
+verify f <sep> c `	no
+verify H and not m and and > and 9 <sep> t @ c ] ; m	no
+produce $ or p or 7	p 7
+verify i and : and R and 9 <sep> +	no
+verify J and g and M and X <sep> J g X w > 5 M J B	yes
+produce 2 or A or B	2 B A
+produce / or D or >	> D /
+produce M or . or #	#
+produce + or T or e or N	N e
+produce ] and not ^ and not K	] * z
+verify 8 or ! or < or P <sep> 9 Q c	no
+produce not @ and k and Z	S k Z
+produce b and q and >	b > q
+produce 3 or Y or s or <	< Y 3
+verify G <sep> M G d _ , } | I	yes
+produce H and & and X and H and	& H X H
+verify v or u <sep> ; L ! ` r @	no
+produce not + and not | and not !	R - T
+produce ) or ?	)
+verify [ or ~ or r <sep> [ ~ r	yes
+produce ( and , and <	( < ,
+produce S or 3 or Y	S 3
+produce L and U and not _	L U R
+verify c and p and 7 and H <sep> F H c ' 7 p r o	yes
+produce @ or d or B or j	j @ B d
+produce G and V	V G
+verify I <sep> 9 v a 5	no
+produce not v and K and D	h K D
+produce Z and E and J	E J Z
+produce ? and <	? <
+produce S or > or ` or b	b S > `
+verify _ and ( and not k and and 6 <sep> 5 k	no
+verify . and X and R and z <sep> . z X y F k / R u &	yes
+verify z and ] <sep> ] @ 0 1 z	yes
+verify { <sep> a	no
+verify S <sep> ] g C Z [ 5 k	no
+produce 8 or 1 or R	1
+produce t or n or K	K n t
+produce 1 and not S	1 U
+produce not U and v and Y	> v Y
+verify Q and B and l and 2 <sep> Q A Q 2 C B b w l	yes
+verify h and ' and [ <sep> [ h ' P O '	yes
+verify not , and and not _ and and not [ <sep> T . s # L _ , [	no
+produce $ or - or t or b	- $ t b
+produce N and k	N k
+verify $ and [ and 1 <sep> : q v X y	no
+produce P and not ( and not 8 and R	P ; N R
+verify R and c and > <sep> c C @ J 2 \ _ R g >	yes
+verify M and ] <sep> f ] ; p m M > <	yes
+produce K or 7 or ~	K 7 ~
+verify r and $ <sep> ` $ I i * x r	yes
+produce K and g and )	g ) K
+verify E <sep> ` O l ^ Z 2 >	no
+verify T and D and d <sep> X	no
+verify not ] and and not > and and not 2 and and not F <sep> W Z . H R p # 3 _ 7	yes
+produce h and = and > and t	> h = t
+produce not % and y	G y
+produce g or 5 or o	g
+verify x or ~ <sep> t ? a j P %	no
+verify not ( and and not e and and not f and and not ~ <sep> W o | ; R H _ S 6 e ( ~ f	no
+verify not % and and not s and and @ <sep> + 8 N n s %	no
+verify not X and and not N and and & <sep> - & ) S ~	yes
+produce B and 9 and A and E	A 9 E B
+produce B or ! or 2	2 B
+verify k and d and ? and Y <sep> t g n i # E 1	no
+verify v <sep> U c ; j	no
+produce not / and not = and K	M ` K
+produce / and 3	3 /
+produce m and I and . and T	T I . m
+verify V <sep> q	no
+verify not m and and not . and and not ! <sep> ( c v ) @ o [ N w	yes
+verify | and not = and and not A <sep> q 5 D j % v A =	no
+verify B and M <sep> \	no
+produce h and not 8 and a	h e a
+produce t or W	W
+verify C or s <sep> ] } ! n c H m	no
+verify ; or < or 9 or M <sep> Q	no
+produce not { and not !	f l
+produce b and S and 4 and S and	S b 4 S
+verify 7 and F and > <sep> 2 F > 7	yes
+verify * and < and > <sep> 9 z	no
+verify ] and not . <sep> c K L j g .	no
+verify y <sep> E } [ F x T	no
+produce 8 or } or v or -	8 v } -
+verify R <sep> L R A 7 h q	yes
+verify 7 or & or z <sep> & U C y q | 6 ^	yes
+produce E and \ and i	E i \
+produce w and e and G	e w G
+produce f or _ or $	$ f _
+produce not @ and not I and not 0	: e a
+produce _ or o or _ or p	_ p
+verify t and Y and } and [ <sep> Y } t [	yes
+produce 7 and not }	7 N
+verify K <sep> B J * 0 w	no
+verify B or q <sep> ) % [	no
+produce f and 8 and L and S	L S 8 f
+produce T or \ or G or H	H G T
+produce not w and O	i O
+verify not q and and i and F and not l <sep> M 9 # H y l q	no
+produce R and [ and _ and c	_ [ R c
+produce I and 0	I 0
+verify 0 or T or 0 or <sep> ~ ( 0 3 M d . T	yes
+verify s <sep> , 9 % [ L a ;	no
+produce : and not 6 and r	: a r
+verify 4 or h or ' <sep> C h ' <	yes
+produce not O and . and not #	$ . <
+produce 0 or m or A	A 0 m
+verify not R and and not c and and not " <sep> s D l ! 4 ) : A c R "	no
+verify 3 or g <sep> g ~ , 3	yes
+produce l or & or @ or w	l &
+produce 3 and a and S and v	a 3 v S
+produce not ^ and g	C g
+produce ` and } and L and L and	L ` L }
+produce not 6 and not * and not Q	[ j X
+produce q and 3 and W and U	W U 3 q
+verify | <sep> `	no
+produce z and ' and ' and	' ' z
+verify ( and \ and b <sep> %	no
+verify not * and and not * and and <sep> a 4 r > . Y V p	yes
+produce 7 and -	7 -
+verify s or @ <sep> E I	no
+verify h or + or C <sep> + 6	yes
+produce not C and r and y	. r y
+produce o and 3 and 7	3 o 7
+verify i <sep> \ i 0	yes
+produce not , and not 7 and not v	e 4 0
+verify V and = <sep> $ q j	no
+verify not 0 and and not f and and not @ and and not y <sep> } V E J " L @ 0 ) ! ^ @ f y 0	no
+produce > or 1 or 7	7 1 >
+verify ] and & and i and ^ <sep> d i & ] q C ( ^	yes
+verify { or f <sep> o s m	no
+verify not i and and not l <sep> : X Q z p l i	no
+verify not @ and and not ' and and not A <sep> v { > 8 _ I a e 6 !	yes
+verify 0 or [ or w or 5 <sep> &	no
+produce b or ] or ?	b ]
+verify Q <sep> !	no
+produce z or k or V or w	V z
+verify b and Y <sep> E ~	no
+verify i <sep> |	no
+produce g and U and =	U g =
+produce not } and not ) and not ` and not >	r Z m 8
+produce @ and \ and +	+ @ \
+verify f <sep> * v s u G f /	yes
+produce + and e	+ e
+produce % or J	J
+produce | and M and I	I | M
+verify v and I <sep> z	no
+verify 6 or T or Z or s <sep> w # T ' s 6 T	yes
+produce t or 3	3 t
+verify w and a and 0 <sep> 5 a w e M 0	yes
+produce d and ! and J and *	d J * !
+verify not { and and not s <sep> U O $ s {	no
+produce J and l	l J
+produce not t and not D	- d
+produce t and o and not 5	t o Y
+verify o or c <sep> o 8 c	yes
+verify I <sep> n d e I	yes
+produce m and J	m J
+produce 2 and * and not V	2 * I
+verify 1 <sep> l 1 j ^ S e 8	yes
+verify not - and and not C <sep> @ L Z q | w C -	no
+produce not ' and not B and not 6	| l M
+produce # and not m and {	# 1 {
+produce / and not =	/ \
+produce S or q	q
+verify @ and = and k <sep> = L ! R s P x @ k	yes
+verify ; <sep> p 4 ; ; Y	yes
+produce p or a or /	/
+produce not b and q and c and ,	{ q c ,
+verify C <sep> $	no
+produce not % and w	~ w
+produce c or 7	7
+produce ! and m and Z	! Z m
+produce ? or }	? }
+verify not m and and not G <sep> W p j L 6 I m G	no
+produce r or O	O r
+verify f and 4 <sep> p P . [ , { _	no
+verify { and + <sep> ~ F "	no
+verify P and L and v <sep> 6 L P ? D v	yes
+verify not b and and not | and and 4 and not { <sep> J W g , b | {	no
+verify O <sep> e O	yes
+verify x or ( or A <sep> ( 3 % l 0 x	yes
+produce not e and not G and not ; and not &	G . k j
+verify x and w and V <sep> ( b	no
+produce n and L and 3 and >	3 n L >
+verify w <sep> =	no
+produce A and B and M and j	M A j B
+verify O <sep> ( O	yes
+produce @ or "	@ "
+produce c or [ or b or Y	c [
+verify not 9 and and X and p and not H <sep> N * S L q V } 3 9 H	no
+verify z or z or * <sep> K * m z	yes
+verify M and u <sep> u z H M	yes
+produce < and p and K	K < p
+verify L and c and P and 2 <sep> . Y 5 ,	no
+produce { and not # and not w	{ s C
+verify e or , or Z or ? <sep> ? < y | 4 7 m	yes
+verify ! or X or " <sep> $ ! " X	yes
+produce - or b or f or 7	f - b 7
+produce j or r or 6 or m	m 6 j r
+produce < and not F	< 7
+verify ) or = or f <sep> )	yes
+produce W and S and not P and not x	W S 8 |
+produce 7 and 1 and 8	1 8 7
+produce not % and Q	O Q
+verify g or F <sep> s	no
+produce ? and P	P ?
+produce z and not l	z [
+verify not O and and not ` and and B <sep> B B ~ N g	yes
+verify W and P <sep> W P	yes
+produce @ and u and C	C @ u
+verify ~ <sep> ! ~ ;	yes
+verify not s and and not a and and not s and and <sep> b H [ + , ' K | a s	no
+produce i and B	i B
+verify ' and ~ and not 6 <sep> r W H ~ J s 2 L '	yes
+produce h and - and W	- W h
+produce not ] and not 3 and W	y J W
+produce , or c	c
+produce r or e	e r
+produce not M and not y	( [
+produce b and ~ and =	b = ~
+verify ` and > and N and g <sep> / v ~	no
+produce not 1 and ] and 8	T ] 8
+produce ! and 2 and 9	! 2 9
+produce not i and not m	/ M
+verify S or A or D or - <sep> I	no
+verify S or ' or t or ? <sep> g / v C t & @ S	yes
+produce D or [	[
+produce n and W and 1	1 W n
+produce $ or t or D	$ t
+produce m and m and w and Q	w m Q m
+produce t or S or ) or R	) R S t
+produce 3 or 1	1
+produce A or ! or 0 or M	A
+verify E and not e <sep> C E	yes
+produce not g and ~ and c and $	) ~ c $
+produce B or ;	B ;
+verify 7 <sep> h c k n { w 7	yes
+verify not t and and w and not @ and and not E <sep> 1 [ k r M $ t l & w 5	yes
+produce j or y or l	l j y
+produce x or ]	x
+verify F or : or / <sep> / w y	yes
+produce m and not A	m F
+verify q <sep> d L T & q <	yes
+produce k or X or y	X k
+verify not j and and not F and and not i and and not L <sep> 1 / t U 1 p V m < 9 9 F L i j	no
+verify g or 3 or ] or M <sep> / M I 6 o g 3	yes
+produce M and not T and not B	M Z ,
+produce M and ;	; M
+verify S and Z <sep> $ e ^ h b	no
+verify m and q <sep> ` z } > m " l	no
+verify u or N <sep> j 5 X	no
+produce ? and b and ,	b , ?
+verify V or ) or C or s <sep> s C ) V	yes
+produce d and r	r d
+produce a and not ~ and S	a / S
+verify U and v and 8 <sep> v ` U 8 c	yes
+verify M or B or 2 or W <sep> W 2 M	yes
+produce e or B	e B
+verify not g and and not n and and i <sep> M g , I E 6 l Q g n	no
+produce O and not :	O @
+produce E and & and + and %	+ E & %
+produce u and B and N and \	\ N u B
+verify g <sep> f n , s	no
+verify not Q and and l and not 2 <sep> l f h T N . _ 8 . V	yes
+produce z or Q or j	j z
+produce 4 or ? or a	?
+verify { and not K <sep> { J	yes
+produce 9 and |	| 9
+verify N and G and q <sep> > Z Y x N U q G '	yes
+verify n <sep> n	yes
+verify 1 <sep> ' 1 F j e =	yes
+produce o and /	/ o
+verify ( <sep> O n o = q R	no
+produce q and f and n and h	f q h n
+produce A or *	A
+produce _ or ) or - or g	g _ -
+verify c or M or m <sep> ' X	no
+produce D and -	- D
