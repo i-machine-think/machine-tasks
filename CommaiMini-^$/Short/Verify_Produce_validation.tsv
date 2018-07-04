@@ -1,1200 +1,1200 @@
-verify ^ <sep> x	no
-verify , <sep> ? p , v	yes
-verify B or W or / <sep> u $	no
-produce G or % or E	E G
-produce K and not Y	K 5
-produce ^ or c	c
-verify y and k and $ and 0 <sep> ( u g @ ^	no
-produce X and 9	X 9
-verify % <sep> % k 8 Y 1	yes
-produce \ and not J and +	\ 4 +
-produce not 1 and not } and not ,	Y M $
-verify W <sep> u h - M S x g	no
-verify { <sep> o _ H N u ) 6	no
-produce not X and not w and not C	b e _
-verify k or , or C <sep> \ % M	no
-produce c or c or a or <	< a c
-verify = and Z <sep> 6 I 1 i ]	no
-verify not 2 and and not " and and not m <sep> M o N # x F m 2 "	no
-verify p and l and < and j <sep> 9 j S	no
-verify not " and and not l and and B and 8 <sep> e , v * H f r s + l "	no
-verify g and not / <sep> + n 0 | /	no
-produce not x and t	D t
-produce & or | or C	C &
-verify \ or T <sep> x q i \	yes
-produce not V and *	+ *
-produce not j and | and 0 and O	I | 0 O
-verify B or j or g <sep> B C g X U	yes
-produce n and ] and v	v n ]
-produce not Y and R	+ R
-verify y or % <sep> y `	yes
-produce @ or A or Q or T	Q
-verify W <sep> E W @	yes
-produce | or j or *	*
-verify not : and and z and not 8 and and not L <sep> N X ! < Q ` b L : 8	no
-verify < and 2 and not m and and not v <sep> a _ m v	no
-verify 8 or W or n or I <sep> j C o w k 8 2 v	yes
-verify \ or \ or w <sep> j \ k ^	no
-produce not " and Q and not {	2 Q P
-produce ; or 2 or e	; 2
-verify I <sep> 8 _ | 4 I	yes
-produce f and not P	f _
-verify . or ; or Q <sep> V B	no
-produce not , and not [ and not h	6 - 9
-produce C and not . and H	C L H
-produce : and 9 and 2	: 2 9
-verify c <sep> x	no
-produce M or 9 or C or Q	Q 9 M
-produce L and S and f and g	S L f g
-verify not 9 and and not * and and not Q <sep> : X e c m 7 ' B	yes
-verify R <sep> D W 4 9 %	no
-produce B and not V and '	B g '
-produce = and not ] and ~	= ~ ~
-verify C <sep> s	no
-produce C and J	C J
-verify L or ! or < or u <sep> ) e & ` y C	no
-verify < or > or 3 or q <sep> W	no
-verify not ) and and not 4 and and not = <sep> ] H s 0 M F ; M	yes
-produce not ) and g	T g
-produce Y or t or L or (	Y L
-verify A <sep> Q	no
-produce = or } or /	=
-produce t and not a and S	t + S
-verify not > and and not I and and not L and and not > and and <sep> A X $ I 4 & I L >	no
-produce b and h and ^	b ^ h
-verify not C and and , and not Z <sep> { l 7 Q S 2 U u , h	yes
-produce Z or d	d Z
-verify e or ( or V or t <sep> A	no
-verify U or 9 or N <sep> P U &	yes
-produce U or t or )	) U t
-produce not R and not ~ and 5 and not ~ and	r L 5 ;
-verify [ and 6 <sep> [	no
-produce not ! and not T and not 9	z _ j
-produce not ! and k	g k
-verify } and } and C <sep> : C } }	yes
-produce k or ! or &	!
-produce : or {	{
-produce k and . and '	' . k
-verify not $ and and ? and { <sep> Y ? {	yes
-verify d and | and t and K <sep> t d | K ?	yes
-produce N and G and '	G ' N
-verify not < and and not v <sep> V P [ y / ;	yes
-produce & and Q	Q &
-verify not S and and not Z and and not # <sep> t ? 9 ( z	yes
-produce = and n and = and	= n =
-verify | and { and y and C <sep> U @ { G | : y T C !	yes
-verify i or 9 or R <sep> 9 / R i ]	yes
-produce E and 0 and ! and :	! E : 0
-verify 9 or 3 <sep> ~ S V / c ' 9	yes
-verify x and h and k and ) <sep> ] q C } l ` '	no
-produce not 5 and not b and not 8	| v `
-produce I and d and A	A d I
-produce Y or 5 or ,	5 ,
-verify not , and and not A <sep> V t 9 , A	no
-produce B and not :	B H
-verify l or U or H <sep> } ^ Q : U <	yes
-produce @ and Q and 6 and .	Q @ 6 .
-produce o or 1 or - or D	D o -
-verify M and N and J and G <sep> 5	no
-produce o and ] and [ and a	a o ] [
-verify . or 8 or ] <sep> - 9 J % K : (	no
-produce G and not I and not 9	G 0 I
-produce Z and not \ and not I	Z i R
-verify not p and and not W <sep> \ l {	yes
-produce 9 and w	w 9
-produce 2 or m or " or :	: 2 "
-verify not t and and not A <sep> d O 6 7 L Q R d A t	no
-produce not / and not K and not g and a	S t p a
-verify ] or u or 8 or Q <sep> / p < 6 [ ~ J	no
-verify C <sep> r	no
-verify i <sep> i d ? ( i	yes
-produce not D and not W and not D and	F f T
-verify a <sep> [ % @ - Y ) *	no
-verify H or > or ^ <sep> X _	no
-produce m or m or	m
-verify O and H <sep> Q ( A e # 4 <	no
-produce not 5 and not _ and not P and not ]	4 ; h v
-verify q or P <sep> P u a o j 4	yes
-verify a <sep> " 6 a	yes
-produce A or A or	A
-verify not @ and and ' and k and { <sep> { 4 P 3 U E , z @	no
-produce . and I and # and {	# I . {
-verify ! or q <sep> /	no
-verify = and not 0 and and not % <sep> l ) Q S > X ~ 3 e % 0	no
-produce / and )	/ )
-verify E or s or 1 or ' <sep> l D h = ' > A I	yes
-produce x or p	x
-produce X or e	X
-verify i or > <sep> s Y w	no
-produce r and 6 and N and !	! N 6 r
-produce o and ^ and not ~ and p	o ^ b p
-produce not U and not ( and not }	2 " m
-verify x or , or ? or e <sep> = e 8 N E ? B x X ,	yes
-produce k and 0	k 0
-verify - or h or C or a <sep> h G i k	yes
-produce not \ and not E	< N
-produce B or V	V
-produce B or k or u or y	B k u y
-produce & or & or A or i	A
-produce e and d	d e
-produce - and R and p	p R -
-verify 6 <sep> J 6	yes
-verify f and C <sep> C / f	yes
-verify n <sep> B	no
-produce I and not '	I ]
-produce not P and s and >	J s >
-verify { <sep> R 8 + s T O {	yes
-verify , and ' and 1 and a <sep> , a 1 4 '	yes
-verify 2 and " and z and ! <sep> ) " z 2 c H !	yes
-verify not ^ and and not 2 and and not L and and not > <sep> 0 V ; A X p ^ L 2 >	no
-produce M and + and ; and z	z + ; M
-produce $ and g and ^ and [	^ g [ $
-verify [ and ~ and not T and and a <sep> r k ~ a y [ t i	yes
-verify not ; and and not n and and not ` and and not " <sep> a x } . 5 f 2 Z U	yes
-produce g or o	g o
-verify not G and and 8 and not R <sep> % t O 8 6 X	yes
-verify - or % or | or ( <sep> |	yes
-verify ] or 7 <sep> j	no
-verify Y and t and \ <sep> \ c f Y g ! t	yes
-produce u and 2 and l	2 l u
-verify not V and and not 4 and and not T <sep> > e h 4 V T	no
-produce not m and not j and not T and not B	s s p &
-produce K or / or 8	K 8
-produce ] and 1	1 ]
-produce 0 and l and not T and not z	0 l h Z
-verify + or @ or 4 or [ <sep> h q T | ( E 4 , [ @ +	yes
-produce w or A or w or *	* w w
-produce Z or I or w	I Z w
-produce b and n and U	n b U
-produce & or N	N
-produce 0 and . and I and M	I . 0 M
-verify e and \ and k <sep> C	no
-verify ; and " and c and m <sep> V j c |	no
-produce | or C or T	C
-produce 0 or d or *	*
-verify . and not m and and not W <sep> ] n ? T R m W	no
-produce not d and not I and not 6 and not H	P d $ N
-verify ) or 1 <sep> 1 +	yes
-produce 9 and | and | and	| | 9
-verify not H and and l <sep> # 6 K H	no
-verify ) and S and not x <sep> ) r S	yes
-produce E and Z and not z and not "	E Z ! *
-verify $ and 1 and % <sep> L s u 2 $ B 1 o %	yes
-verify S or 5 or ? or 1 <sep> >	no
-produce M and C	M C
-produce { and 2	2 {
-produce not & and I and not ; and not Z	T I < b
-produce y or Z or r or B	B r y
-produce C and not !	C e
-verify o and ^ and N and i <sep> ^ q i I N o a p 1 =	yes
-verify j or i or 2 <sep> U	no
-verify k or Y or f or - <sep> Q < ;	no
-verify ^ <sep> j 3 T D ^	yes
-verify ^ and j and ! <sep> ^ ! j	yes
-verify b and T and % and E <sep> t E = V O X T \ % b J	yes
-verify $ <sep> W n r ? P	no
-verify U and ! and i <sep> O	no
-verify R and P <sep> @ * . z | O	no
-produce . and e	. e
-produce not r and I and not 9 and not J	Y I 0 7
-produce x or h	x
-produce V and "	" V
-produce not t and / and not U	R / k
-produce d and not N	d q
-verify I or c or l <sep> g	no
-verify 5 or s or T or # <sep> J * n s 0	no
-produce o or ? or t or ^	^ ?
-verify % <sep> y	no
-produce not x and not 3	q 2
-verify - or k or _ or ~ <sep> 0	no
-verify c and g and I <sep> R z ] %	no
-verify not P and and not z <sep> b ? # } ! z P	no
-verify 2 and : <sep> | a : G 2	yes
-produce | and { and Q and r	Q { | r
-produce 4 or S	S
-produce F and not n and F and not P	F { F 9
-verify not . and and not i and and P and not > <sep> Y ! c p u 2 I - P D	yes
-verify ~ and t and not r <sep> _ ~ w l ~ O S t	yes
-verify not K and and b and not y and and not | <sep> v q m X 9 b	yes
-produce ` or <	` <
-produce ^ or g or a or c	c ^ g
-produce s or g or ^ or _	_ s
-verify + and V <sep> % 4 T X $ 0 E	no
-verify B or . or : or ! <sep> c " - v u #	no
-verify 9 and z <sep> 2	no
-produce not X and not j and not . and not i	b r O g
-produce a and - and ^ and b	- a ^ b
-produce p or g	p g
-produce not g and } and L	L } L
-produce \ and z	z \
-produce m or *	*
-verify not y and and k and not ~ <sep> P ; v 8 k 1 B N	yes
-produce > and ` and not n and W	> ` e W
-produce not m and not 6 and not m and :	F D + :
-produce r and not w	r =
-verify ; and v <sep> v W ; 0	yes
-verify S and V and ~ and \ <sep> S \ ~ V	yes
-verify A and h <sep> V ` z	no
-verify x and not d <sep> G x u m # k f %	yes
-produce 8 or , or g	8 , g
-verify q or j or 9 <sep> : ! j C q 9	yes
-produce not | and not % and { and not X	M M { |
-produce h or ( or ?	h
-verify 4 and 1 and y <sep> / = 1 c 4 y	yes
-produce not O and V and &	& V &
-produce % and 9 and G	9 % G
-verify d and , and 5 and 1 <sep> H E w a D 1 m	no
-produce C and \ and z	z C \
-produce n and g and ( and b	b n g (
-verify not @ and and not 6 and and $ and not s <sep> 2 ( $ + < 1 R ;	yes
-produce u and .	. u
-verify M and F <sep> K c 3 M 0	no
-verify l or < <sep> : j 1 \ G S	no
-verify not v and and not U and and not 9 and and i <sep> W B y s { 8 i	yes
-produce V or y or *	y *
-produce P or 5 or F or S	S F P
-verify not u and and 3 and not l <sep> 7 6 L 4 z _ l u	no
-produce - and $	$ -
-verify 2 <sep> ' f \ e ` V (	no
-verify ^ or : or & <sep> l I T 6 c a	no
-verify not : and and not 3 and and not U and and not I <sep> x x 6 Z Z	yes
-produce Z and k	k Z
-produce A or &	& A
-verify p and Q and o and j <sep> p ] > Q o j	yes
-verify ~ and Y and = <sep> k ] / i L	no
-verify # <sep> # @ -	yes
-verify ) and 1 and [ and f <sep> B / 9 # S )	no
-verify 3 and B and not Q <sep> c 5 + O i { ^ 6 Q	no
-produce ? and n	? n
-verify / and . and M and L <sep> l a ; L X M / .	yes
-produce F or t or _ or 7	F t 7 _
-produce g and g and W and $	$ g W g
-produce } and ? and ) and q	) ? q }
-produce v and 1 and U	v 1 U
-verify / <sep> 4 * P Z	no
-produce . or i or V	.
-produce n or ]	] n
-produce Z or r or V or l	V l r Z
-verify not X and and not B <sep> \ x T X B	no
-verify l or F or U <sep> e	no
-verify a and Y <sep> S a a 7 L Y G	yes
-verify c and J and F and ! <sep> 7 @ U	no
-produce w and 0	0 w
-verify ' or E or r or f <sep> # l g r i U	no
-produce 1 or 5 or ` or =	1 `
-verify 8 or R or L or H <sep> 8 L R	yes
-verify , <sep> h ,	yes
-verify W <sep> ' H	no
-verify m or X <sep> 7 m X J e ` Z G j	yes
-produce # and . and M and 9	M . # 9
-verify not b and and not 4 and and not x and and not A <sep> X | 3 N e Z d ;	yes
-verify y <sep> y U	yes
-produce Z and '	' Z
-produce Y or ^	Y
-produce % or A or ' or N	% N A '
-verify ~ and not Y and and not 4 <sep> = V / t / 0 4 Y	no
-verify V <sep> V	yes
-verify not | and and not # and and not 5 <sep> v 9 Z ^ q s "	yes
-verify % and - and C and ' <sep> 5 c ! | k	no
-produce c and ? and 5 and F	5 F ? c
-verify # or f or , or t <sep> S ) * J w z #	no
-verify q <sep> , q	yes
-produce not Z and : and @	X : @
-produce [ or ) or K	[
-produce 2 and E and not l	2 E +
-produce not ? and s and not U and not o	W s Y f
-verify Z and $ <sep> q @ 7 ]	no
-verify . or W or o <sep> <	no
-produce + and Q and X and I	X + I Q
-verify x <sep> Z W R @ I	no
-verify B or H or < <sep> / < B H	yes
-produce not k and O and not : and not &	Z O / p
-verify h <sep> X Z # K P d	no
-produce G and . and &	. G &
-verify not U and and O and not / and and 2 <sep> = ( C _ N < k O ; / U	no
-produce not k and not u and not H and not e	M V f Z
-verify G and not B and and not < <sep> R b 7 ( G C r F p s	yes
-produce % or { or m	% {
-verify b or s or t <sep> y o n r	no
-produce > and not a	> 8
-verify K or k or T or 4 <sep> 4 K k	yes
-verify E and , <sep> , n Y E	yes
-verify \ <sep> E h Z m	no
-verify r or | or _ <sep> U s	no
-verify t <sep> t	yes
-verify 6 or @ or ( <sep> _ 6 ( O . K Z	yes
-produce not f and ~ and not 3	" ~ 2
-verify > or : or F or R <sep> c : 0 f M # V [	yes
-verify w or D <sep> 3 T j w Z 4 D B	yes
-verify X or L or M <sep> j L X 0 a 7	yes
-verify | or Z <sep> * m Z + t |	yes
-verify ; <sep> : ;	yes
-produce = and S and ~	S = ~
-verify not @ and and not T and and not Y and and not ? <sep> F Y c z a H ^ w e	yes
-produce not W and not ^ and not t and not _	e & G 2
-verify l <sep> a l	yes
-produce q and ^ and Y and S	Y S q ^
-produce P and b and $	P $ b
-produce T or . or y or &	. & T
-verify Y or V or ' or 0 <sep> ( a	no
-produce B and A and V and %	B A V %
-verify E <sep> @ G	no
-verify 0 and ? and A and K <sep> D y Z 9 M { [	no
-produce # or k or e	e # k
-produce not d and M and B	z M B
-produce not 7 and ( and not n	: ( 4
-verify = or ( or Y or # <sep> ( = Y	yes
-verify not b and and not x and and not [ <sep> j ] n P m % x b [	no
-produce not A and not + and not e	l R v
-produce not U and not ? and 7	; 0 7
-produce not { and 0 and \ and not *	l 0 \ M
-verify , <sep> 4 s [ R , ,	yes
-produce e and 0 and N	0 e N
-produce not V and not | and e	T { e
-produce , or q or `	q ,
-verify O and X and I and g <sep> O a g X I "	yes
-produce not O and not # and not X and not k	V $ % Z
-produce s or c	s c
-verify c and B and U <sep> N " c B U O 9 1 C	yes
-produce not / and $	8 $
-produce not \ and not w and ! and not e	! + ! N
-produce ! and r and not C	! r d
-verify q and G and H <sep> q H G	yes
-produce f and ? and 1 and g	f ? g 1
-verify { and w and b and d <sep> " 9 = n b w D d @ { I	yes
-produce u or ! or u or y	!
-produce not ` and not - and not } and not P	5 L 4 r
-verify Z and Y and e <sep> I 6 Y e v W - Z 0 t	yes
-produce not 3 and ^	? ^
-produce J or B	J
-produce 3 and W and F and R	W F R 3
-verify u <sep> , q u P p u % n	yes
-produce * and # and e	# e *
-produce X and . and Q and l	l . X Q
-produce i or ;	; i
-produce 4 or q or 4 or o	4 4 q
-produce not { and i and not j	y i 4
-produce V or &	V &
-produce ! or 6	! 6
-verify not n and and not n and and not 9 and and I <sep> 4 ( [ n 9	no
-verify 2 or W or X or ; <sep> P 2 X E ;	yes
-produce r and E and '	r ' E
-produce l and not #	l l
-produce 4 or - or <	- < 4
-verify not Y and and not - and and 5 and not h <sep> g S , 5 f # $	yes
-verify Q or l or I or 8 <sep> 8 I l	yes
-verify " and 3 and J and & <sep> H E U	no
-produce 5 and $ and }	$ 5 }
-produce ! and i and & and l	l & i !
-verify not g and and not " and and / <sep> m r , g M m / v	yes
-produce not N and G and not J and \	h G , \
-verify D or + or y or } <sep> $ .	no
-verify ] and j and not q <sep> 5 Y C ) M { o O q	no
-produce not < and not Y and not < and	> V 5
-produce b or ~ or 7 or f	f b 7 ~
-verify H or Q <sep> } { ] &	no
-verify not M and and not ; and and not > <sep> c e : S # H	yes
-verify Q or v or 8 <sep> (	no
-verify + <sep> Q 5	no
-produce g and s and f and o	o g s f
-produce Q and { and N	Q { N
-produce , and [ and S and 3	[ 3 S ,
-produce d and % and | and {	% { d |
-verify | and Z and 5 and [ <sep> s l { v 0	no
-produce ' and C and C and "	' C " C
-verify z <sep> ` 0 y | z I	yes
-produce c or ? or F or L	F L c
-verify ! and ` and u <sep> ` ! u O	yes
-verify % or x <sep> [ S % V L	no
-produce [ and ~ and ~ and	~ ~ [
-produce N and B and m	m N B
-verify K and b and C <sep> @ I K 3 Q b C	yes
-verify not 4 and and not s and and not [ and and ) <sep> c ) 2 " \	yes
-produce e and C	e C
-verify M or q or g or m <sep> i I - W = N {	no
-verify | and 5 and $ and s <sep> | s 5 F / $ l	yes
-verify D or w or r or ? <sep> w D f ? r	yes
-verify h <sep> Y ^ # F g h +	yes
-produce not o and ?	# ?
-produce + or d or T or V	V T
-produce S or < or 3	S <
-verify # and not [ <sep> E i A #	yes
-verify $ <sep> & B h j	no
-verify not 5 and and x and not K and and _ <sep> r \ K 5	no
-verify Y and b and ) <sep> r | N Q >	no
-produce Z or J or " or X	X Z J "
-verify $ <sep> $ r	yes
-produce 3 and 8 and [	3 [ 8
-verify O <sep> O s W	yes
-verify not W and and " and P and > <sep> J 3 P " > G \	yes
-verify 7 or n or P <sep> 7 + C	yes
-produce C and y and 0 and @	0 C y @
-produce $ or = or a or Y	a
-produce O and T and 9	O T 9
-produce c and 7 and R and t	c R t 7
-produce : and Q and ! and y	Q ! : y
-produce X or u	X
-produce B and not X and { and not 2	B } { 7
-verify m and R and p and 3 <sep> v R r ] s 3 m p	yes
-produce not c and not R and not ] and ,	3 S a ,
-produce n and , and [ and P	, n [ P
-verify not ` and and / <sep> / A	yes
-produce not d and not 9 and not # and not H	) D / L
-verify w and d and a <sep> x - a w 5 2 d	yes
-verify i or F <sep> o i Y U F w `	yes
-produce S and n	n S
-verify y <sep> p y	yes
-verify P and ; and : and p <sep> H } P 7 b p T ; Q + :	yes
-produce / and 7 and D	7 / D
-verify A <sep> Q H	no
-verify P or m <sep> z ` F i T a	no
-produce T or j or :	j T :
-produce { or i or M	{
-verify Q or p <sep> i - ~ ? ; E B	no
-verify 0 and - and $ <sep> +	no
-verify h and not - and and | and w <sep> % s -	no
-verify R or O or q <sep> C E Q T Y < i	no
-produce X or i or M or Q	X Q
-produce : and '	: '
-verify not q and and j and not c <sep> P V y 8 x | $ ) q c	no
-produce not < and not [	R d
-verify j <sep> 8 { j T H > $	yes
-produce i and *	* i
-verify not _ and and \ and , and not 4 <sep> 1 , \ , K	yes
-produce > or 8 or < or L	8 <
-produce W or > or p or $	W
-produce l and G and O and :	G O l :
-verify < or / or Q or c <sep> e l y o Q	no
-produce not o and W and _	W W _
-verify 0 or s or b <sep> . Y 9 D	no
-produce not ` and -	o -
-verify | and S <sep> | S	yes
-verify G <sep> S	no
-verify F and & and o and O <sep> S e	no
-produce J and not j and m and not "	J Z m b
-verify W and j <sep> v	no
-produce & or T or w	&
-verify % or A or D <sep> &	no
-produce not D and `	P `
-produce ~ and ]	] ~
-produce 0 or 0 or M or 2	M
-verify % and k and 4 <sep> 4 v m 7 R * % h % k	yes
-verify u and > and / and I <sep> N u > I k /	yes
-produce E or " or B	E B
-produce not r and not H and not i and not :	q j p p
-produce not = and not 4	c x
-produce not ; and not j	} \
-produce 7 or 5 or ? or 7 or	? 7 5
-produce ~ or `	` ~
-verify H and c and > and X <sep> X H 9 | i j C > c Q 5	yes
-produce < or /	< /
-produce 4 and _ and 3	_ 4 3
-verify U or ` <sep> U K ` F 7 D t	yes
-verify : or U or " <sep> %	no
-verify r or S <sep> + T 9 h S	yes
-verify | and , <sep> - P / W d	no
-produce = and 8 and 1 and K	K 8 = 1
-produce 3 and 4 and c and _	_ 3 4 c
-verify not W and and not m and and not H <sep> = = e x @	yes
-produce t and 8 and <	8 t <
-produce l or z or G	G l
-verify B or j or l <sep> l j X	yes
-verify 7 and not / and and I <sep> 2 V Q N U # /	no
-verify % and | <sep> H | l z K ' % ` ~	yes
-produce | or @ or d or J	@
-produce W and a	W a
-produce 6 and # and B	6 # B
-produce not 2 and not J and not %	8 7 <
-produce ? or P or a	a P ?
-produce . and not 0 and Z and !	. ! Z !
-verify not 4 and and not e <sep> Q 7 w O a	yes
-verify t or ( <sep> Y B e j	no
-produce not % and not &	- w
-produce L and x	L x
-verify B and : and g and X <sep> u F ' ] >	no
-verify / and L and v and 3 <sep> f ; Z 9 W 6	no
-verify k <sep> k S w F E O q f	yes
-verify q <sep> Y # 6	no
-verify 0 and not Z and and t <sep> [ f S Z	no
-produce r or \ or r or	r
-produce not : and not z and @	< D @
-produce not x and ) and not x and not 8	- ) g !
-produce ~ and 8 and not 5	~ 8 *
-verify not > and and not 9 and and not U and and not i <sep> g X 9 : \ s k D ; C	yes
-produce not > and not $ and not 7	& i $
-verify m <sep> 2 { [ U ; Q	no
-verify a <sep> b ^ a | Y	yes
-verify Z and 0 and 1 <sep> @ q 1 m 0 j v Z 4	yes
-verify c or ` or 8 <sep> q c ; = E ^ j | ` 8	yes
-produce ] or [ or a	] a
-verify l <sep> % k } I i = w	no
-produce w and X and \	X w \
-produce h and not L and h and not v	h 6 h Z
-verify ^ or l or ; <sep> E f - +	no
-produce { or I	I
-produce 9 and & and B and {	{ B & 9
-produce = and ~ and s and _	s _ = ~
-verify o and not 9 <sep> o ] & e L	yes
-produce not $ and not K and a	= n a
-verify X <sep> j X e A b	no
-produce not ( and not D	{ d
-verify not ' and and a and S <sep> 4 a H N f S . [ 3 I	yes
-produce A and e and A and	e A A
-produce . and not G and m	. D m
-verify C <sep> C !	yes
-produce not P and not }	j $
-produce P and ~ and =	P ~ =
-verify n and m and q <sep> 3 : - , ) H U	no
-produce Q or "	" Q
-produce } and not <	} @
-verify h <sep> y b c % F h > 1	yes
-produce 1 and ) and S and ~	~ 1 ) S
-verify not y and and not a <sep> - F	yes
-produce not 1 and not o and not _	I | s
-verify p or 2 <sep> 2 1 q X	yes
-verify / or J or G <sep> g / G ~ U J	yes
-produce A and * and 2 and not V	A * 2 v
-produce m or E	m
-produce + or w or y	y
-produce v or n or ^	n
-produce * or | or k or H	| H *
-verify k and { <sep> k d r 2 {	yes
-produce ' or 0 or ' or	' ' 0
-verify H and 7 and ` and J <sep> ` J 7 H e ? M	yes
-produce ( or L or 4	( L
-produce ` or n or K or 4	n `
-verify 1 and not E and and not | <sep> 3 W 1	yes
-produce , and c	c ,
-produce 3 and p and x	3 p x
-produce } or 5 or v or =	v 5 = }
-produce | and 6 and m and :	| m 6 :
-verify _ and ' and ) <sep> v K x ' r ) l % _	yes
-verify T <sep> '	no
-produce U and not ~ and p and q	U \ p q
-verify G and o and u and O <sep> : t v ] 7 2 u	no
-produce not U and $ and not ^ and not U and	! $ k q
-produce 0 and not I	0 y
-produce not ! and not V and not \	k q Z
-verify @ <sep> 5 K	no
-produce not & and d and 0	9 d 0
-verify X and ! <sep> e ! X	yes
-produce not c and [ and not D and not 8	: [ ; ~
-produce X and 6 and M and &	X 6 & M
-verify not P and and not F and and not * <sep> S \ Y 4 [ * U x	yes
-produce ] or n	n
-verify . or 3 or X or ] <sep> H	no
-verify } and x <sep> g	no
-verify U and < and W <sep> 8 j < W U m	yes
-verify y and s and f and % <sep> s % y 5 E f Z	yes
-verify . and g and p and not W <sep> F W	no
-verify ' and \ and - and ) <sep> T W L	no
-verify v or F or / <sep> * Y ) J <	no
-produce ^ or c	c
-produce j or \ or M	\ M
-produce U and $ and x	$ U x
-produce ; and not m and not y	; U X
-produce not U and not o and not n	% m O
-produce not y and not Z and not 2	# u !
-verify = and not A <sep> P @ 2 . R U 0 A	no
-produce - and ^ and f	^ - f
-verify not _ and and not ) and and not = and and a <sep> b ; U t + c 1 _ ) =	no
-produce . and Q and not I and not X	. Q / P
-verify not & and and 8 <sep> t x 8	yes
-verify not + and and not Y and and h <sep> X m p S " q C + Y	no
-produce H and Q and +	Q H +
-verify not A and and not f and and not s <sep> 1 V P d m | / ? 9 u s A f	no
-verify 0 and % and \ <sep> = % : \ 0 !	yes
-produce not _ and 1 and L	h 1 L
-produce l or H	l
-verify not & and and not Q and and O <sep> L O `	yes
-verify * or < or & <sep> ' v & r * ` > 9	yes
-verify H <sep> O	no
-verify 9 and Q <sep> 9 K Q	yes
-produce M and 9 and ;	; 9 M
-produce v and =	= v
-verify 5 and ( <sep> V "	no
-produce } and q and = and ^	q } ^ =
-produce M or 2	2 M
-produce not [ and not c and not }	Q 8 R
-verify not D and and not % and and not b and and not y <sep> | b 2 ' ?	yes
-verify V and - <sep> s j F	no
-produce r or G or O or &	G
-produce not X and *	G *
-produce not Y and not h and not W and not 7	M a u -
-produce Y and a and (	Y ( a
-produce P and not n	P /
-produce a or - or [ or $	- $
-produce < and not K	< |
-produce G and j and 2 and E	G j 2 E
-produce not 8 and 4 and not c	] 4 ]
-verify F or H or O <sep> o	no
-verify ! or Q or v <sep> V E v \ Q @ 6 $	yes
-produce < and s and P and 1	P < 1 s
-produce } and L	} L
-produce a and not _	a m
-produce { and z and { and	z { {
-produce z and { and not ! and not E	z { D G
-verify not ] and and not / and and not U and and not g <sep> | z X I k * ] / g U	no
-verify not ? and and ) and y and + <sep> ( y G , - O j ?	no
-produce ] and f	] f
-produce " or j or . or V	j
-produce not W and not s	T )
-verify v and / <sep> j 5 U > c d %	no
-verify J and not 3 and and not L <sep> ! O s L 3	no
-verify z <sep> =	no
-produce F or 8	F 8
-produce a and 4 and s	s 4 a
-verify ! <sep> ! * c o	yes
-verify not ~ and and not 0 and and not 4 and and not h <sep> M y c ~ X h I	yes
-produce not > and not s	H X
-produce k and not \ and not M	k A r
-verify ( and not D and and not y and and not s <sep> * ! w p $ D s y	no
-produce not r and % and k and not r and	Y % k k
-produce not ~ and b and not >	S b j
-produce n and /	/ n
-produce not e and not e and not w and H	# R U H
-verify G <sep> 4 w C & s	no
-produce [ or t or D	[ t
-produce I or m or Z	Z m
-produce 7 or D	7
-verify ~ and % and s and b <sep> O 5 " 8 u y %	no
-verify 0 or C or | or V <sep> k	no
-verify z and n and M <sep> U z 2 h D e /	no
-produce not * and not @	~ =
-verify s and $ and 1 <sep> S r h z k	no
-produce not @ and not | and not 9	" H C
-produce a and h and P	P h a
-produce not ) and / and b	h / b
-verify M or X <sep> -	no
-produce 1 and h and `	` h 1
-produce i or + or *	+
-verify not o and and not B <sep> ^ " C % | g \ F ~	yes
-produce G and Q	G Q
-produce not & and not G	: ;
-verify w <sep> R D w . a !	yes
-produce not t and b	* b
-produce r and E	r E
-produce ' and &	& '
-produce J or B	B J
-verify b and Z and - <sep> 1 U b / e ) ? w Z -	yes
-produce " and 0 and not N	" 0 $
-produce & or w or y or T	w T y
-produce * or w or V	w
-produce 9 or r or r or 9 or	r r
-verify - and s and E <sep> f E Q 0 s A - o t	yes
-verify ~ <sep> c & U K C - _	no
-verify D or Z <sep> g D _ : e [ .	yes
-verify * <sep> * 4 i * C G b 1	yes
-produce ` and not } and [	` | [
-produce U or D	D
-verify ) and = <sep> / " ^ = )	yes
-produce not 0 and not ! and not 0 and @	> e , @
-produce + and m and '	m ' +
-verify 0 <sep> = < W t : #	no
-verify / <sep> t $ i " 4 Q /	yes
-produce R and ~ and Y and 7	R 7 ~ Y
-verify - <sep> + -	yes
-verify W or 8 <sep> 8 / W W p A	yes
-produce " and A	A "
-verify K and $ and A and ' <sep> b	no
-produce 7 or / or ( or p	p ( 7 /
-verify u or Q <sep> ' Q q u	yes
-verify v <sep> e > ]	no
-verify not I and and not p and and not U and and not M <sep> c f I P 4	yes
-verify q <sep> + X C I W q # 5	yes
-verify B and 7 and R and J <sep> O	no
-produce s or 8	s 8
-verify m or n or p <sep> r N a i	no
-verify x or 4 <sep> W e	no
-verify N <sep> N T	yes
-verify < <sep> )	no
-verify Z and Y and t and d <sep> } G \	no
-produce not k and not l and not y	# V 7
-verify 3 <sep> 3 0 # * F ) C U	yes
-verify ( <sep> P E q \ . R y	no
-produce % and w and N and .	N . % w
-verify ] <sep> m ] P W *	yes
-produce not l and 0 and not H	; 0 8
-verify 8 <sep> n J 8	yes
-verify | and not b and and - <sep> [ c f | o S Y -	yes
-produce not ^ and } and } and ~	@ } } ~
-produce | or { or A or H	A H { |
-verify s and = and \ and d <sep> { > e A 1 b J	no
-verify y or d <sep> d	yes
-verify , and k and not $ and and } <sep> , = r k f } t N	yes
-verify i and ! and I <sep> U V | T	no
-produce C and ' and m	' C m
-produce H or l or Z	H l
-produce k and I and w and k and	k I w k
-verify \ or \ or ' or @ <sep> " @ \ ' 2 b o D V	yes
-verify , <sep> ' H U z V }	no
-verify _ and not + <sep> S N z 6 _	yes
-produce y and Q and l and ;	l Q y ;
-verify : and p and 2 <sep> D l o - # % u	no
-produce P or s	s P
-produce C or z or 6	z C 6
-verify $ and A and S <sep> f V	no
-produce 4 or D or ~	D ~ 4
-produce = or 7 or U or /	U
-produce not W and P	p P
-produce * and \ and 2 and not .	* \ 2 ~
-verify / or n or L <sep> R k / 2 O %	no
-produce not X and not N and not N and	b | i
-produce not < and } and not p and not F	K } = !
-verify l or < or P or c <sep> ` E L	no
-produce not E and not #	} V
-produce E or 2 or . or d	E d 2 .
-verify ? or 0 <sep> } 0 _ [ ? R \	yes
-produce y and M and not & and not {	y M E =
-produce A or N	A N
-produce 6 and not +	6 n
-produce e and j and !	! j e
-verify { or x <sep> {	yes
-produce not u and not C and 0	_ O 0
-produce r and I and N	r I N
-produce b or S	b S
-verify 3 or L <sep> L	yes
-produce not o and not a and not } and D	, & 7 D
-produce U and / and D	U / D
-verify ~ or % or e or @ <sep> 4 [	no
-verify } and T <sep> } t T Q 8 r j 2 Y	yes
-verify " and c and z and g <sep> " f g z c	yes
-verify 0 or _ or b or Z <sep> 9 ~	no
-verify } and ' <sep> ' V ^ a | } [	yes
-produce ! and N and ! and #	N ! ! #
-produce not a and F and , and not ?	: F , J
-produce F and L and = and <	L < F =
-produce z or H or * or w	* w
-produce k and not l and not . and i	k { % i
-produce } and D and v and 3	} 3 D v
-verify not R and and not ] <sep> h 5 ] R	no
-verify not p and and not p and and <sep> 4 7 "	yes
-produce P or q	P
-verify ) and # and - and T <sep> ) - . [ T / # n Z ) q	yes
-produce not f and not _ and not _ and S	$ 1 R S
-produce not ] and not ?	O y
-verify I and P <sep> w \ M ) 2 , _	no
-produce { and l and * and m	{ m * l
-produce s or } or ) or >	> )
-verify " <sep> q e J b G g	no
-produce a or 5	a
-produce u or j or : or {	{ j :
-produce ^ or q or _ or ]	q ^
-produce not 4 and not 8	N ;
-verify 1 and ~ and E <sep> l S	no
-produce b and < and c	b < c
-produce V and d	d V
-verify a or s or f <sep> i	no
-produce ( and F	( F
-verify @ and ~ and Z <sep> &	no
-verify D and Z and C <sep> b 9 7 | 4 I	no
-verify D <sep> X T D 5 2	yes
-verify } <sep> }	yes
-produce > or g	> g
-produce ( or W	W
-verify . and R <sep> . ' R w h ~ 6 }	yes
-produce not i and not : and not y and C	B o i C
-verify not T and and not D and and not e and and not , <sep> a { ^ _ { + e D , T	no
-produce not { and O	0 O
-produce not : and not 0 and not C and not %	/ = L F
-verify . <sep> q > g a	no
-verify - or 1 or _ <sep> ! _ . 1 b ` y u	yes
-verify H or p or X <sep> A p N } X g { Z >	yes
-verify not v and and not ^ and and L <sep> > J ? v ^	no
-verify not ' and and y and not Y <sep> P ` B m n y '	yes
-produce [ and `	` [
-produce 3 or P or p or ?	p
-verify @ <sep> 6 @ W	yes
-verify h or y or x <sep> > [ f } '	no
-produce b and not W and 8	b < 8
-verify E and 6 <sep> n - \ k ; ^	no
-produce not Q and A and O and not 0	> A O >
-verify not a and and not r and and w and not @ <sep> S w z } w	yes
-verify ? and w and t <sep> _ o P 0 8 n	no
-verify p and ^ and R and 8 <sep> ^ . 8 p R	yes
-produce + and 6 and 6 and not y	+ 6 6 L
-produce not K and not > and 8	\ * 8
-produce n and h	h n
-produce - or $	$ -
-produce not H and not + and j and not r	) 7 j 9
-produce R or S or S or	S S
-verify V <sep> j m 4 = ! _ V	yes
-produce not ( and not b and not t and not ]	z e y A
-produce L and 5	L 5
-produce not h and not ( and not 1	; < 3
-verify > or g <sep> L	no
-verify ! <sep> } 7 v o l K \	no
-produce Z and not H	Z C
-produce } or (	( }
-produce not 0 and not B and not I	r y *
-produce A and G and e	A e G
-produce x and p and t	x p t
-produce y and :	y :
-produce ' or { or G	' G
-produce K or (	K (
-verify 8 <sep> l ) k B	no
-verify 6 and b and r <sep> 8 }	no
-produce not [ and , and not P and D	E , ^ D
-verify T <sep> I b 4	no
-produce not @ and not : and not N	s g `
-produce @ and 2	@ 2
-produce 1 or q or [ or Y	Y 1
-verify not M and and not M and and <sep> T [ m : y r M	no
-verify F <sep> 7 > & f	no
-verify not 1 and and not + and and not \ and and not _ <sep> x @ 0 x U P h	yes
-verify { and S and d <sep> d X { I < v S ( M	yes
-produce a and F	F a
-verify 3 and not ] <sep> M K s 4 ? 3 f `	yes
-produce . or & or " or A	. " &
-produce not 6 and Z	. Z
-produce l or ! or C	C
-verify Q <sep> 1 L A Z < P	no
-verify # and [ and | <sep> # [ ? $ |	yes
-produce 5 or 4 or q	q
-produce not g and ]	\ ]
-verify T <sep> P p | T )	yes
-verify not # and and not # and and \ and % <sep> \ . v %	yes
-produce / or 8	/ 8
-verify i <sep> F i	yes
-verify ? and e and not ' <sep> e ? <	yes
-produce not P and 4 and not ` and not ?	c 4 . 6
-produce T and A and e	A T e
-produce r and B and {	B { r
-verify 5 or } or a <sep> ; 5 } a |	yes
-verify 7 and ^ <sep> x L 9 *	no
-produce M and I	M I
-verify " or c <sep> " c	yes
-verify T or D or \ <sep> ] D W % \ d x V	yes
-produce O and ! and |	| O !
-produce not ] and [ and U	x [ U
-produce not & and not & and @ and w	u t @ w
-produce < or `	` <
-produce ) or o	)
-produce l and not u	l M
-produce not g and x and ? and not W	i x ? c
-produce K or / or v or v or	K / v v
-produce # and j and r	# j r
-produce not 4 and not P and not W	} v \
-verify 8 and H and L and g <sep> r	no
-produce not q and not S	J \
-verify ; <sep> ; + j E ! 7 } |	yes
-produce + and y and X	+ y X
-verify u or R or H <sep> R Z r u z H	yes
-produce - and 5 and , and <	, - < 5
-verify l <sep> ]	no
-produce not M and not w and A and not J	= 7 A x
-produce I and X and .	X . I
-produce 6 or l or r	6 l r
-verify t and not A and and Y and C <sep> 4 ( t C Y	yes
-produce not k and not ; and not A and not y	^ = ? W
-produce h or o	h o
-verify G <sep> ] G	yes
-verify U and not q and and m and not N <sep> b 9 q N	no
-produce k or 2 or k or	k 2
-verify o and W and ` <sep> I 3 w H	no
-produce @ or X or !	X @ !
-produce j or u or y	u y j
-verify & or ^ <sep> : Q 2 w	no
-verify " or c or ! or I <sep> Z	no
-verify w <sep> T w	yes
-verify D <sep> D	yes
-produce not v and q	) q
-verify s and { <sep> < s a p	no
-produce ! and J and k	! k J
-produce not f and not W and not v	6 I =
-verify a or K or k or Y <sep> `	no
-verify ] or Q <sep> D ' u w 2 x	no
-verify " <sep> " o	yes
-verify p or 3 or n or H <sep> j @ Q K L	no
-produce not @ and " and not 9 and not +	= " F >
-produce I and " and %	I " %
-verify . and ` and X and z <sep> M . X ` . U z ' N 0 E	yes
-verify _ <sep> ^ A " <	no
-verify g or 9 or & <sep> ; x V	no
-produce T and * and \ and Q	* Q \ T
-produce B and 2 and e	2 B e
-verify ! <sep> ` 9 3 T c <	no
-produce u or B	u
-produce L or v or t	t
-produce A and N and V	N A V
-produce E and z and + and r	r + z E
-produce not u and not u and not O and not T	p q | x
-verify f <sep> c `	no
-verify H and not m and and > and 9 <sep> t @ c ] ; m	no
-produce $ or p or 7	p 7
-verify i and : and R and 9 <sep> +	no
-verify J and g and M and X <sep> J g X w > 5 M J B	yes
-produce 2 or A or B	2 B A
-produce / or D or >	> D /
-produce M or . or #	#
-produce + or T or e or N	N e
-produce ] and not ^ and not K	] * z
-verify 8 or ! or < or P <sep> 9 Q c	no
-produce not @ and k and Z	S k Z
-produce b and q and >	b > q
-produce 3 or Y or s or <	< Y 3
-verify G <sep> M G d _ , } | I	yes
-produce H and & and X and H and	& H X H
-verify v or u <sep> ; L ! ` r @	no
-produce not + and not | and not !	R - T
-produce ) or ?	)
-verify [ or ~ or r <sep> [ ~ r	yes
-produce ( and , and <	( < ,
-produce S or 3 or Y	S 3
-produce L and U and not _	L U R
-verify c and p and 7 and H <sep> F H c ' 7 p r o	yes
-produce @ or d or B or j	j @ B d
-produce G and V	V G
-verify I <sep> 9 v a 5	no
-produce not v and K and D	h K D
-produce Z and E and J	E J Z
-produce ? and <	? <
-produce S or > or ` or b	b S > `
-verify _ and ( and not k and and 6 <sep> 5 k	no
-verify . and X and R and z <sep> . z X y F k / R u &	yes
-verify z and ] <sep> ] @ 0 1 z	yes
-verify { <sep> a	no
-verify S <sep> ] g C Z [ 5 k	no
-produce 8 or 1 or R	1
-produce t or n or K	K n t
-produce 1 and not S	1 U
-produce not U and v and Y	> v Y
-verify Q and B and l and 2 <sep> Q A Q 2 C B b w l	yes
-verify h and ' and [ <sep> [ h ' P O '	yes
-verify not , and and not _ and and not [ <sep> T . s # L _ , [	no
-produce $ or - or t or b	- $ t b
-produce N and k	N k
-verify $ and [ and 1 <sep> : q v X y	no
-produce P and not ( and not 8 and R	P ; N R
-verify R and c and > <sep> c C @ J 2 \ _ R g >	yes
-verify M and ] <sep> f ] ; p m M > <	yes
-produce K or 7 or ~	K 7 ~
-verify r and $ <sep> ` $ I i * x r	yes
-produce K and g and )	g ) K
-verify E <sep> ` O l ^ Z 2 >	no
-verify T and D and d <sep> X	no
-verify not ] and and not > and and not 2 and and not F <sep> W Z . H R p # 3 _ 7	yes
-produce h and = and > and t	> h = t
-produce not % and y	G y
-produce g or 5 or o	g
-verify x or ~ <sep> t ? a j P %	no
-verify not ( and and not e and and not f and and not ~ <sep> W o | ; R H _ S 6 e ( ~ f	no
-verify not % and and not s and and @ <sep> + 8 N n s %	no
-verify not X and and not N and and & <sep> - & ) S ~	yes
-produce B and 9 and A and E	A 9 E B
-produce B or ! or 2	2 B
-verify k and d and ? and Y <sep> t g n i # E 1	no
-verify v <sep> U c ; j	no
-produce not / and not = and K	M ` K
-produce / and 3	3 /
-produce m and I and . and T	T I . m
-verify V <sep> q	no
-verify not m and and not . and and not ! <sep> ( c v ) @ o [ N w	yes
-verify | and not = and and not A <sep> q 5 D j % v A =	no
-verify B and M <sep> \	no
-produce h and not 8 and a	h e a
-produce t or W	W
-verify C or s <sep> ] } ! n c H m	no
-verify ; or < or 9 or M <sep> Q	no
-produce not { and not !	f l
-produce b and S and 4 and S and	S b 4 S
-verify 7 and F and > <sep> 2 F > 7	yes
-verify * and < and > <sep> 9 z	no
-verify ] and not . <sep> c K L j g .	no
-verify y <sep> E } [ F x T	no
-produce 8 or } or v or -	8 v } -
-verify R <sep> L R A 7 h q	yes
-verify 7 or & or z <sep> & U C y q | 6 ^	yes
-produce E and \ and i	E i \
-produce w and e and G	e w G
-produce f or _ or $	$ f _
-produce not @ and not I and not 0	: e a
-produce _ or o or _ or p	_ p
-verify t and Y and } and [ <sep> Y } t [	yes
-produce 7 and not }	7 N
-verify K <sep> B J * 0 w	no
-verify B or q <sep> ) % [	no
-produce f and 8 and L and S	L S 8 f
-produce T or \ or G or H	H G T
-produce not w and O	i O
-verify not q and and i and F and not l <sep> M 9 # H y l q	no
-produce R and [ and _ and c	_ [ R c
-produce I and 0	I 0
-verify 0 or T or 0 or <sep> ~ ( 0 3 M d . T	yes
-verify s <sep> , 9 % [ L a ;	no
-produce : and not 6 and r	: a r
-verify 4 or h or ' <sep> C h ' <	yes
-produce not O and . and not #	$ . <
-produce 0 or m or A	A 0 m
-verify not R and and not c and and not " <sep> s D l ! 4 ) : A c R "	no
-verify 3 or g <sep> g ~ , 3	yes
-produce l or & or @ or w	l &
-produce 3 and a and S and v	a 3 v S
-produce not ^ and g	C g
-produce ` and } and L and L and	L ` L }
-produce not 6 and not * and not Q	[ j X
-produce q and 3 and W and U	W U 3 q
-verify | <sep> `	no
-produce z and ' and ' and	' ' z
-verify ( and \ and b <sep> %	no
-verify not * and and not * and and <sep> a 4 r > . Y V p	yes
-produce 7 and -	7 -
-verify s or @ <sep> E I	no
-verify h or + or C <sep> + 6	yes
-produce not C and r and y	. r y
-produce o and 3 and 7	3 o 7
-verify i <sep> \ i 0	yes
-produce not , and not 7 and not v	e 4 0
-verify V and = <sep> $ q j	no
-verify not 0 and and not f and and not @ and and not y <sep> } V E J " L @ 0 ) ! ^ @ f y 0	no
-produce > or 1 or 7	7 1 >
-verify ] and & and i and ^ <sep> d i & ] q C ( ^	yes
-verify { or f <sep> o s m	no
-verify not i and and not l <sep> : X Q z p l i	no
-verify not @ and and not ' and and not A <sep> v { > 8 _ I a e 6 !	yes
-verify 0 or [ or w or 5 <sep> &	no
-produce b or ] or ?	b ]
-verify Q <sep> !	no
-produce z or k or V or w	V z
-verify b and Y <sep> E ~	no
-verify i <sep> |	no
-produce g and U and =	U g =
-produce not } and not ) and not ` and not >	r Z m 8
-produce @ and \ and +	+ @ \
-verify f <sep> * v s u G f /	yes
-produce + and e	+ e
-produce % or J	J
-produce | and M and I	I | M
-verify v and I <sep> z	no
-verify 6 or T or Z or s <sep> w # T ' s 6 T	yes
-produce t or 3	3 t
-verify w and a and 0 <sep> 5 a w e M 0	yes
-produce d and ! and J and *	d J * !
-verify not { and and not s <sep> U O $ s {	no
-produce J and l	l J
-produce not t and not D	- d
-produce t and o and not 5	t o Y
-verify o or c <sep> o 8 c	yes
-verify I <sep> n d e I	yes
-produce m and J	m J
-produce 2 and * and not V	2 * I
-verify 1 <sep> l 1 j ^ S e 8	yes
-verify not - and and not C <sep> @ L Z q | w C -	no
-produce not ' and not B and not 6	| l M
-produce # and not m and {	# 1 {
-produce / and not =	/ \
-produce S or q	q
-verify @ and = and k <sep> = L ! R s P x @ k	yes
-verify ; <sep> p 4 ; ; Y	yes
-produce p or a or /	/
-produce not b and q and c and ,	{ q c ,
-verify C <sep> $	no
-produce not % and w	~ w
-produce c or 7	7
-produce ! and m and Z	! Z m
-produce ? or }	? }
-verify not m and and not G <sep> W p j L 6 I m G	no
-produce r or O	O r
-verify f and 4 <sep> p P . [ , { _	no
-verify { and + <sep> ~ F "	no
-verify P and L and v <sep> 6 L P ? D v	yes
-verify not b and and not | and and 4 and not { <sep> J W g , b | {	no
-verify O <sep> e O	yes
-verify x or ( or A <sep> ( 3 % l 0 x	yes
-produce not e and not G and not ; and not &	G . k j
-verify x and w and V <sep> ( b	no
-produce n and L and 3 and >	3 n L >
-verify w <sep> =	no
-produce A and B and M and j	M A j B
-verify O <sep> ( O	yes
-produce @ or "	@ "
-produce c or [ or b or Y	c [
-verify not 9 and and X and p and not H <sep> N * S L q V } 3 9 H	no
-verify z or z or * <sep> K * m z	yes
-verify M and u <sep> u z H M	yes
-produce < and p and K	K < p
-verify L and c and P and 2 <sep> . Y 5 ,	no
-produce { and not # and not w	{ s C
-verify e or , or Z or ? <sep> ? < y | 4 7 m	yes
-verify ! or X or " <sep> $ ! " X	yes
-produce - or b or f or 7	f - b 7
-produce j or r or 6 or m	m 6 j r
-produce < and not F	< 7
-verify ) or = or f <sep> )	yes
-produce W and S and not P and not x	W S 8 |
-produce 7 and 1 and 8	1 8 7
-produce not % and Q	O Q
-verify g or F <sep> s	no
-produce ? and P	P ?
-produce z and not l	z [
-verify not O and and not ` and and B <sep> B B ~ N g	yes
-verify W and P <sep> W P	yes
-produce @ and u and C	C @ u
-verify ~ <sep> ! ~ ;	yes
-verify not s and and not a and and not s and and <sep> b H [ + , ' K | a s	no
-produce i and B	i B
-verify ' and ~ and not 6 <sep> r W H ~ J s 2 L '	yes
-produce h and - and W	- W h
-produce not ] and not 3 and W	y J W
-produce , or c	c
-produce r or e	e r
-produce not M and not y	( [
-produce b and ~ and =	b = ~
-verify ` and > and N and g <sep> / v ~	no
-produce not 1 and ] and 8	T ] 8
-produce ! and 2 and 9	! 2 9
-produce not i and not m	/ M
-verify S or A or D or - <sep> I	no
-verify S or ' or t or ? <sep> g / v C t & @ S	yes
-produce D or [	[
-produce n and W and 1	1 W n
-produce $ or t or D	$ t
-produce m and m and w and Q	w m Q m
-produce t or S or ) or R	) R S t
-produce 3 or 1	1
-produce A or ! or 0 or M	A
-verify E and not e <sep> C E	yes
-produce not g and ~ and c and $	) ~ c $
-produce B or ;	B ;
-verify 7 <sep> h c k n { w 7	yes
-verify not t and and w and not @ and and not E <sep> 1 [ k r M $ t l & w 5	yes
-produce j or y or l	l j y
-produce x or ]	x
-verify F or : or / <sep> / w y	yes
-produce m and not A	m F
-verify q <sep> d L T & q <	yes
-produce k or X or y	X k
-verify not j and and not F and and not i and and not L <sep> 1 / t U 1 p V m < 9 9 F L i j	no
-verify g or 3 or ] or M <sep> / M I 6 o g 3	yes
-produce M and not T and not B	M Z ,
-produce M and ;	; M
-verify S and Z <sep> $ e ^ h b	no
-verify m and q <sep> ` z } > m " l	no
-verify u or N <sep> j 5 X	no
-produce ? and b and ,	b , ?
-verify V or ) or C or s <sep> s C ) V	yes
-produce d and r	r d
-produce a and not ~ and S	a / S
-verify U and v and 8 <sep> v ` U 8 c	yes
-verify M or B or 2 or W <sep> W 2 M	yes
-produce e or B	e B
-verify not g and and not n and and i <sep> M g , I E 6 l Q g n	no
-produce O and not :	O @
-produce E and & and + and %	+ E & %
-produce u and B and N and \	\ N u B
-verify g <sep> f n , s	no
-verify not Q and and l and not 2 <sep> l f h T N . _ 8 . V	yes
-produce z or Q or j	j z
-produce 4 or ? or a	?
-verify { and not K <sep> { J	yes
-produce 9 and |	| 9
-verify N and G and q <sep> > Z Y x N U q G '	yes
-verify n <sep> n	yes
-verify 1 <sep> ' 1 F j e =	yes
-produce o and /	/ o
-verify ( <sep> O n o = q R	no
-produce q and f and n and h	f q h n
-produce A or *	A
-produce _ or ) or - or g	g _ -
-verify c or M or m <sep> ' X	no
-produce D and -	- D
+o and ( and F produce <eos>	erm erm erm ( o F	1 3 4 5 5 5 6
+P and J produce <eos>	erm erm P J	1 2 3 3 4
+5 verify N X <eos>	erm erm no	0 1 3 4
+% verify ] % + [ 2 # . i <eos>	erm erm yes	0 1 9 10
+5 or " or 4 or O produce <eos>	erm erm erm erm "	1 3 5 6 7 8
+C and | and . and = produce <eos>	erm erm erm erm = . C |	1 3 5 6 7 7 7 7 8
+a or ` or m or ; verify ` ? > I <eos>	erm erm erm erm erm yes	1 3 5 6 7 11 12
+b or L or F verify W e I <eos>	erm erm erm erm no	1 3 4 5 8 9
+i or 7 or k or l produce <eos>	erm erm erm erm l i 7	1 3 5 6 7 7 7 8
+R verify h V 7 [ < <eos>	erm erm no	0 1 6 7
+g and not . and t produce <eos>	erm erm erm g ( t	1 4 5 6 6 6 7
+not 1 and ? and I produce <eos>	erm erm erm P ? I	2 4 5 6 6 6 7
++ or ` or i produce <eos>	erm erm erm ` +	1 3 4 5 5 6
+| or B or T or C produce <eos>	erm erm erm erm C	1 3 5 6 7 8
+= and M and ) and | produce <eos>	erm erm erm erm | = M )	1 3 5 6 7 7 7 7 8
+H verify ; U H <eos>	erm erm yes	0 1 4 5
+a and not ^ and not ^ produce <eos>	erm erm erm a D }	1 4 6 7 7 7 8
+q verify N ? ] <eos>	erm erm no	0 1 4 5
+u or q produce <eos>	erm erm q u	1 2 3 3 4
+u or N or + or h produce <eos>	erm erm erm erm +	1 3 5 6 7 8
+Q and ] and + and V verify Q V + ] <eos>	erm erm erm erm erm yes	1 3 5 6 7 11 12
+i and not m and [ and not % produce <eos>	erm erm erm erm i M [ z	1 4 6 8 9 9 9 9 10
+y or 4 or 2 produce <eos>	erm erm erm 4 y 2	1 3 4 5 5 5 6
+O or Y or 4 verify O n . $ Y 4 x Q <eos>	erm erm erm erm yes	1 3 4 5 13 14
+# and o and N and + produce <eos>	erm erm erm erm # N + o	1 3 5 6 7 7 7 7 8
+not o and not 7 produce <eos>	erm erm O i	2 4 5 5 6
+e and ; verify U ] f ; / e : <eos>	erm erm erm yes	1 2 3 10 11
+not ! and $ and L verify Q c K [ p ! <eos>	erm erm erm erm no	2 4 5 6 12 13
+z or . or x produce <eos>	erm erm erm x	1 3 4 5 6
+N and j verify n ) ` ( j N Y <eos>	erm erm erm yes	1 2 3 10 11
+y or r verify O <eos>	erm erm erm no	1 2 3 4 5
+- and J and Q verify Q F 0 - J j n Q <eos>	erm erm erm erm yes	1 3 4 5 13 14
+T and > and a and not @ produce <eos>	erm erm erm erm T > a s	1 3 5 7 8 8 8 8 9
+not . and b produce <eos>	erm erm h b	2 3 4 4 5
+h and A produce <eos>	erm erm h A	1 2 3 3 4
+not 8 and r produce <eos>	erm erm n r	2 3 4 4 5
+E and not v and k and p produce <eos>	erm erm erm erm E z k p	1 4 6 7 8 8 8 8 9
+U and not r verify I r <eos>	erm erm erm no	1 3 4 6 7
+T and G and w produce <eos>	erm erm erm T G w	1 3 4 5 5 5 6
+1 and A and 5 verify + <eos>	erm erm erm erm no	1 3 4 5 6 7
+f and n and p verify p > Q n : f <eos>	erm erm erm erm yes	1 3 4 5 11 12
+2 or f produce <eos>	erm erm f	1 2 3 4
+& or e or @ produce <eos>	erm erm erm @ &	1 3 4 5 5 6
+0 verify q <eos>	erm erm no	0 1 2 3
+s or ' or O produce <eos>	erm erm erm O	1 3 4 5 6
+F or 0 verify B = <eos>	erm erm erm no	1 2 3 5 6
+/ and L and X and ' verify B l 2 E <eos>	erm erm erm erm erm no	1 3 5 6 7 11 12
+i or 7 produce <eos>	erm erm 7 i	1 2 3 3 4
+B or $ or Y produce <eos>	erm erm erm Y B	1 3 4 5 5 6
+0 or C verify _ 0 0 <eos>	erm erm erm yes	1 2 3 6 7
+m and F and f produce <eos>	erm erm erm f m F	1 3 4 5 5 5 6
+/ and t and not X verify h Q | / [ * E d X <eos>	erm erm erm erm no	1 3 5 6 15 16
+* or ^ or - produce <eos>	erm erm erm ^	1 3 4 5 6
+' and not R and not A verify 2 h 0 < - R A <eos>	erm erm erm erm no	1 4 6 7 14 15
+g verify i 7 u c } J <eos>	erm erm no	0 1 7 8
+S and ` and : and h verify S c : a 4 ` h <eos>	erm erm erm erm erm yes	1 3 5 6 7 14 15
+b and x verify b x Y d z j <eos>	erm erm erm yes	1 2 3 9 10
+; and e produce <eos>	erm erm e ;	1 2 3 3 4
+5 or 7 or F produce <eos>	erm erm erm 7	1 3 4 5 6
+I or y or 0 or ` produce <eos>	erm erm erm erm I 0 `	1 3 5 6 7 7 7 8
+not k and w verify i 9 q N Y k <eos>	erm erm erm no	2 3 4 10 11
+h or a or S or H verify l $ E M <eos>	erm erm erm erm erm no	1 3 5 6 7 11 12
+Q and ] and & and a produce <eos>	erm erm erm erm & ] a Q	1 3 5 6 7 7 7 7 8
+` or ' or 4 or R produce <eos>	erm erm erm erm 4	1 3 5 6 7 8
+u and h and N verify y N c \ u i h <eos>	erm erm erm erm yes	1 3 4 5 12 13
+C and p and r verify u & z G q <eos>	erm erm erm erm no	1 3 4 5 10 11
+} and ~ and E verify E ~ v } <eos>	erm erm erm erm yes	1 3 4 5 9 10
+not w and n and not 4 and not U verify E / s L Q ` n < <eos>	erm erm erm erm erm yes	2 4 7 9 10 18 19
+not S and . produce <eos>	erm erm 2 .	2 3 4 4 5
+not ; and not t produce <eos>	erm erm 3 =	2 4 5 5 6
+! and E and A and i produce <eos>	erm erm erm erm ! E i A	1 3 5 6 7 7 7 7 8
+- verify q Q G _ D A - <eos>	erm erm yes	0 1 8 9
+> or ' or > or p verify > g <eos>	erm erm erm erm erm no	1 3 5 6 7 9 10
+b or ! or 0 verify S o d 7 i L <eos>	erm erm erm erm no	1 3 4 5 11 12
+F or 4 verify 4 <eos>	erm erm erm yes	1 2 3 4 5
+M and \ and J and 9 produce <eos>	erm erm erm erm 9 M \ J	1 3 5 6 7 7 7 7 8
+U verify U D | <eos>	erm erm yes	0 1 4 5
+_ and < verify I u K ] _ 3 1 S < <eos>	erm erm erm yes	1 2 3 12 13
+X and > and / and M produce <eos>	erm erm erm erm / > M X	1 3 5 6 7 7 7 7 8
+_ and ) and S and c produce <eos>	erm erm erm erm ) S _ c	1 3 5 6 7 7 7 7 8
+h verify h <eos>	erm erm yes	0 1 2 3
+[ or [ or ! produce <eos>	erm erm erm [	1 3 4 5 6
+1 or d produce <eos>	erm erm d	1 2 3 4
+^ or S or j or X produce <eos>	erm erm erm erm X	1 3 5 6 7 8
+not * and w and $ produce <eos>	erm erm erm y w $	2 4 5 6 6 6 7
+d or D or i or # produce <eos>	erm erm erm erm d	1 3 5 6 7 8
+! or d or 0 or # verify p <eos>	erm erm erm erm erm no	1 3 5 6 7 8 9
+c or | or b or P produce <eos>	erm erm erm erm | P b	1 3 5 6 7 7 7 8
+9 and I verify 9 F H c I <eos>	erm erm erm yes	1 2 3 8 9
+} or ] or D or e verify H e < <eos>	erm erm erm erm erm yes	1 3 5 6 7 10 11
+not G and not D and not = verify p o , S <eos>	erm erm erm erm yes	2 5 7 8 12 13
+" or g or J verify f g <eos>	erm erm erm erm yes	1 3 4 5 7 8
+e and x produce <eos>	erm erm e x	1 2 3 3 4
+" verify t n & - <eos>	erm erm no	0 1 5 6
+not < and not j produce <eos>	erm erm & g	2 4 5 5 6
+\ verify \ ? u <eos>	erm erm yes	0 1 4 5
+c verify 1 X c <eos>	erm erm yes	0 1 4 5
+W or h or - verify ! 3 <eos>	erm erm erm erm no	1 3 4 5 7 8
+} and not W verify } 3 w x <eos>	erm erm erm yes	1 3 4 8 9
+d or M or U or > verify - G : <eos>	erm erm erm erm erm no	1 3 5 6 7 10 11
+< and E and B verify ' < B q $ c Y : E 2 <eos>	erm erm erm erm yes	1 3 4 5 15 16
+not H and not a produce <eos>	erm erm v l	2 4 5 5 6
+} and not | and - produce <eos>	erm erm erm } I -	1 4 5 6 6 6 7
+7 or Z produce <eos>	erm erm 7	1 2 3 4
+( and i and k produce <eos>	erm erm erm k ( i	1 3 4 5 5 5 6
+7 verify 7 <eos>	erm erm yes	0 1 2 3
+6 or h or v or k produce <eos>	erm erm erm erm v k 6	1 3 5 6 7 7 7 8
+not : and not ] verify , E e T & I 5 s % : ] <eos>	erm erm erm no	2 4 5 16 17
+P and } and P and | verify ' x h & 5 } P o <eos>	erm erm erm erm erm no	1 3 5 6 7 15 16
+B verify [ K o G <eos>	erm erm no	0 1 5 6
+not * and not S and not = and not - produce <eos>	erm erm erm erm W W ' !	2 5 8 10 11 11 11 11 12
+@ and @ and $ and ' verify W 3 : @ u @ $ ' x <eos>	erm erm erm erm erm yes	1 3 5 6 7 16 17
+O verify R & f I O <eos>	erm erm no	0 1 6 7
+R or 1 produce <eos>	erm erm 1	1 2 3 4
+not q and not N produce <eos>	erm erm M [	2 4 5 5 6
+C or b produce <eos>	erm erm C	1 2 3 4
+0 and d and 1 and not u produce <eos>	erm erm erm erm 0 d 1 2	1 3 5 7 8 8 8 8 9
+. or ; or - or ; produce <eos>	erm erm erm erm . ;	1 3 5 6 7 7 8
+T or e produce <eos>	erm erm T e	1 2 3 3 4
+not ` and not " and not 9 verify ^ p $ ; ! I <eos>	erm erm erm erm yes	2 5 7 8 14 15
+" verify H F k 3 l [ <eos>	erm erm no	0 1 7 8
+> or \ or Q produce <eos>	erm erm erm Q \ >	1 3 4 5 5 5 6
+not 5 and d produce <eos>	erm erm } d	2 3 4 4 5
+E verify ' <eos>	erm erm no	0 1 2 3
+D and ( and 6 produce <eos>	erm erm erm ( 6 D	1 3 4 5 5 5 6
+c and x and C and R verify D ` 8 S V c <eos>	erm erm erm erm erm no	1 3 5 6 7 13 14
+not B and not s and h verify ? N z Y B s <eos>	erm erm erm erm no	2 5 6 7 13 14
+7 and 2 and p and ? produce <eos>	erm erm erm erm ? 2 p 7	1 3 5 6 7 7 7 7 8
+not ' and not y and not v and not N produce <eos>	erm erm erm erm M + U =	2 5 8 10 11 11 11 11 12
+3 or i or q or ` produce <eos>	erm erm erm erm i	1 3 5 6 7 8
+m or = or V verify 9 _ # 4 <eos>	erm erm erm erm no	1 3 4 5 9 10
+not B and P and J verify o j W O . B <eos>	erm erm erm erm no	2 4 5 6 12 13
+T and M and ; produce <eos>	erm erm erm M T ;	1 3 4 5 5 5 6
+u and not 1 produce <eos>	erm erm u k	1 3 4 4 5
+2 verify 0 <eos>	erm erm no	0 1 2 3
+8 and @ verify @ 8 <eos>	erm erm erm yes	1 2 3 5 6
+7 verify F f G c / " l <eos>	erm erm no	0 1 8 9
+not ) and not < and not b produce <eos>	erm erm erm ? w =	2 5 7 8 8 8 9
+not " and ? and q and not p produce <eos>	erm erm erm erm H ? q F	2 4 6 8 9 9 9 9 10
+not % and l produce <eos>	erm erm N l	2 3 4 4 5
+not X and not @ produce <eos>	erm erm ) (	2 4 5 5 6
+not w and not ) and & and not S produce <eos>	erm erm erm erm 5 % & X	2 5 7 9 10 10 10 10 11
+3 or ` or V or " verify 8 " 6 ` <eos>	erm erm erm erm erm yes	1 3 5 6 7 11 12
+not i and not F and 0 verify A 3 O z @ F i <eos>	erm erm erm erm no	2 5 6 7 14 15
+d verify $ d <eos>	erm erm yes	0 1 3 4
+q or I or N verify a 6 } w b > <eos>	erm erm erm erm no	1 3 4 5 11 12
+3 and ] and ) verify b 6 N <eos>	erm erm erm erm no	1 3 4 5 8 9
+` and not h produce <eos>	erm erm ` [	1 3 4 4 5
+q and I and h and ` produce <eos>	erm erm erm erm I h ` q	1 3 5 6 7 7 7 7 8
+not ( and not f and not R produce <eos>	erm erm erm 7 x D	2 5 7 8 8 8 9
+4 and ` and % and i produce <eos>	erm erm erm erm % ` i 4	1 3 5 6 7 7 7 7 8
+I or - verify t r - j l / I 7 <eos>	erm erm erm yes	1 2 3 11 12
+P and not / and t and not ; produce <eos>	erm erm erm erm P o t :	1 4 6 8 9 9 9 9 10
+^ and T and I and ] verify ] T k c I ^ <eos>	erm erm erm erm erm yes	1 3 5 6 7 13 14
+_ and g verify w _ g E Z / M <eos>	erm erm erm yes	1 2 3 10 11
+W verify W c <eos>	erm erm yes	0 1 3 4
+C and not } produce <eos>	erm erm C N	1 3 4 4 5
+$ and H and not ) and $ produce <eos>	erm erm erm erm $ H U $	1 3 6 7 8 8 8 8 9
+not \ and not B and w produce <eos>	erm erm erm / n w	2 5 6 7 7 7 8
+_ or m or T or H verify _ D A m H T <eos>	erm erm erm erm erm yes	1 3 5 6 7 13 14
+P or z or . or Y produce <eos>	erm erm erm erm z	1 3 5 6 7 8
+/ or F or @ verify ' u / % <eos>	erm erm erm erm yes	1 3 4 5 9 10
+l verify y ( f ` z l <eos>	erm erm yes	0 1 7 8
+' or ' or A verify 8 j ' : % <eos>	erm erm erm erm no	1 3 4 5 10 11
+V verify V 8 ] $ <eos>	erm erm yes	0 1 5 6
+not 8 and not w verify , y Q ! ] 9 8 w <eos>	erm erm erm no	2 4 5 13 14
+v or ? or m produce <eos>	erm erm erm ? m v	1 3 4 5 5 5 6
+n verify p r { Z = ? <eos>	erm erm no	0 1 7 8
+M and G and Y produce <eos>	erm erm erm Y M G	1 3 4 5 5 5 6
+not ? and not 4 and not 7 and not d produce <eos>	erm erm erm erm 1 ' [ ]	2 5 8 10 11 11 11 11 12
+1 or # or { or ! verify { # x H 1 O u z <eos>	erm erm erm erm erm yes	1 3 5 6 7 15 16
+D and y produce <eos>	erm erm D y	1 2 3 3 4
+q or m verify m <eos>	erm erm erm yes	1 2 3 4 5
+Z and $ verify d $ Z s <eos>	erm erm erm yes	1 2 3 7 8
+} or q or " verify i I & W q <eos>	erm erm erm erm yes	1 3 4 5 10 11
+not x and 5 verify u m 5 T O 9 _ I 2 <eos>	erm erm erm yes	2 3 4 13 14
+p and s produce <eos>	erm erm p s	1 2 3 3 4
+not = and + and not ? verify " @ ' B ] f i + <eos>	erm erm erm erm yes	2 4 6 7 15 16
+B verify K q O ; g B I P <eos>	erm erm yes	0 1 9 10
+| and W and ; verify j W q ; # | <eos>	erm erm erm erm yes	1 3 4 5 11 12
+not = and not = and l verify l R D b K c z ) <eos>	erm erm erm erm yes	2 5 6 7 15 16
+c verify - | n 5 8 <eos>	erm erm no	0 1 6 7
+` or ~ or ( or o produce <eos>	erm erm erm erm ~ (	1 3 5 6 7 7 8
+P and not J and $ and M produce <eos>	erm erm erm erm P # $ M	1 4 6 7 8 8 8 8 9
+not 1 and ( and not V produce <eos>	erm erm erm O ( 4	2 4 6 7 7 7 8
+` and 2 and 2 produce <eos>	erm erm erm 2 2 `	1 3 4 5 5 5 6
+# and : and 5 and v produce <eos>	erm erm erm erm : 5 # v	1 3 5 6 7 7 7 7 8
+not ? and not m verify A I p S r P Z <eos>	erm erm erm yes	2 4 5 12 13
+V and ~ produce <eos>	erm erm ~ V	1 2 3 3 4
+o verify D <eos>	erm erm no	0 1 2 3
+not w and not ( and not $ verify r 6 G ( 4 ^ = % $ w ( <eos>	erm erm erm erm no	2 5 7 8 19 20
+not ` and not q and not h and not : produce <eos>	erm erm erm erm & ) - l	2 5 8 10 11 11 11 11 12
+N or 6 or K verify H ] o <eos>	erm erm erm erm no	1 3 4 5 8 9
+` and A produce <eos>	erm erm A `	1 2 3 3 4
+b or T produce <eos>	erm erm b T	1 2 3 3 4
+not c and not p verify / K D C T 4 w d W c p <eos>	erm erm erm no	2 4 5 16 17
+4 and Z and : produce <eos>	erm erm erm 4 : Z	1 3 4 5 5 5 6
+@ and $ produce <eos>	erm erm $ @	1 2 3 3 4
+K and J and ] verify . T $ Z s b <eos>	erm erm erm erm no	1 3 4 5 11 12
+s and m and | and I verify H <eos>	erm erm erm erm erm no	1 3 5 6 7 8 9
+not } and not - verify Z M 7 / e 5 o 5 - } <eos>	erm erm erm no	2 4 5 15 16
+Q verify Q * / F 0 <eos>	erm erm yes	0 1 6 7
+7 or # or ? produce <eos>	erm erm erm #	1 3 4 5 6
+% and * and not w verify % \ B H * B d <eos>	erm erm erm erm yes	1 3 5 6 13 14
+not b and not Q produce <eos>	erm erm + =	2 4 5 5 6
+} and not e and not 6 verify $ K w # S I N h } ( <eos>	erm erm erm erm yes	1 4 6 7 17 18
+4 and 1 and ( produce <eos>	erm erm erm 1 ( 4	1 3 4 5 5 5 6
+m verify { < 4 [ ) K m <eos>	erm erm yes	0 1 8 9
+| and t and P produce <eos>	erm erm erm P | t	1 3 4 5 5 5 6
+2 or i or F produce <eos>	erm erm erm F	1 3 4 5 6
+| and Y produce <eos>	erm erm | Y	1 2 3 3 4
+U and \ and y and Y verify * , S F <eos>	erm erm erm erm erm no	1 3 5 6 7 11 12
+n or G or ; or | produce <eos>	erm erm erm erm n |	1 3 5 6 7 7 8
+not L and [ and O verify N ; i L <eos>	erm erm erm erm no	2 4 5 6 10 11
+J and ` and + verify % 5 <eos>	erm erm erm erm no	1 3 4 5 7 8
+: or v or W or h verify [ L 1 D _ 3 <eos>	erm erm erm erm erm no	1 3 5 6 7 13 14
+J and w and g and T produce <eos>	erm erm erm erm g J w T	1 3 5 6 7 7 7 7 8
+4 or d or t verify F T [ <eos>	erm erm erm erm no	1 3 4 5 8 9
+\ and # and @ verify i Q W ' <eos>	erm erm erm erm no	1 3 4 5 9 10
+E or 3 or 6 or K verify J m # K x <eos>	erm erm erm erm erm no	1 3 5 6 7 12 13
+2 and v and 8 produce <eos>	erm erm erm 8 2 v	1 3 4 5 5 5 6
+L and not x and not > and not P produce <eos>	erm erm erm erm L % S -	1 4 7 9 10 10 10 10 11
+not ` and 3 produce <eos>	erm erm z 3	2 3 4 4 5
++ or E or ^ or _ verify W U # <eos>	erm erm erm erm erm no	1 3 5 6 7 10 11
+% or b verify a N b r / <eos>	erm erm erm yes	1 2 3 8 9
+\ or c or p verify p - ) \ E c W <eos>	erm erm erm erm yes	1 3 4 5 12 13
+= and / and U and not W produce <eos>	erm erm erm erm = / U O	1 3 5 7 8 8 8 8 9
+- or 9 verify " J <eos>	erm erm erm no	1 2 3 5 6
+{ or A or x or 4 verify ] ` g x s <eos>	erm erm erm erm erm no	1 3 5 6 7 12 13
+| and not z and P produce <eos>	erm erm erm | } P	1 4 5 6 6 6 7
+not P and not ~ and not D and not ) verify + < Z Z 6 q > D ) ~ P <eos>	erm erm erm erm erm no	2 5 8 10 11 22 23
+not 9 and e verify 2 L 9 <eos>	erm erm erm no	2 3 4 7 8
+p and not ( and u and m produce <eos>	erm erm erm erm p 8 u m	1 4 6 7 8 8 8 8 9
+` or l or 6 or O produce <eos>	erm erm erm erm 6 `	1 3 5 6 7 7 8
+not + and not " and : and not 3 verify @ K f : = } 4 L K <eos>	erm erm erm erm erm yes	2 5 7 9 10 19 20
+not ? and not a and not s verify ' > i * c a s ? <eos>	erm erm erm erm no	2 5 7 8 16 17
+not F and not y verify R # X x 0 " j 4 Q <eos>	erm erm erm yes	2 4 5 14 15
+' or Z or K or A produce <eos>	erm erm erm erm ' Z K	1 3 5 6 7 7 7 8
+not @ and / and - produce <eos>	erm erm erm E / -	2 4 5 6 6 6 7
+not % and [ and { and i verify > / Y } Y , f % <eos>	erm erm erm erm erm no	2 4 6 7 8 16 17
+c and j and X and $ produce <eos>	erm erm erm erm X $ j c	1 3 5 6 7 7 7 7 8
+l or + or 2 produce <eos>	erm erm erm 2 l	1 3 4 5 5 6
+n or M or ; or w produce <eos>	erm erm erm erm ; w	1 3 5 6 7 7 8
+N and not ? produce <eos>	erm erm N 3	1 3 4 4 5
+E and not ~ and K produce <eos>	erm erm erm E L K	1 4 5 6 6 6 7
+i and y and * and ' verify i l i 5 ' y * <eos>	erm erm erm erm erm yes	1 3 5 6 7 14 15
+not 0 and not % and not i verify K } & 9 j \ w m B > i % 0 <eos>	erm erm erm erm no	2 5 7 8 21 22
+/ verify B i / <eos>	erm erm yes	0 1 4 5
+not X and not o verify / : y " ; A \ * z X o <eos>	erm erm erm no	2 4 5 16 17
+\ and c verify p ^ 3 s O D <eos>	erm erm erm no	1 2 3 9 10
+G or = or n produce <eos>	erm erm erm n = G	1 3 4 5 5 5 6
+~ and s produce <eos>	erm erm ~ s	1 2 3 3 4
+@ and not F and L verify t L 6 @ A I > / & <eos>	erm erm erm erm yes	1 4 5 6 15 16
+< verify B < <eos>	erm erm yes	0 1 3 4
+a and c and 9 produce <eos>	erm erm erm a c 9	1 3 4 5 5 5 6
+D verify 2 B ] <eos>	erm erm no	0 1 4 5
+] and not @ produce <eos>	erm erm ] 6	1 3 4 4 5
+w and n and n and t produce <eos>	erm erm erm erm n t n w	1 3 5 6 7 7 7 7 8
+% and p produce <eos>	erm erm % p	1 2 3 3 4
+8 or q or 5 or f produce <eos>	erm erm erm erm q	1 3 5 6 7 8
+not f and o and 8 verify I e 8 M ! J 8 o . ? <eos>	erm erm erm erm yes	2 4 5 6 16 17
+/ verify / <eos>	erm erm yes	0 1 2 3
+l and ? produce <eos>	erm erm l ?	1 2 3 3 4
+N and ! produce <eos>	erm erm N !	1 2 3 3 4
+A and % and 5 verify ? H / J V <eos>	erm erm erm erm no	1 3 4 5 10 11
+& and W and ] verify / ] & ^ W U D <eos>	erm erm erm erm yes	1 3 4 5 12 13
+c and not _ and t and z produce <eos>	erm erm erm erm c F t z	1 4 6 7 8 8 8 8 9
+W verify ( W <eos>	erm erm yes	0 1 3 4
+not W and - and not H produce <eos>	erm erm erm C - h	2 4 6 7 7 7 8
+& and w and g and C produce <eos>	erm erm erm erm C w & g	1 3 5 6 7 7 7 7 8
+/ verify ` h X \ w <eos>	erm erm no	0 1 6 7
+> and not * and a and not x produce <eos>	erm erm erm erm > < a Q	1 4 6 8 9 9 9 9 10
+o or \ or f verify ` <eos>	erm erm erm erm no	1 3 4 5 6 7
+l verify O n s l ) <eos>	erm erm yes	0 1 6 7
+W or b or & or W produce <eos>	erm erm erm erm W &	1 3 5 6 7 7 8
+F and R and o and not l produce <eos>	erm erm erm erm F R o %	1 3 5 7 8 8 8 8 9
+I and ~ and % and " produce <eos>	erm erm erm erm ~ % I "	1 3 5 6 7 7 7 7 8
+3 and 2 produce <eos>	erm erm 3 2	1 2 3 3 4
+r or V or l produce <eos>	erm erm erm l V r	1 3 4 5 5 5 6
+I or " or = verify + = O <eos>	erm erm erm erm yes	1 3 4 5 8 9
+, or _ produce <eos>	erm erm _ ,	1 2 3 3 4
+not ; and H and = verify } = 8 H U f \ <eos>	erm erm erm erm yes	2 4 5 6 13 14
+not ? and not K produce <eos>	erm erm { m	2 4 5 5 6
+Q verify 9 <eos>	erm erm no	0 1 2 3
+7 and z and c and x verify 0 v = c x 7 w z ! ; <eos>	erm erm erm erm erm yes	1 3 5 6 7 17 18
+y verify y <eos>	erm erm yes	0 1 2 3
+5 or X or d or 5 verify 2 Q F 9 5 ` . ] <eos>	erm erm erm erm erm yes	1 3 5 6 7 15 16
+t or z or O or X verify v z O R <eos>	erm erm erm erm erm yes	1 3 5 6 7 11 12
+> or L or z or T produce <eos>	erm erm erm erm z T > L	1 3 5 6 7 7 7 7 8
+k and V produce <eos>	erm erm V k	1 2 3 3 4
+S and S and not a and not 6 verify S ~ s R S <eos>	erm erm erm erm erm yes	1 3 6 8 9 14 15
+8 or 1 verify a 1 8 <eos>	erm erm erm yes	1 2 3 6 7
+3 and P and _ verify 8 a ; < l o X <eos>	erm erm erm erm no	1 3 4 5 12 13
+I and not | and not g verify $ E | g <eos>	erm erm erm erm no	1 4 6 7 11 12
+not _ and a produce <eos>	erm erm 5 a	2 3 4 4 5
+` verify q ` h ( K Q % <eos>	erm erm yes	0 1 8 9
+not L and / produce <eos>	erm erm A /	2 3 4 4 5
+u or ] verify U = # a f @ u ] r <eos>	erm erm erm yes	1 2 3 12 13
+\ or A or z verify B G k p ; <eos>	erm erm erm erm no	1 3 4 5 10 11
+S and 3 verify 7 t <eos>	erm erm erm no	1 2 3 5 6
+not : and not h and not i produce <eos>	erm erm erm J X g	2 5 7 8 8 8 9
+~ and not O and 2 and 1 produce <eos>	erm erm erm erm ~ e 2 1	1 4 6 7 8 8 8 8 9
+) and H verify P F C B { 5 <eos>	erm erm erm no	1 2 3 9 10
+[ verify Y + 0 # P . @ <eos>	erm erm no	0 1 8 9
+5 verify 5 R A <eos>	erm erm yes	0 1 4 5
+P verify ( \ ; P u | <eos>	erm erm yes	0 1 7 8
+m and ] and not P verify ] M m / <eos>	erm erm erm erm yes	1 3 5 6 10 11
+S or b or C produce <eos>	erm erm erm C	1 3 4 5 6
+^ or " or = verify o <eos>	erm erm erm erm no	1 3 4 5 6 7
+u or 3 or : or ` verify V <eos>	erm erm erm erm erm no	1 3 5 6 7 8 9
+6 verify = d F H <eos>	erm erm no	0 1 5 6
+O or i produce <eos>	erm erm O i	1 2 3 3 4
+K or ^ verify L ` Q q K W <eos>	erm erm erm yes	1 2 3 9 10
+" or N produce <eos>	erm erm N	1 2 3 4
+_ or @ or 9 produce <eos>	erm erm erm @	1 3 4 5 6
+Z or 2 produce <eos>	erm erm 2 Z	1 2 3 3 4
+not M and x and @ produce <eos>	erm erm erm _ x @	2 4 5 6 6 6 7
+` verify 0 + u j A ` ` <eos>	erm erm yes	0 1 8 9
+not 9 and not n produce <eos>	erm erm D m	2 4 5 5 6
+i or % produce <eos>	erm erm %	1 2 3 4
+& or I or V or Q verify P y i / - <eos>	erm erm erm erm erm no	1 3 5 6 7 12 13
+x verify r 6 4 : q <eos>	erm erm no	0 1 6 7
+d or ( or L or { verify , k ; <eos>	erm erm erm erm erm no	1 3 5 6 7 10 11
+{ verify { <eos>	erm erm yes	0 1 2 3
+K and j and not ) and not " verify b , " ) <eos>	erm erm erm erm erm no	1 3 6 8 9 13 14
+m or [ or O or I produce <eos>	erm erm erm erm [ m I	1 3 5 6 7 7 7 8
+x verify x <eos>	erm erm yes	0 1 2 3
+! and i verify ' P y ! $ U + i <eos>	erm erm erm yes	1 2 3 11 12
+y and not 4 and not D produce <eos>	erm erm erm y l d	1 4 6 7 7 7 8
+u or l or F or d produce <eos>	erm erm erm erm F u l d	1 3 5 6 7 7 7 7 8
+) verify [ <eos>	erm erm no	0 1 2 3
+` and not & verify e ` , <eos>	erm erm erm yes	1 3 4 7 8
+! and 2 and K and ~ produce <eos>	erm erm erm erm 2 ! ~ K	1 3 5 6 7 7 7 7 8
+N or 9 verify C 9 t ) T N i I ' <eos>	erm erm erm yes	1 2 3 12 13
+S or | or + verify V S + o } <eos>	erm erm erm erm yes	1 3 4 5 10 11
+t and f and C and * verify e * N O t f H C <eos>	erm erm erm erm erm yes	1 3 5 6 7 15 16
+N or ~ produce <eos>	erm erm ~	1 2 3 4
+m or h or & or q verify S <eos>	erm erm erm erm erm no	1 3 5 6 7 8 9
+( verify U <eos>	erm erm no	0 1 2 3
+< or - or ? or ) verify V <eos>	erm erm erm erm erm no	1 3 5 6 7 8 9
+; or ` or q or h verify u s 1 <eos>	erm erm erm erm erm no	1 3 5 6 7 10 11
+not 0 and not p and n verify y ^ \ a M f a : p 0 <eos>	erm erm erm erm no	2 5 6 7 17 18
+U or x or 4 verify 4 x U <eos>	erm erm erm erm yes	1 3 4 5 8 9
+- or 6 verify _ Y @ + \ R 6 <eos>	erm erm erm no	1 2 3 10 11
+D and % and ! and 4 produce <eos>	erm erm erm erm D % ! 4	1 3 5 6 7 7 7 7 8
+; and j and 9 verify D m <eos>	erm erm erm erm no	1 3 4 5 7 8
+not J and not H and not t produce <eos>	erm erm erm ~ 0 5	2 5 7 8 8 8 9
+& or X or | or > produce <eos>	erm erm erm erm >	1 3 5 6 7 8
+D verify r | <eos>	erm erm no	0 1 3 4
+$ or w produce <eos>	erm erm w $	1 2 3 3 4
+n verify 1 d n <eos>	erm erm yes	0 1 4 5
+X or F or o or z verify z v 7 o X <eos>	erm erm erm erm erm yes	1 3 5 6 7 12 13
++ or p or " produce <eos>	erm erm erm + " p	1 3 4 5 5 5 6
++ or 9 or e or E verify 9 + E <eos>	erm erm erm erm erm yes	1 3 5 6 7 10 11
+\ and Y and P produce <eos>	erm erm erm P \ Y	1 3 4 5 5 5 6
+! and ! and V and l produce <eos>	erm erm erm erm V ! l !	1 3 5 6 7 7 7 7 8
+K or h or ( or q produce <eos>	erm erm erm erm K ( q h	1 3 5 6 7 7 7 7 8
+\ and w verify G <eos>	erm erm erm no	1 2 3 4 5
+not ( and not * and not A and not ( verify Q ) b i o 8 8 - y <eos>	erm erm erm erm erm yes	2 5 8 10 11 20 21
+S or J or H verify M ` x F <eos>	erm erm erm erm no	1 3 4 5 9 10
+z verify z V <eos>	erm erm yes	0 1 3 4
+y or K produce <eos>	erm erm K y	1 2 3 3 4
+X or * produce <eos>	erm erm *	1 2 3 4
+< or . or z produce <eos>	erm erm erm . z	1 3 4 5 5 6
+q or ? or r produce <eos>	erm erm erm ? r	1 3 4 5 5 6
+L and ( and x and c verify i c E L ? ( x <eos>	erm erm erm erm erm yes	1 3 5 6 7 14 15
+: and W verify : \ B s h W <eos>	erm erm erm yes	1 2 3 9 10
+| and J and a and v verify a E q v } | J <eos>	erm erm erm erm erm yes	1 3 5 6 7 14 15
+0 or > or $ or M verify < ^ G & ` / <eos>	erm erm erm erm erm no	1 3 5 6 7 13 14
+Q and ? verify i <eos>	erm erm erm no	1 2 3 4 5
+2 or % verify \ W e * % V A <eos>	erm erm erm yes	1 2 3 10 11
+not 5 and not $ and not 5 and not y verify N \ B + 2 [ v 3 P y 5 $ <eos>	erm erm erm erm erm no	2 5 8 10 11 23 24
+~ or K or B or ~ verify Z J q D # <eos>	erm erm erm erm erm no	1 3 5 6 7 12 13
+P and ) produce <eos>	erm erm P )	1 2 3 3 4
+not o and not s and not o produce <eos>	erm erm erm : } `	2 5 7 8 8 8 9
+Z verify N d s 4 + 8 <eos>	erm erm no	0 1 7 8
+< and _ and C produce <eos>	erm erm erm _ C <	1 3 4 5 5 5 6
+z or / or f or A verify ` \ G b K <eos>	erm erm erm erm erm no	1 3 5 6 7 12 13
+not a and not G verify " ` h . <eos>	erm erm erm yes	2 4 5 9 10
+v and K verify k Q 6 <eos>	erm erm erm no	1 2 3 6 7
+not B and not j and ) produce <eos>	erm erm erm E m )	2 5 6 7 7 7 8
+M or U or $ or F verify D 2 o [ U M { ^ 0 <eos>	erm erm erm erm erm yes	1 3 5 6 7 16 17
+` or % produce <eos>	erm erm `	1 2 3 4
+s or g or Q verify [ k > Z <eos>	erm erm erm erm no	1 3 4 5 9 10
+t or M verify M l s t % R K I u <eos>	erm erm erm yes	1 2 3 12 13
+} and P and V verify V } P <eos>	erm erm erm erm yes	1 3 4 5 8 9
+Z and h and d and F produce <eos>	erm erm erm erm Z F h d	1 3 5 6 7 7 7 7 8
+5 verify Q = k 5 c F ! <eos>	erm erm yes	0 1 8 9
+A or U or 1 or M verify Z , k o y h 5 <eos>	erm erm erm erm erm no	1 3 5 6 7 14 15
+A and 4 and d and 1 produce <eos>	erm erm erm erm A 1 d 4	1 3 5 6 7 7 7 7 8
+% and 4 and ? and 2 produce <eos>	erm erm erm erm 2 % 4 ?	1 3 5 6 7 7 7 7 8
+V and V and H verify Z H " V V <eos>	erm erm erm erm yes	1 3 4 5 10 11
+1 and M and % verify M % 1 3 <eos>	erm erm erm erm yes	1 3 4 5 9 10
+not 9 and not J produce <eos>	erm erm k Q	2 4 5 5 6
+p or o or I or + produce <eos>	erm erm erm erm o I p +	1 3 5 6 7 7 7 7 8
+w and W and $ and t produce <eos>	erm erm erm erm w t W $	1 3 5 6 7 7 7 7 8
+not ! and not ` produce <eos>	erm erm & I	2 4 5 5 6
+E verify E <eos>	erm erm yes	0 1 2 3
+5 or d or y or L verify + X ^ & . U T <eos>	erm erm erm erm erm no	1 3 5 6 7 14 15
+> and not L and b and not # verify : / s ; X L # <eos>	erm erm erm erm erm no	1 4 6 8 9 16 17
+T or ] or , or $ produce <eos>	erm erm erm erm , $	1 3 5 6 7 7 8
+r and / and t and , verify i t D j S H b ! r , / <eos>	erm erm erm erm erm yes	1 3 5 6 7 18 19
+G or a produce <eos>	erm erm G a	1 2 3 3 4
+z verify ` v g i Q . <eos>	erm erm no	0 1 7 8
+not I and R and not I produce <eos>	erm erm erm R R M	2 4 6 7 7 7 8
+l and s and " produce <eos>	erm erm erm " s l	1 3 4 5 5 5 6
+t verify 5 " t b s <eos>	erm erm yes	0 1 6 7
+R and % and not i verify x R U < v J % <eos>	erm erm erm erm yes	1 3 5 6 13 14
+o and # verify } $ s P o - e G # <eos>	erm erm erm yes	1 2 3 12 13
+P verify M <eos>	erm erm no	0 1 2 3
+z and z and not n verify B z O z <eos>	erm erm erm erm yes	1 3 5 6 10 11
+N and 6 produce <eos>	erm erm N 6	1 2 3 3 4
+not : and E and not I and F produce <eos>	erm erm erm erm > E A F	2 4 7 8 9 9 9 9 10
+not % and not f and not @ and not [ verify s ~ N x o , r 6 <eos>	erm erm erm erm erm yes	2 5 8 10 11 19 20
+3 and Q and h verify \ Q O h Y 3 3 <eos>	erm erm erm erm yes	1 3 4 5 12 13
+not _ and not V verify c f V _ <eos>	erm erm erm no	2 4 5 9 10
+7 or 0 produce <eos>	erm erm 0	1 2 3 4
+p or w or ! verify 5 = > <eos>	erm erm erm erm no	1 3 4 5 8 9
+A verify # D A <eos>	erm erm no	0 1 4 5
+_ or | produce <eos>	erm erm | _	1 2 3 3 4
+j and b and W produce <eos>	erm erm erm j W b	1 3 4 5 5 5 6
+R and y and $ verify m S L y R $ <eos>	erm erm erm erm yes	1 3 4 5 11 12
+u or [ or 3 produce <eos>	erm erm erm 3 [ u	1 3 4 5 5 5 6
+m and & verify ! ] 9 A s <eos>	erm erm erm no	1 2 3 8 9
+M verify w & L D M V v <eos>	erm erm yes	0 1 8 9
+not k and not r and not $ and not , verify $ f - 4 P <eos>	erm erm erm erm erm yes	2 5 8 10 11 16 17
+" or D produce <eos>	erm erm D "	1 2 3 3 4
+: and ^ and s and not _ verify l . c m $ _ <eos>	erm erm erm erm erm no	1 3 5 7 8 14 15
+G or * or S produce <eos>	erm erm erm S	1 3 4 5 6
+D verify y D 8 + v 0 ~ <eos>	erm erm yes	0 1 8 9
+q and not + verify R - Z B U K + <eos>	erm erm erm no	1 3 4 11 12
+k and O produce <eos>	erm erm O k	1 2 3 3 4
+Z and u produce <eos>	erm erm u Z	1 2 3 3 4
+= and @ and J and g produce <eos>	erm erm erm erm g = J @	1 3 5 6 7 7 7 7 8
+F or v or s or 5 produce <eos>	erm erm erm erm F	1 3 5 6 7 8
+not ! and not R produce <eos>	erm erm W l	2 4 5 5 6
+s and K produce <eos>	erm erm s K	1 2 3 3 4
+w verify v < <eos>	erm erm no	0 1 3 4
+not @ and S and M and L produce <eos>	erm erm erm erm 8 S M L	2 4 6 7 8 8 8 8 9
+t and not U and not P produce <eos>	erm erm erm t b K	1 4 6 7 7 7 8
+$ or o or x or * verify | C H Q <eos>	erm erm erm erm erm no	1 3 5 6 7 11 12
+- and < produce <eos>	erm erm < -	1 2 3 3 4
+R and not A and not o produce <eos>	erm erm erm R U z	1 4 6 7 7 7 8
+j and L and ] produce <eos>	erm erm erm ] L j	1 3 4 5 5 5 6
+@ verify 0 <eos>	erm erm no	0 1 2 3
+x and 2 and not A verify D k 8 9 w A <eos>	erm erm erm erm no	1 3 5 6 12 13
+not s and not W and not - verify y t G ] M <eos>	erm erm erm erm yes	2 5 7 8 13 14
+S verify ? N S 0 <eos>	erm erm yes	0 1 5 6
+y and U and A verify u q 1 U - y i e A H <eos>	erm erm erm erm yes	1 3 4 5 15 16
+q or % or 7 or 0 produce <eos>	erm erm erm erm 7 0 q %	1 3 5 6 7 7 7 7 8
+> or a produce <eos>	erm erm a	1 2 3 4
+not Z and not A and not ' and not l produce <eos>	erm erm erm erm r y 8 +	2 5 8 10 11 11 11 11 12
+p and " produce <eos>	erm erm p "	1 2 3 3 4
+e and not ^ and K verify 6 / B : M P ^ <eos>	erm erm erm erm no	1 4 5 6 13 14
+not r and not r produce <eos>	erm erm | ~	2 4 5 5 6
+T or h verify h T 6 <eos>	erm erm erm yes	1 2 3 6 7
+R and [ verify V <eos>	erm erm erm no	1 2 3 4 5
+0 and r and : produce <eos>	erm erm erm : 0 r	1 3 4 5 5 5 6
+, or M or / produce <eos>	erm erm erm , M	1 3 4 5 5 6
+c and r and not A verify r \ = W c 4 <eos>	erm erm erm erm yes	1 3 5 6 12 13
+not 1 and not ' and c verify F f * 1 ' <eos>	erm erm erm erm no	2 5 6 7 12 13
+H or ] or W or ) verify ] < <eos>	erm erm erm erm erm yes	1 3 5 6 7 9 10
+q and B and not g verify Y 4 v V H g <eos>	erm erm erm erm no	1 3 5 6 12 13
+| and C and G produce <eos>	erm erm erm | G C	1 3 4 5 5 5 6
+f and 2 and k produce <eos>	erm erm erm k f 2	1 3 4 5 5 5 6
+not " and not 6 and not q produce <eos>	erm erm erm 5 b #	2 5 7 8 8 8 9
+6 and p and Z produce <eos>	erm erm erm p 6 Z	1 3 4 5 5 5 6
+5 or c verify c 3 l 5 Y <eos>	erm erm erm yes	1 2 3 8 9
+7 and 1 verify 1 7 <eos>	erm erm erm yes	1 2 3 5 6
+" verify 3 9 $ " ` <eos>	erm erm yes	0 1 6 7
+& or H produce <eos>	erm erm & H	1 2 3 3 4
+a verify n a H V % : & f <eos>	erm erm yes	0 1 9 10
+4 or F or 5 or + produce <eos>	erm erm erm erm 4 F + 5	1 3 5 6 7 7 7 7 8
+B and 6 verify B C 6 , K a 0 <eos>	erm erm erm yes	1 2 3 10 11
+c or c verify H <eos>	erm erm erm no	1 2 3 4 5
+not j and t produce <eos>	erm erm v t	2 3 4 4 5
+3 verify 3 ? <eos>	erm erm yes	0 1 3 4
+{ and } and not $ and S produce <eos>	erm erm erm erm { } F S	1 3 6 7 8 8 8 8 9
+not - and ) produce <eos>	erm erm y )	2 3 4 4 5
+4 or A produce <eos>	erm erm A	1 2 3 4
+# and s produce <eos>	erm erm # s	1 2 3 3 4
+j verify [ i L A @ x 2 <eos>	erm erm no	0 1 8 9
+not . and not ) and x produce <eos>	erm erm erm } [ x	2 5 6 7 7 7 8
+not & and W produce <eos>	erm erm ; W	2 3 4 4 5
+not ` and 6 and not = verify Z * E x = ` <eos>	erm erm erm erm no	2 4 6 7 13 14
+X or U verify _ $ X q V U <eos>	erm erm erm yes	1 2 3 9 10
+4 verify \ b 4 <eos>	erm erm yes	0 1 4 5
+b verify u b ~ <eos>	erm erm yes	0 1 4 5
+y or O or 7 or # produce <eos>	erm erm erm erm O	1 3 5 6 7 8
+3 and V and ` produce <eos>	erm erm erm ` V 3	1 3 4 5 5 5 6
+N and not D and B and E verify 6 / c K H H & D <eos>	erm erm erm erm erm no	1 4 6 7 8 16 17
+y or 2 or Z produce <eos>	erm erm erm y	1 3 4 5 6
++ and s verify s S + " T s j V <eos>	erm erm erm yes	1 2 3 11 12
+_ and D verify : 3 / <eos>	erm erm erm no	1 2 3 6 7
+6 and " and B and ` verify - I <eos>	erm erm erm erm erm no	1 3 5 6 7 9 10
+P and T and not X produce <eos>	erm erm erm P T 0	1 3 5 6 6 6 7
+not [ and not % and 2 produce <eos>	erm erm erm 1 & 2	2 5 6 7 7 7 8
+L and f and 5 verify L d f p 0 q & ' 5 <eos>	erm erm erm erm yes	1 3 4 5 14 15
+f and not U verify 2 z d U <eos>	erm erm erm no	1 3 4 8 9
+* verify Q Z % * ! ] 4 <eos>	erm erm yes	0 1 8 9
+$ and not | and - produce <eos>	erm erm erm $ t -	1 4 5 6 6 6 7
+r and F and * verify F : <eos>	erm erm erm erm no	1 3 4 5 7 8
+9 verify . p Y 9 Z z a " <eos>	erm erm yes	0 1 9 10
+c and @ verify l @ n c c S d <eos>	erm erm erm yes	1 2 3 10 11
+u and | verify ) <eos>	erm erm erm no	1 2 3 4 5
+} or P or M or t produce <eos>	erm erm erm erm } t P M	1 3 5 6 7 7 7 7 8
+p and 8 and f and 4 produce <eos>	erm erm erm erm 4 p f 8	1 3 5 6 7 7 7 7 8
+[ verify ] f k 4 & ' 8 <eos>	erm erm no	0 1 8 9
+X verify h <eos>	erm erm no	0 1 2 3
+~ and not I and not I and 2 produce <eos>	erm erm erm erm ~ ( G 2	1 4 7 8 9 9 9 9 10
+z and not t and ( verify [ % ~ ~ ; N W } t <eos>	erm erm erm erm no	1 4 5 6 15 16
+Y and C and not 4 and not t verify W l t 4 <eos>	erm erm erm erm erm no	1 3 6 8 9 13 14
+not Q and not j produce <eos>	erm erm 4 R	2 4 5 5 6
+not a and not < and not c and not { produce <eos>	erm erm erm erm 8 2 y !	2 5 8 10 11 11 11 11 12
+S or P produce <eos>	erm erm P	1 2 3 4
+) and | produce <eos>	erm erm | )	1 2 3 3 4
+f and not k and not h and 1 produce <eos>	erm erm erm erm f B ) 1	1 4 7 8 9 9 9 9 10
+Y and { and > verify C ? } u H ^ <eos>	erm erm erm erm no	1 3 4 5 11 12
+N and ? verify b ? t f O g 6 N <eos>	erm erm erm yes	1 2 3 11 12
+W and j and L produce <eos>	erm erm erm j W L	1 3 4 5 5 5 6
+r or 5 or p or X verify R ` l D " L <eos>	erm erm erm erm erm no	1 3 5 6 7 13 14
+not & and v and not Q verify 3 x < v p <eos>	erm erm erm erm yes	2 4 6 7 12 13
+0 verify S 0 T o , # <eos>	erm erm yes	0 1 7 8
+not ^ and not w produce <eos>	erm erm T P	2 4 5 5 6
+; or < produce <eos>	erm erm <	1 2 3 4
+not ; and not W produce <eos>	erm erm ( n	2 4 5 5 6
+> and 0 and not 5 verify Q J 5 <eos>	erm erm erm erm no	1 3 5 6 9 10
+S and not _ and G and L produce <eos>	erm erm erm erm S F G L	1 4 6 7 8 8 8 8 9
+* or % or w verify e <eos>	erm erm erm erm no	1 3 4 5 6 7
+not s and O produce <eos>	erm erm [ O	2 3 4 4 5
+) and M produce <eos>	erm erm ) M	1 2 3 3 4
+m and . and " and j verify , n N ? a ( d <eos>	erm erm erm erm erm no	1 3 5 6 7 14 15
+I and % and k and A produce <eos>	erm erm erm erm I % k A	1 3 5 6 7 7 7 7 8
+O or p or 2 verify f <eos>	erm erm erm erm no	1 3 4 5 6 7
+not t and not @ produce <eos>	erm erm * *	2 4 5 5 6
+U and R and ' and c verify c , i 7 U ' Y R " <eos>	erm erm erm erm erm yes	1 3 5 6 7 16 17
+1 and i and Z and m produce <eos>	erm erm erm erm i Z m 1	1 3 5 6 7 7 7 7 8
+U or 1 or d verify , Y <eos>	erm erm erm erm no	1 3 4 5 7 8
+{ and _ and b produce <eos>	erm erm erm _ { b	1 3 4 5 5 5 6
+_ and " and s verify s _ " <eos>	erm erm erm erm yes	1 3 4 5 8 9
+h or ; or _ or P verify D [ : i _ R ; + u h <eos>	erm erm erm erm erm yes	1 3 5 6 7 17 18
+r and [ produce <eos>	erm erm [ r	1 2 3 3 4
+d and l and not k produce <eos>	erm erm erm d l s	1 3 5 6 6 6 7
+b or / or z produce <eos>	erm erm erm z	1 3 4 5 6
+Z and not F and ~ produce <eos>	erm erm erm Z X ~	1 4 5 6 6 6 7
+! or O or 5 or p produce <eos>	erm erm erm erm ! O 5 p	1 3 5 6 7 7 7 7 8
+{ or M or } produce <eos>	erm erm erm } M {	1 3 4 5 5 5 6
+not 9 and Y produce <eos>	erm erm K Y	2 3 4 4 5
+B and q verify X Q <eos>	erm erm erm no	1 2 3 5 6
+1 or v or m or # produce <eos>	erm erm erm erm v	1 3 5 6 7 8
+not S and not & produce <eos>	erm erm " x	2 4 5 5 6
+R and I and ' produce <eos>	erm erm erm R ' I	1 3 4 5 5 5 6
+not $ and e produce <eos>	erm erm < e	2 3 4 4 5
+( or I produce <eos>	erm erm I (	1 2 3 3 4
+7 verify @ k 7 s x <eos>	erm erm yes	0 1 6 7
+] or j or + verify T 8 U I } <eos>	erm erm erm erm no	1 3 4 5 10 11
+U verify U G N <eos>	erm erm yes	0 1 4 5
+( or r verify ; r = } x K h ( 9 <eos>	erm erm erm yes	1 2 3 12 13
+not / and r verify 0 > r r <eos>	erm erm erm yes	2 3 4 8 9
+i or p or I produce <eos>	erm erm erm p I	1 3 4 5 5 6
+{ or > verify ; R 3 <eos>	erm erm erm no	1 2 3 6 7
+not " and 0 and u and 7 produce <eos>	erm erm erm erm 1 0 u 7	2 4 6 7 8 8 8 8 9
+i verify i <eos>	erm erm yes	0 1 2 3
+o or ~ produce <eos>	erm erm ~ o	1 2 3 3 4
+w or ' verify ] c O H <eos>	erm erm erm no	1 2 3 7 8
+O or % verify P <eos>	erm erm erm no	1 2 3 4 5
+not 7 and y and Z and not 5 verify Z . # # V y ; <eos>	erm erm erm erm erm yes	2 4 6 8 9 16 17
+2 and ( verify < g G s A O . <eos>	erm erm erm no	1 2 3 10 11
+- and j and ? and a verify f - j a ) ? [ - <eos>	erm erm erm erm erm yes	1 3 5 6 7 15 16
+T and w and not $ produce <eos>	erm erm erm T w w	1 3 5 6 6 6 7
+4 and not , verify ` 4 <eos>	erm erm erm yes	1 3 4 6 7
++ verify 1 <eos>	erm erm no	0 1 2 3
+_ and not ; and not h verify _ R E 9 H d C Q <eos>	erm erm erm erm yes	1 4 6 7 15 16
+$ or $ or X verify s <eos>	erm erm erm erm no	1 3 4 5 6 7
+J and + and D verify U 7 T p | <eos>	erm erm erm erm no	1 3 4 5 10 11
+? or 6 or J or e verify n e J # / 6 ? i p b T <eos>	erm erm erm erm erm yes	1 3 5 6 7 18 19
+f and [ verify f [ 7 <eos>	erm erm erm yes	1 2 3 6 7
+= and < and K and h verify y K = ; < = ] h R h , <eos>	erm erm erm erm erm yes	1 3 5 6 7 18 19
+; or j produce <eos>	erm erm j	1 2 3 4
+\ or O or b or 4 verify \ 4 <eos>	erm erm erm erm erm yes	1 3 5 6 7 9 10
+not ] and not q verify : Q I @ K ` ] q <eos>	erm erm erm no	2 4 5 13 14
+> or ] or _ or , produce <eos>	erm erm erm erm > _ , ]	1 3 5 6 7 7 7 7 8
+y and not m produce <eos>	erm erm y !	1 3 4 4 5
+} and W produce <eos>	erm erm } W	1 2 3 3 4
+, or C or x verify q , B z D Z <eos>	erm erm erm erm yes	1 3 4 5 11 12
+g or s or Q or - verify u <eos>	erm erm erm erm erm no	1 3 5 6 7 8 9
+3 or m or : produce <eos>	erm erm erm 3 : m	1 3 4 5 5 5 6
+7 and not * and f and not / verify 9 g 6 * k X ~ f 7 ~ <eos>	erm erm erm erm erm yes	1 4 6 8 9 19 20
+not S and L and not X produce <eos>	erm erm erm U L n	2 4 6 7 7 7 8
+not f and 5 verify 5 < <eos>	erm erm erm yes	2 3 4 6 7
+R and 6 produce <eos>	erm erm 6 R	1 2 3 3 4
+( and not k and A and not f produce <eos>	erm erm erm erm ( o A E	1 4 6 8 9 9 9 9 10
+B and x and ^ produce <eos>	erm erm erm B ^ x	1 3 4 5 5 5 6
+not 3 and u and m verify 9 m u - 4 p <eos>	erm erm erm erm yes	2 4 5 6 12 13
+not # and not Z and V produce <eos>	erm erm erm y s V	2 5 6 7 7 7 8
+M verify W q M w y 8 <eos>	erm erm yes	0 1 7 8
+E and not g and not B and not J verify @ [ E K C z A <eos>	erm erm erm erm erm yes	1 4 7 9 10 17 18
+O and o produce <eos>	erm erm o O	1 2 3 3 4
+1 or r or , or o verify o ! N , r 1 <eos>	erm erm erm erm erm yes	1 3 5 6 7 13 14
+X or X or T or _ produce <eos>	erm erm erm erm X X T	1 3 5 6 7 7 7 8
+5 or U or o verify o 5 5 <eos>	erm erm erm erm yes	1 3 4 5 8 9
+x and z and y and Z verify q z Z 5 x y <eos>	erm erm erm erm erm yes	1 3 5 6 7 13 14
+? verify f ? U <eos>	erm erm yes	0 1 4 5
+A and c and n and 1 verify ) c A t 1 n <eos>	erm erm erm erm erm yes	1 3 5 6 7 13 14
+L and 4 and f verify * < \ V <eos>	erm erm erm erm no	1 3 4 5 9 10
+8 or 1 produce <eos>	erm erm 8	1 2 3 4
+not / and not r verify d e Y <eos>	erm erm erm yes	2 4 5 8 9
+E and F produce <eos>	erm erm F E	1 2 3 3 4
+p or F verify J z = <eos>	erm erm erm no	1 2 3 6 7
+k and K and not q and 8 produce <eos>	erm erm erm erm k K J 8	1 3 6 7 8 8 8 8 9
+w and not M and U and not Y produce <eos>	erm erm erm erm w ' U r	1 4 6 8 9 9 9 9 10
+! or + produce <eos>	erm erm + !	1 2 3 3 4
+not ( and D produce <eos>	erm erm L D	2 3 4 4 5
+P or . or > produce <eos>	erm erm erm . P >	1 3 4 5 5 5 6
+not S and , and X produce <eos>	erm erm erm - , X	2 4 5 6 6 6 7
+i or " or N or ( produce <eos>	erm erm erm erm "	1 3 5 6 7 8
+b and 1 and 2 and F verify ~ u | ^ <eos>	erm erm erm erm erm no	1 3 5 6 7 11 12
+. and & and m verify : & m m . , 4 5 2 } <eos>	erm erm erm erm yes	1 3 4 5 15 16
+% or [ or 3 produce <eos>	erm erm erm [ 3 %	1 3 4 5 5 5 6
+t and M verify u ) 0 <eos>	erm erm erm no	1 2 3 6 7
+h and not u and not r produce <eos>	erm erm erm h ~ 0	1 4 6 7 7 7 8
+[ and ' and L verify ` : f @ ' i [ L <eos>	erm erm erm erm yes	1 3 4 5 13 14
+> and ; and j produce <eos>	erm erm erm > j ;	1 3 4 5 5 5 6
+6 or _ or J verify i ] } p { ( * <eos>	erm erm erm erm no	1 3 4 5 12 13
+w and j and Y and B produce <eos>	erm erm erm erm Y w j B	1 3 5 6 7 7 7 7 8
+R or h or r produce <eos>	erm erm erm R	1 3 4 5 6
+j verify m W j <eos>	erm erm yes	0 1 4 5
+R verify R F ! <eos>	erm erm yes	0 1 4 5
+f and Z and F verify ( <eos>	erm erm erm erm no	1 3 4 5 6 7
+G verify - <eos>	erm erm no	0 1 2 3
+t and R verify t R ) <eos>	erm erm erm yes	1 2 3 6 7
+s verify I [ ( 1 s x " <eos>	erm erm yes	0 1 8 9
++ verify Q <eos>	erm erm no	0 1 2 3
+# and 0 produce <eos>	erm erm # 0	1 2 3 3 4
+not E and v produce <eos>	erm erm % v	2 3 4 4 5
+B and K and e verify E 6 <eos>	erm erm erm erm no	1 3 4 5 7 8
+" or ? produce <eos>	erm erm ? "	1 2 3 3 4
+[ and L and Y verify [ A y Q Y k p B [ L <eos>	erm erm erm erm yes	1 3 4 5 15 16
+| or ^ or S or $ produce <eos>	erm erm erm erm S | $	1 3 5 6 7 7 7 8
+Q verify { Q ~ <eos>	erm erm yes	0 1 4 5
+' and A and % verify A % 6 U 5 { ' <eos>	erm erm erm erm yes	1 3 4 5 12 13
+i verify d K u F & 4 i <eos>	erm erm yes	0 1 8 9
+" or A produce <eos>	erm erm "	1 2 3 4
+w or T or G produce <eos>	erm erm erm w G	1 3 4 5 5 6
+not T and not J and = and : verify + f g 3 T J <eos>	erm erm erm erm erm no	2 5 7 8 9 15 16
+: and not I and not 7 produce <eos>	erm erm erm : a M	1 4 6 7 7 7 8
+S or & or * or t produce <eos>	erm erm erm erm S * &	1 3 5 6 7 7 7 8
+# verify @ # x : ; <eos>	erm erm yes	0 1 6 7
+' or O produce <eos>	erm erm O	1 2 3 4
+c verify P Z <eos>	erm erm no	0 1 3 4
+h or k or Z produce <eos>	erm erm erm k Z	1 3 4 5 5 6
+I and not ? and not y and m produce <eos>	erm erm erm erm I Z M m	1 4 7 8 9 9 9 9 10
+z and 9 produce <eos>	erm erm z 9	1 2 3 3 4
+F and ` and 0 and q produce <eos>	erm erm erm erm ` 0 q F	1 3 5 6 7 7 7 7 8
+W or / or j produce <eos>	erm erm erm W	1 3 4 5 6
+not ] and not h verify L Z + L ] h <eos>	erm erm erm no	2 4 5 11 12
+not = and not a produce <eos>	erm erm * E	2 4 5 5 6
+I verify m <eos>	erm erm no	0 1 2 3
+T and Y and . and @ produce <eos>	erm erm erm erm Y @ . T	1 3 5 6 7 7 7 7 8
+* or T or x or X produce <eos>	erm erm erm erm x X *	1 3 5 6 7 7 7 8
+/ and f verify K / k l U ) g M f <eos>	erm erm erm yes	1 2 3 12 13
+, or # or 1 verify k > <eos>	erm erm erm erm no	1 3 4 5 7 8
+@ or ^ produce <eos>	erm erm ^ @	1 2 3 3 4
+h verify ' h - E s <eos>	erm erm yes	0 1 6 7
+h and not ` and not ! produce <eos>	erm erm erm h % <	1 4 6 7 7 7 8
+- and X and e produce <eos>	erm erm erm - e X	1 3 4 5 5 5 6
+u or q produce <eos>	erm erm q u	1 2 3 3 4
+# and u and h produce <eos>	erm erm erm u h #	1 3 4 5 5 5 6
+y and ( and A produce <eos>	erm erm erm y ( A	1 3 4 5 5 5 6
+not . and c and not x produce <eos>	erm erm erm q c e	2 4 6 7 7 7 8
+4 verify 4 <eos>	erm erm yes	0 1 2 3
+- or - or ^ produce <eos>	erm erm erm ^	1 3 4 5 6
+not = and not N and not B verify % P $ & ! = N B <eos>	erm erm erm erm no	2 5 7 8 16 17
+not 7 and ! produce <eos>	erm erm 8 !	2 3 4 4 5
+not 4 and not C and b verify ! N ] b | f ? Y 1 C 4 <eos>	erm erm erm erm no	2 5 6 7 18 19
+! and h and N and l produce <eos>	erm erm erm erm N h l !	1 3 5 6 7 7 7 7 8
+; or C or H produce <eos>	erm erm erm C ; H	1 3 4 5 5 5 6
+; and N and " and ` verify T 5 . " v & <eos>	erm erm erm erm erm no	1 3 5 6 7 13 14
+not F and not A and not L and not o verify ? $ s Q X Z ! r F L o A <eos>	erm erm erm erm erm no	2 5 8 10 11 23 24
+) verify ( ) j <eos>	erm erm yes	0 1 4 5
+1 and not f and b and [ verify q f <eos>	erm erm erm erm erm no	1 4 6 7 8 10 11
+| and j and q and a verify . o s | <eos>	erm erm erm erm erm no	1 3 5 6 7 11 12
+B or T or W or H produce <eos>	erm erm erm erm W H B	1 3 5 6 7 7 7 8
+M or % or O verify n <eos>	erm erm erm erm no	1 3 4 5 6 7
+M or \ or _ produce <eos>	erm erm erm _ M \	1 3 4 5 5 5 6
+not E and not T and not P verify o G n D W 2 <eos>	erm erm erm erm yes	2 5 7 8 14 15
+$ verify U k [ - $ u v <eos>	erm erm yes	0 1 8 9
+C and not W and x produce <eos>	erm erm erm C l x	1 4 5 6 6 6 7
+n and W produce <eos>	erm erm n W	1 2 3 3 4
+not N and not g and not ; and not 3 verify u * 1 w $ ` 1 n U ? <eos>	erm erm erm erm erm yes	2 5 8 10 11 21 22
+not u and not h and not 8 produce <eos>	erm erm erm o R ]	2 5 7 8 8 8 9
+M and M and M produce <eos>	erm erm erm M M M	1 3 4 5 5 5 6
+R and V and N produce <eos>	erm erm erm R N V	1 3 4 5 5 5 6
+r and b and p and t verify ? % y h S $ <eos>	erm erm erm erm erm no	1 3 5 6 7 13 14
+X and 9 and - produce <eos>	erm erm erm 9 X -	1 3 4 5 5 5 6
+i verify 6 ` / i <eos>	erm erm no	0 1 5 6
+< verify d < l <eos>	erm erm yes	0 1 4 5
+! and r and ' and 1 verify ' / r ! 1 <eos>	erm erm erm erm erm yes	1 3 5 6 7 12 13
+a verify ( ^ 6 , B I <eos>	erm erm no	0 1 7 8
+e and | and S produce <eos>	erm erm erm | e S	1 3 4 5 5 5 6
+( and 0 and 6 produce <eos>	erm erm erm 6 ( 0	1 3 4 5 5 5 6
+not t and not S produce <eos>	erm erm V `	2 4 5 5 6
+m and D and N produce <eos>	erm erm erm m D N	1 3 4 5 5 5 6
+d and f and r produce <eos>	erm erm erm r f d	1 3 4 5 5 5 6
+not Y and not J and not & and w produce <eos>	erm erm erm erm n ` 3 w	2 5 8 9 10 10 10 10 11
+k and o and [ verify z <eos>	erm erm erm erm no	1 3 4 5 6 7
+o and 2 and A verify s _ 5 % g <eos>	erm erm erm erm no	1 3 4 5 10 11
+M or n produce <eos>	erm erm n	1 2 3 4
+not I and not g and not ) and not - verify 2 Z X V o I ) - g <eos>	erm erm erm erm erm no	2 5 8 10 11 20 21
+i or w or A or M verify g M i A <eos>	erm erm erm erm erm yes	1 3 5 6 7 11 12
+K and 3 and 5 and q produce <eos>	erm erm erm erm K q 3 5	1 3 5 6 7 7 7 7 8
+S and z and not / and not g produce <eos>	erm erm erm erm S z ` T	1 3 6 8 9 9 9 9 10
+not 6 and not ! and not [ and not N produce <eos>	erm erm erm erm ' @ < :	2 5 8 10 11 11 11 11 12
+0 and ? produce <eos>	erm erm ? 0	1 2 3 3 4
+p or M or d or 2 verify j ) V , K 1 ~ <eos>	erm erm erm erm erm no	1 3 5 6 7 14 15
+: and q and 2 produce <eos>	erm erm erm : q 2	1 3 4 5 5 5 6
+K and not A and not 1 and + produce <eos>	erm erm erm erm K w h +	1 4 7 8 9 9 9 9 10
+not P and not / produce <eos>	erm erm z 8	2 4 5 5 6
+/ or j produce <eos>	erm erm j	1 2 3 4
+not # and not ~ and not + produce <eos>	erm erm erm * 1 X	2 5 7 8 8 8 9
+not O and not F verify u i w d c } % @ p F O <eos>	erm erm erm no	2 4 5 16 17
+P and < and - and ; produce <eos>	erm erm erm erm ; P - <	1 3 5 6 7 7 7 7 8
+E or N produce <eos>	erm erm N	1 2 3 4
+y and 4 and K produce <eos>	erm erm erm y 4 K	1 3 4 5 5 5 6
+{ and z and F verify 8 <eos>	erm erm erm erm no	1 3 4 5 6 7
+Y and T and j and Y produce <eos>	erm erm erm erm Y T j Y	1 3 5 6 7 7 7 7 8
+E and y and R produce <eos>	erm erm erm E y R	1 3 4 5 5 5 6
+V and not k and not ? and not A produce <eos>	erm erm erm erm V 8 0 Q	1 4 7 9 10 10 10 10 11
+> verify q > h <eos>	erm erm yes	0 1 4 5
+; and W verify ; W <eos>	erm erm erm yes	1 2 3 5 6
+X and w and ' and 0 verify k t M a <eos>	erm erm erm erm erm no	1 3 5 6 7 11 12
+b or ( or \ or $ verify [ F & <eos>	erm erm erm erm erm no	1 3 5 6 7 10 11
+R or % or 8 verify % + g l <eos>	erm erm erm erm yes	1 3 4 5 9 10
+I and l produce <eos>	erm erm I l	1 2 3 3 4
+x and T and T produce <eos>	erm erm erm T T x	1 3 4 5 5 5 6
+, and M verify 8 <eos>	erm erm erm no	1 2 3 4 5
+/ verify u z / 7 <eos>	erm erm yes	0 1 5 6
+O and 2 and b and * verify * <eos>	erm erm erm erm erm no	1 3 5 6 7 8 9
+M or a or Q produce <eos>	erm erm erm a Q	1 3 4 5 5 6
+m verify : i j T e 8 J m <eos>	erm erm yes	0 1 9 10
+not # and not M and not p verify [ 1 z T z - A 4 ] c <eos>	erm erm erm erm yes	2 5 7 8 18 19
+& or j or ] or 9 produce <eos>	erm erm erm erm & 9 ] j	1 3 5 6 7 7 7 7 8
+not U and not j and not X and not P produce <eos>	erm erm erm erm G N ` *	2 5 8 10 11 11 11 11 12
+z or A or k verify : z k A # Z 6 R U F <eos>	erm erm erm erm yes	1 3 4 5 15 16
+not Y and not L and not Z and \ verify } J W n J Z L Y <eos>	erm erm erm erm erm no	2 5 8 9 10 18 19
+not T and S and not t and 9 produce <eos>	erm erm erm erm y S k 9	2 4 7 8 9 9 9 9 10
+" or H or j or : verify : j <eos>	erm erm erm erm erm yes	1 3 5 6 7 9 10
+not w and not j produce <eos>	erm erm > N	2 4 5 5 6
+. or < or L or , produce <eos>	erm erm erm erm ,	1 3 5 6 7 8
+not f and not ~ and o and r produce <eos>	erm erm erm erm H w o r	2 5 7 8 9 9 9 9 10
+' and N and 8 and u produce <eos>	erm erm erm erm 8 N ' u	1 3 5 6 7 7 7 7 8
+m and not : and K verify < : <eos>	erm erm erm erm no	1 4 5 6 8 9
+$ verify & A V [ $ O o <eos>	erm erm yes	0 1 8 9
+= and not Q produce <eos>	erm erm = .	1 3 4 4 5
+1 and I and ' produce <eos>	erm erm erm ' I 1	1 3 4 5 5 5 6
+! and Y and [ and A verify Z 4 " <eos>	erm erm erm erm erm no	1 3 5 6 7 10 11
+z or @ or * or / verify z <eos>	erm erm erm erm erm yes	1 3 5 6 7 8 9
+} and e and W and X produce <eos>	erm erm erm erm W X e }	1 3 5 6 7 7 7 7 8
+F and b verify H F b z <eos>	erm erm erm yes	1 2 3 7 8
+X and H and not @ and { produce <eos>	erm erm erm erm X H = {	1 3 6 7 8 8 8 8 9
+N and I and N and V produce <eos>	erm erm erm erm N N V I	1 3 5 6 7 7 7 7 8
+o and 0 and ` and R produce <eos>	erm erm erm erm ` o 0 R	1 3 5 6 7 7 7 7 8
+e or g or D or < verify 0 | } q s v <eos>	erm erm erm erm erm no	1 3 5 6 7 13 14
+T or 9 verify | <eos>	erm erm erm no	1 2 3 4 5
+\ or c or k verify e G <eos>	erm erm erm erm no	1 3 4 5 7 8
+A verify A x <eos>	erm erm yes	0 1 3 4
+& and not = produce <eos>	erm erm & <	1 3 4 4 5
+* verify P <eos>	erm erm no	0 1 2 3
+G or < or ^ produce <eos>	erm erm erm G ^ <	1 3 4 5 5 5 6
+_ and @ and ] and / produce <eos>	erm erm erm erm _ @ ] /	1 3 5 6 7 7 7 7 8
+} or : verify ? < <eos>	erm erm erm no	1 2 3 5 6
+e and ^ and ? and v verify @ ~ . <eos>	erm erm erm erm erm no	1 3 5 6 7 10 11
+not y and not N and [ produce <eos>	erm erm erm ? O [	2 5 6 7 7 7 8
+q and % produce <eos>	erm erm q %	1 2 3 3 4
+o verify ' * 6 o P g d # <eos>	erm erm yes	0 1 9 10
+not 7 and not 0 and not N and not y produce <eos>	erm erm erm erm T m i Y	2 5 8 10 11 11 11 11 12
+not ] and not . and not c produce <eos>	erm erm erm k S h	2 5 7 8 8 8 9
+q or D or ( or v produce <eos>	erm erm erm erm D (	1 3 5 6 7 7 8
+q or D or r produce <eos>	erm erm erm q r	1 3 4 5 5 6
+3 and Z produce <eos>	erm erm 3 Z	1 2 3 3 4
+not _ and not w and g and not B produce <eos>	erm erm erm erm | C g I	2 5 7 9 10 10 10 10 11
+not w and j produce <eos>	erm erm u j	2 3 4 4 5
+x and not P produce <eos>	erm erm x y	1 3 4 4 5
+9 verify P w N / 9 + % <eos>	erm erm yes	0 1 8 9
+l and G and m and I verify j <eos>	erm erm erm erm erm no	1 3 5 6 7 8 9
+v or 1 or v or K produce <eos>	erm erm erm erm K v	1 3 5 6 7 7 8
+M verify M M <eos>	erm erm yes	0 1 3 4
+: or T or s or : verify : : s T <eos>	erm erm erm erm erm yes	1 3 5 6 7 11 12
+& and ] verify ~ k % ( <eos>	erm erm erm no	1 2 3 7 8
+I and 4 and 3 produce <eos>	erm erm erm 4 3 I	1 3 4 5 5 5 6
+o and Z produce <eos>	erm erm Z o	1 2 3 3 4
+not o and not % and Y and not L verify > ) D } _ Y 7 M <eos>	erm erm erm erm erm yes	2 5 7 9 10 18 19
+o or y or $ verify y o <eos>	erm erm erm erm yes	1 3 4 5 7 8
+L and p and $ and 4 verify 3 d $ <eos>	erm erm erm erm erm no	1 3 5 6 7 10 11
+V verify h V , e 5 s n [ <eos>	erm erm yes	0 1 9 10
+j and 9 and W and 3 verify a <eos>	erm erm erm erm erm no	1 3 5 6 7 8 9
+not R and not { and not Y and not M verify C A 3 ; B g K Y E <eos>	erm erm erm erm erm yes	2 5 8 10 11 20 21
+K verify | V d p K 6 <eos>	erm erm yes	0 1 7 8
+7 and not O produce <eos>	erm erm 7 +	1 3 4 4 5
+" and y and ! and O produce <eos>	erm erm erm erm y " O !	1 3 5 6 7 7 7 7 8
+H or \ or ^ produce <eos>	erm erm erm \ H ^	1 3 4 5 5 5 6
+$ and W and * and b produce <eos>	erm erm erm erm $ W * b	1 3 5 6 7 7 7 7 8
+not l and not m and q verify N Y ; p G S O d m l <eos>	erm erm erm erm no	2 5 6 7 17 18
+8 and 4 and E and ? produce <eos>	erm erm erm erm 8 ? 4 E	1 3 5 6 7 7 7 7 8
+% or r or 0 verify S 7 <eos>	erm erm erm erm no	1 3 4 5 7 8
+C or C or . produce <eos>	erm erm erm . C	1 3 4 5 5 6
+a verify b n R [ < <eos>	erm erm no	0 1 6 7
+B verify K 8 N y t I <eos>	erm erm no	0 1 7 8
+E and - verify ! E / c - ) <eos>	erm erm erm yes	1 2 3 9 10
+not & and not w and t produce <eos>	erm erm erm ' d t	2 5 6 7 7 7 8
+not l and i and not ( produce <eos>	erm erm erm = i )	2 4 6 7 7 7 8
+D and ` and not q produce <eos>	erm erm erm D ` ?	1 3 5 6 6 6 7
+* or ] or L or \ produce <eos>	erm erm erm erm ] *	1 3 5 6 7 7 8
+' or w verify ' w <eos>	erm erm erm yes	1 2 3 5 6
+not x and A and not f verify _ = k a ' v y A f x <eos>	erm erm erm erm no	2 4 6 7 17 18
+# and Z and 7 and \ verify 2 $ 6 r f c b <eos>	erm erm erm erm erm no	1 3 5 6 7 14 15
+} and a verify U <eos>	erm erm erm no	1 2 3 4 5
+t or \ verify $ ~ V d R \ n <eos>	erm erm erm yes	1 2 3 10 11
+{ or U produce <eos>	erm erm { U	1 2 3 3 4
+? or I produce <eos>	erm erm ?	1 2 3 4
+j or - or m verify / ~ s <eos>	erm erm erm erm no	1 3 4 5 8 9
+Q and @ and n produce <eos>	erm erm erm Q @ n	1 3 4 5 5 5 6
+W and - and H produce <eos>	erm erm erm - H W	1 3 4 5 5 5 6
+not C and not $ produce <eos>	erm erm m -	2 4 5 5 6
+not w and not C and P and not & produce <eos>	erm erm erm erm T 1 P Q	2 5 7 9 10 10 10 10 11
+` verify H . L % R <eos>	erm erm no	0 1 6 7
+& or ~ or + or & verify & <eos>	erm erm erm erm erm no	1 3 5 6 7 8 9
+d and z and r and c verify . 1 d 4 c r z I E " * <eos>	erm erm erm erm erm yes	1 3 5 6 7 18 19
+0 and d and not r produce <eos>	erm erm erm 0 d l	1 3 5 6 6 6 7
+( or b or ! or @ verify ! j ' <eos>	erm erm erm erm erm yes	1 3 5 6 7 10 11
+not Z and not [ and not C and 1 verify x - z Z [ C <eos>	erm erm erm erm erm no	2 5 8 9 10 16 17
+n verify n y n Z <eos>	erm erm yes	0 1 5 6
+~ or 7 or E or N produce <eos>	erm erm erm erm E ~ N 7	1 3 5 6 7 7 7 7 8
+not u and not : and T verify b ( 1 : u <eos>	erm erm erm erm no	2 5 6 7 12 13
+h and H and E verify } B P <eos>	erm erm erm erm no	1 3 4 5 8 9
+H or _ or q verify N * X < ( q % D _ H <eos>	erm erm erm erm yes	1 3 4 5 15 16
+h and W and P and 9 verify P 9 h l M W o <eos>	erm erm erm erm erm yes	1 3 5 6 7 14 15
+> and X and t produce <eos>	erm erm erm t X >	1 3 4 5 5 5 6
+M and > and ( verify R <eos>	erm erm erm erm no	1 3 4 5 6 7
+? verify i E n <eos>	erm erm no	0 1 4 5
+not @ and not b and g produce <eos>	erm erm erm r | g	2 5 6 7 7 7 8
+not t and not | produce <eos>	erm erm 1 5	2 4 5 5 6
+not e and } and not C produce <eos>	erm erm erm q } w	2 4 6 7 7 7 8
+not n and not , and not # verify r * ( a A v n , # <eos>	erm erm erm erm no	2 5 7 8 17 18
+Q and U and U and _ produce <eos>	erm erm erm erm Q _ U U	1 3 5 6 7 7 7 7 8
+X or L produce <eos>	erm erm X	1 2 3 4
+\ or 9 produce <eos>	erm erm 9 \	1 2 3 3 4
+not 3 and A produce <eos>	erm erm E A	2 3 4 4 5
+. or _ verify . T + _ <eos>	erm erm erm yes	1 2 3 7 8
+o verify D N 0 ! <eos>	erm erm no	0 1 5 6
+not 6 and not d produce <eos>	erm erm h M	2 4 5 5 6
+not u and not s and not j and not : verify e _ Y E . G J ~ @ g <eos>	erm erm erm erm erm yes	2 5 8 10 11 21 22
+not t and not o verify / w R 8 + d v u t o <eos>	erm erm erm no	2 4 5 15 16
+8 and f and d and 8 produce <eos>	erm erm erm erm 8 d f 8	1 3 5 6 7 7 7 7 8
+not ] and G verify ' G : V b Z 0 <eos>	erm erm erm yes	2 3 4 11 12
+l and A produce <eos>	erm erm l A	1 2 3 3 4
+o and o verify . f P s \ o $ ~ <eos>	erm erm erm no	1 2 3 11 12
+n or { or C produce <eos>	erm erm erm { n C	1 3 4 5 5 5 6
+not : and not I verify l n <eos>	erm erm erm yes	2 4 5 7 8
+not W and T and not n produce <eos>	erm erm erm F T c	2 4 6 7 7 7 8
+8 and : produce <eos>	erm erm : 8	1 2 3 3 4
+$ and not ! and d verify f ( , 9 ! ! <eos>	erm erm erm erm no	1 4 5 6 12 13
+not Q and not J and ) and _ verify ) e % v _ <eos>	erm erm erm erm erm yes	2 5 7 8 9 14 15
+> or C or - produce <eos>	erm erm erm > C -	1 3 4 5 5 5 6
+% and E and i and 0 produce <eos>	erm erm erm erm 0 E % i	1 3 5 6 7 7 7 7 8
+not \ and not j and not j and not > produce <eos>	erm erm erm erm O 0 H O	2 5 8 10 11 11 11 11 12
+\ and X and # verify Q n # <eos>	erm erm erm erm no	1 3 4 5 8 9
+= and not U produce <eos>	erm erm = "	1 3 4 4 5
+B and { and e and ] produce <eos>	erm erm erm erm e ] { B	1 3 5 6 7 7 7 7 8
+H and n and * and , produce <eos>	erm erm erm erm n H , *	1 3 5 6 7 7 7 7 8
+P and ~ and - verify 3 P ? ( - s - V ~ <eos>	erm erm erm erm yes	1 3 4 5 14 15
+] and not P verify 2 8 c B R 9 F o P <eos>	erm erm erm no	1 3 4 13 14
+not { and not Z and not 8 and not r verify B \ $ w & V 8 Z r { <eos>	erm erm erm erm erm no	2 5 8 10 11 21 22
+e verify > I R % e v <eos>	erm erm yes	0 1 7 8
+j or E or q verify u } <eos>	erm erm erm erm no	1 3 4 5 7 8
+M or c produce <eos>	erm erm c M	1 2 3 3 4
+not N and e verify e t . <eos>	erm erm erm yes	2 3 4 7 8
+) verify ) <eos>	erm erm yes	0 1 2 3
+E or 2 produce <eos>	erm erm 2 E	1 2 3 3 4
+Q verify 4 ] m 8 t F Q <eos>	erm erm yes	0 1 8 9
+& or S or S produce <eos>	erm erm erm & S S	1 3 4 5 5 5 6
+E and ( produce <eos>	erm erm ( E	1 2 3 3 4
+# verify # g U e <eos>	erm erm yes	0 1 5 6
+A and ! and ` and not ~ produce <eos>	erm erm erm erm A ! ` 6	1 3 5 7 8 8 8 8 9
+not y and not 4 verify R q F <eos>	erm erm erm yes	2 4 5 8 9
+s and m and v and _ verify s _ + * m S v ! J <eos>	erm erm erm erm erm yes	1 3 5 6 7 16 17
+not J and not { produce <eos>	erm erm 9 2	2 4 5 5 6
+0 or n verify n b G 4 f s U <eos>	erm erm erm yes	1 2 3 10 11
+i and d and k and x verify ] <eos>	erm erm erm erm erm no	1 3 5 6 7 8 9
+Q or U produce <eos>	erm erm U Q	1 2 3 3 4
+G or v or e or = verify 1 X <eos>	erm erm erm erm erm no	1 3 5 6 7 9 10
+7 and 2 and R and Y verify 0 # g u <eos>	erm erm erm erm erm no	1 3 5 6 7 11 12
+not v and not ? and not ` and not H verify \ P F " G <eos>	erm erm erm erm erm yes	2 5 8 10 11 16 17
+v or F produce <eos>	erm erm v F	1 2 3 3 4
+C and U and not n verify C 0 U <eos>	erm erm erm erm yes	1 3 5 6 9 10
+not V and not K and not < and not l verify H s L Z - g R 0 ' ; < V K l <eos>	erm erm erm erm erm no	2 5 8 10 11 25 26
+not E and not } and not W verify 6 ^ g . * $ } W E <eos>	erm erm erm erm no	2 5 7 8 17 18
+not A and not % and 4 and not i verify I , P [ o \ 4 S <eos>	erm erm erm erm erm yes	2 5 7 9 10 18 19
+! verify k <eos>	erm erm no	0 1 2 3
+F or l produce <eos>	erm erm F	1 2 3 4
+3 and not N and l and h produce <eos>	erm erm erm erm 3 ' l h	1 4 6 7 8 8 8 8 9
+> or O or Y verify 6 R \ { D <eos>	erm erm erm erm no	1 3 4 5 10 11
+J and not I and not j and . verify $ V y r 6 E J . 3 - q <eos>	erm erm erm erm erm yes	1 4 7 8 9 20 21
+9 and Q and 9 and m verify s a x Z 9 \ 3 <eos>	erm erm erm erm erm no	1 3 5 6 7 14 15
+8 and , and b verify , M n 3 8 b <eos>	erm erm erm erm yes	1 3 4 5 11 12
+? or ? or V verify ? V <eos>	erm erm erm erm yes	1 3 4 5 7 8
+^ and * produce <eos>	erm erm ^ *	1 2 3 3 4
+p and r produce <eos>	erm erm r p	1 2 3 3 4
+not q and not ^ verify P o d ^ q <eos>	erm erm erm no	2 4 5 10 11
+H and P and j verify H j P T } _ u <eos>	erm erm erm erm yes	1 3 4 5 12 13
+& and e produce <eos>	erm erm & e	1 2 3 3 4
+T and not ~ verify H , T <eos>	erm erm erm yes	1 3 4 7 8
+I and h and E and R produce <eos>	erm erm erm erm R E h I	1 3 5 6 7 7 7 7 8
+not 2 and not O and not R and 6 produce <eos>	erm erm erm erm z g C 6	2 5 8 9 10 10 10 10 11
+$ verify 1 Q <eos>	erm erm no	0 1 3 4
+not 9 and not b produce <eos>	erm erm j Z	2 4 5 5 6
+2 and D produce <eos>	erm erm D 2	1 2 3 3 4
+not 8 and ~ and v and : produce <eos>	erm erm erm erm N ~ v :	2 4 6 7 8 8 8 8 9
+6 and 5 and 3 and I produce <eos>	erm erm erm erm I 3 5 6	1 3 5 6 7 7 7 7 8
+1 or f or p verify n X ( f T f V 4 p <eos>	erm erm erm erm yes	1 3 4 5 14 15
+J verify J - <eos>	erm erm yes	0 1 3 4
+h and ? and 3 produce <eos>	erm erm erm h ? 3	1 3 4 5 5 5 6
+P verify P k ' V : z G t <eos>	erm erm yes	0 1 9 10
+< or \ or * produce <eos>	erm erm erm < \	1 3 4 5 5 6
+not ? and v produce <eos>	erm erm ( v	2 3 4 4 5
+L or y or M or 1 verify 1 M + y l L <eos>	erm erm erm erm erm yes	1 3 5 6 7 13 14
+} or } produce <eos>	erm erm }	1 2 3 4
+not | and ] and not ^ produce <eos>	erm erm erm K ] e	2 4 6 7 7 7 8
+m and q and P and J verify ^ <eos>	erm erm erm erm erm no	1 3 5 6 7 8 9
+s and l and l produce <eos>	erm erm erm s l l	1 3 4 5 5 5 6
+# and + and # and l produce <eos>	erm erm erm erm l # + #	1 3 5 6 7 7 7 7 8
+W or M or c or ) produce <eos>	erm erm erm erm M	1 3 5 6 7 8
+Z verify [ Y Z R / h L <eos>	erm erm yes	0 1 8 9
+not ! and not f and not L verify 4 = M e v o w <eos>	erm erm erm erm yes	2 5 7 8 15 16
+not # and not ' and not V produce <eos>	erm erm erm d l d	2 5 7 8 8 8 9
+k verify 8 k K <eos>	erm erm yes	0 1 4 5
+i or c verify & ^ ! c <eos>	erm erm erm no	1 2 3 7 8
+O or 1 or E or [ produce <eos>	erm erm erm erm [	1 3 5 6 7 8
+D and ? verify ? D <eos>	erm erm erm yes	1 2 3 5 6
+. and , produce <eos>	erm erm , .	1 2 3 3 4
+1 and not { and f verify f v 1 d <eos>	erm erm erm erm yes	1 4 5 6 10 11
+not V and not _ and not ~ and not + verify S 8 \ L Z ? g a - <eos>	erm erm erm erm erm yes	2 5 8 10 11 20 21
+& verify & 7 f / E <eos>	erm erm yes	0 1 6 7
+not M and not R and { and c verify % T c { Z x d C <eos>	erm erm erm erm erm yes	2 5 7 8 9 17 18
+A or q produce <eos>	erm erm q	1 2 3 4
+not U and not w produce <eos>	erm erm / t	2 4 5 5 6
+f and not ! and not K and not [ produce <eos>	erm erm erm erm f q , .	1 4 7 9 10 10 10 10 11
+~ and V and I produce <eos>	erm erm erm V I ~	1 3 4 5 5 5 6
+L and / produce <eos>	erm erm L /	1 2 3 3 4
+d and D and E and I produce <eos>	erm erm erm erm D d I E	1 3 5 6 7 7 7 7 8
+F and Z verify : F 8 Z s p $ i <eos>	erm erm erm yes	1 2 3 11 12
+x and b and > produce <eos>	erm erm erm b > x	1 3 4 5 5 5 6
+g and not T and 9 produce <eos>	erm erm erm g h 9	1 4 5 6 6 6 7
+| or 9 or } produce <eos>	erm erm erm } 9 |	1 3 4 5 5 5 6
+W or s verify a <eos>	erm erm erm no	1 2 3 4 5
+) verify f g ) E N d <eos>	erm erm yes	0 1 7 8
+| and _ and not Q and } verify U T | _ ^ } % C <eos>	erm erm erm erm erm yes	1 3 6 7 8 16 17
+G verify s 7 K G M # c X <eos>	erm erm yes	0 1 9 10
+f verify c <eos>	erm erm no	0 1 2 3
+0 and b and p verify d <eos>	erm erm erm erm no	1 3 4 5 6 7
+} verify 5 <eos>	erm erm no	0 1 2 3
+0 and / verify x 0 / z <eos>	erm erm erm yes	1 2 3 7 8
+> and x and 9 produce <eos>	erm erm erm x > 9	1 3 4 5 5 5 6
++ and " and q produce <eos>	erm erm erm " + q	1 3 4 5 5 5 6
+b and $ and not L produce <eos>	erm erm erm b $ W	1 3 5 6 6 6 7
+not K and & and v verify I v & <eos>	erm erm erm erm yes	2 4 5 6 9 10
+not Q and not G produce <eos>	erm erm r i	2 4 5 5 6
+O and ! produce <eos>	erm erm O !	1 2 3 3 4
+not : and not H and ^ verify K g M = A H : <eos>	erm erm erm erm no	2 5 6 7 14 15
+J verify # <eos>	erm erm no	0 1 2 3
+t verify } <eos>	erm erm no	0 1 2 3
+) or _ verify | a ` A 9 l " <eos>	erm erm erm no	1 2 3 10 11
+N and not [ produce <eos>	erm erm N !	1 3 4 4 5
+B and not | and m verify 5 B z m ) <eos>	erm erm erm erm yes	1 4 5 6 11 12
+Z or N or Z or 7 produce <eos>	erm erm erm erm 7	1 3 5 6 7 8
+u and ~ and ? produce <eos>	erm erm erm ? u ~	1 3 4 5 5 5 6
+not K and not K produce <eos>	erm erm N |	2 4 5 5 6
+d and k and h and s produce <eos>	erm erm erm erm h s k d	1 3 5 6 7 7 7 7 8
+' and d and n verify V l H L c < <eos>	erm erm erm erm no	1 3 4 5 11 12
+} or b or C produce <eos>	erm erm erm b C	1 3 4 5 5 6
+f and : produce <eos>	erm erm : f	1 2 3 3 4
+8 or d verify 8 k <eos>	erm erm erm yes	1 2 3 5 6
+O and not 1 produce <eos>	erm erm O C	1 3 4 4 5
+d or Z or @ or x verify r # ^ J <eos>	erm erm erm erm erm no	1 3 5 6 7 11 12
+h and q and m produce <eos>	erm erm erm h m q	1 3 4 5 5 5 6
+K and 3 and q and + verify q + M @ T * 3 K <eos>	erm erm erm erm erm yes	1 3 5 6 7 15 16
+not 9 and not - verify 7 u T t g K g = - 9 <eos>	erm erm erm no	2 4 5 15 16
+not h and not o and not h and not O produce <eos>	erm erm erm erm " P 0 x	2 5 8 10 11 11 11 11 12
+; and c and t and , produce <eos>	erm erm erm erm , ; c t	1 3 5 6 7 7 7 7 8
+& or U or a or | produce <eos>	erm erm erm erm a | U	1 3 5 6 7 7 7 8
+[ and not i and not " and 4 produce <eos>	erm erm erm erm [ k I 4	1 4 7 8 9 9 9 9 10
+m and K and not V produce <eos>	erm erm erm m K k	1 3 5 6 6 6 7
+not H and > produce <eos>	erm erm W >	2 3 4 4 5
+e verify q <eos>	erm erm no	0 1 2 3
+A and y and w and t verify D A w t y <eos>	erm erm erm erm erm yes	1 3 5 6 7 12 13
+= and not & and - verify * b m & <eos>	erm erm erm erm no	1 4 5 6 10 11
+H or G or > produce <eos>	erm erm erm >	1 3 4 5 6
+p and y and L and $ verify d 8 v <eos>	erm erm erm erm erm no	1 3 5 6 7 10 11
+Z or 7 or \ or x verify Z x C 7 V \ <eos>	erm erm erm erm erm yes	1 3 5 6 7 13 14
+~ verify B <eos>	erm erm no	0 1 2 3
+~ verify j ^ * m < 7 <eos>	erm erm no	0 1 7 8
+r or 6 or m produce <eos>	erm erm erm r	1 3 4 5 6
+? or : or m or R produce <eos>	erm erm erm erm m	1 3 5 6 7 8
+W and not D verify 2 K W Y <eos>	erm erm erm yes	1 3 4 8 9
+, or , or b or x produce <eos>	erm erm erm erm b , x ,	1 3 5 6 7 7 7 7 8
+d and 3 and 6 and 2 produce <eos>	erm erm erm erm 3 d 6 2	1 3 5 6 7 7 7 7 8
+J and _ and < and ^ produce <eos>	erm erm erm erm J ^ < _	1 3 5 6 7 7 7 7 8
+< verify p C < <eos>	erm erm yes	0 1 4 5
+Q and b produce <eos>	erm erm b Q	1 2 3 3 4
+not T and not @ produce <eos>	erm erm y n	2 4 5 5 6
+not % and not @ verify i = [ z o ` c " c <eos>	erm erm erm yes	2 4 5 14 15
+y and not M verify ^ { M <eos>	erm erm erm no	1 3 4 7 8
+c and _ and a and Q produce <eos>	erm erm erm erm c a _ Q	1 3 5 6 7 7 7 7 8
+q and 8 produce <eos>	erm erm 8 q	1 2 3 3 4
+not K and g verify 5 r y g ? N @ ^ <eos>	erm erm erm yes	2 3 4 12 13
+b and C and . produce <eos>	erm erm erm C b .	1 3 4 5 5 5 6
+$ verify V a A M W p $ <eos>	erm erm yes	0 1 8 9
+L and b and / verify * U n <eos>	erm erm erm erm no	1 3 4 5 8 9
+s and V and a and m verify s a m S V <eos>	erm erm erm erm erm yes	1 3 5 6 7 12 13
+not & and not . produce <eos>	erm erm C /	2 4 5 5 6
+not 2 and \ and f and / verify : ' f \ / p ; <eos>	erm erm erm erm erm yes	2 4 6 7 8 15 16
+x verify p Y K <eos>	erm erm no	0 1 4 5
+not o and not b verify 9 s T o _ ] 2 f K <eos>	erm erm erm yes	2 4 5 14 15
+# or O or ' or 1 produce <eos>	erm erm erm erm ' O # 1	1 3 5 6 7 7 7 7 8
+= or 9 produce <eos>	erm erm = 9	1 2 3 3 4
+q and N and Z produce <eos>	erm erm erm N q Z	1 3 4 5 5 5 6
+< and V and j and P verify V P < j 9 <eos>	erm erm erm erm erm yes	1 3 5 6 7 12 13
+k or ~ or ~ produce <eos>	erm erm erm ~ k	1 3 4 5 5 6
+not ` and not ? and not N verify 2 _ @ o ^ <eos>	erm erm erm erm yes	2 5 7 8 13 14
+not 5 and not [ and not q and not R produce <eos>	erm erm erm erm @ ` } {	2 5 8 10 11 11 11 11 12
+( or p produce <eos>	erm erm ( p	1 2 3 3 4
+V and o and N and o produce <eos>	erm erm erm erm N o V o	1 3 5 6 7 7 7 7 8
+E and 3 and 3 and 7 produce <eos>	erm erm erm erm 3 7 3 E	1 3 5 6 7 7 7 7 8
+j or l verify A @ " w f p <eos>	erm erm erm no	1 2 3 9 10
+R and [ and v and not # produce <eos>	erm erm erm erm R [ v m	1 3 5 7 8 8 8 8 9
+V and 4 and K and " produce <eos>	erm erm erm erm V 4 " K	1 3 5 6 7 7 7 7 8
+' and s and 3 produce <eos>	erm erm erm 3 s '	1 3 4 5 5 5 6
+G and U and M produce <eos>	erm erm erm M U G	1 3 4 5 5 5 6
+not | and not T verify K l ; " | r , F <eos>	erm erm erm yes	2 4 5 13 14
+not Y and not 2 verify K N a H K l 8 <eos>	erm erm erm yes	2 4 5 12 13
+not @ and x and not / verify E \ 2 ) G s P @ / <eos>	erm erm erm erm no	2 4 6 7 16 17
+D or : or 0 produce <eos>	erm erm erm 0 D :	1 3 4 5 5 5 6
+not F and p produce <eos>	erm erm s p	2 3 4 4 5
+D or h or u verify h S $ <eos>	erm erm erm erm no	1 3 4 5 8 9
+S and u and " verify S Y V | " u 2 L <eos>	erm erm erm erm yes	1 3 4 5 13 14
+A verify 3 A & . o <eos>	erm erm yes	0 1 6 7
+k verify I k M <eos>	erm erm yes	0 1 4 5
++ and f and p produce <eos>	erm erm erm + p f	1 3 4 5 5 5 6
+k or + or u or q produce <eos>	erm erm erm erm q	1 3 5 6 7 8
+7 and D and ? produce <eos>	erm erm erm 7 ? D	1 3 4 5 5 5 6
+C verify C <eos>	erm erm yes	0 1 2 3
+^ or " or D or K verify p } k { - <eos>	erm erm erm erm erm no	1 3 5 6 7 12 13
+not i and not K produce <eos>	erm erm x u	2 4 5 5 6
+? verify D | p <eos>	erm erm no	0 1 4 5
+not B and e produce <eos>	erm erm s e	2 3 4 4 5
+7 and 5 and not k and ? produce <eos>	erm erm erm erm 7 5 5 ?	1 3 6 7 8 8 8 8 9
+not Z and not u produce <eos>	erm erm U V	2 4 5 5 6
+< and ) produce <eos>	erm erm < )	1 2 3 3 4
+2 verify 2 c ' b n I <eos>	erm erm yes	0 1 7 8
+_ or T or , or = produce <eos>	erm erm erm erm _ =	1 3 5 6 7 7 8
+V and 5 and ' and r produce <eos>	erm erm erm erm V r ' 5	1 3 5 6 7 7 7 7 8
+not 8 and 0 and not k verify { # ' y 8 k <eos>	erm erm erm erm no	2 4 6 7 13 14
+not > and not B and not S produce <eos>	erm erm erm F ' j	2 5 7 8 8 8 9
+: and 6 and I verify : 6 I <eos>	erm erm erm erm yes	1 3 4 5 8 9
+, verify k + <eos>	erm erm no	0 1 3 4
+k verify ^ M u k m i { 3 <eos>	erm erm yes	0 1 9 10
+8 or A or / verify / Z <eos>	erm erm erm erm yes	1 3 4 5 7 8
+_ or _ or T or ) verify E <eos>	erm erm erm erm erm no	1 3 5 6 7 8 9
+not . and not * produce <eos>	erm erm P ?	2 4 5 5 6
+; or W produce <eos>	erm erm W ;	1 2 3 3 4
+K or v or = verify = K <eos>	erm erm erm erm yes	1 3 4 5 7 8
+` or F or p produce <eos>	erm erm erm F ` p	1 3 4 5 5 5 6
+P and z produce <eos>	erm erm z P	1 2 3 3 4
+l or 0 produce <eos>	erm erm l	1 2 3 4
+- and V verify K % 7 A ; v E <eos>	erm erm erm no	1 2 3 10 11
+X or 0 verify w <eos>	erm erm erm no	1 2 3 4 5
+s and Z and 4 produce <eos>	erm erm erm Z s 4	1 3 4 5 5 5 6
+o and i and 8 and N produce <eos>	erm erm erm erm i N o 8	1 3 5 6 7 7 7 7 8
+G verify G I { <eos>	erm erm yes	0 1 4 5
+; verify U G . L <eos>	erm erm no	0 1 5 6
+d or E or % or k produce <eos>	erm erm erm erm % k d	1 3 5 6 7 7 7 8
+not j and not e verify E } 5 > e j <eos>	erm erm erm no	2 4 5 11 12
+A and 4 and m and f produce <eos>	erm erm erm erm m A f 4	1 3 5 6 7 7 7 7 8
+9 or H verify g v i % k r V <eos>	erm erm erm no	1 2 3 10 11
++ verify @ F U ^ s <eos>	erm erm no	0 1 6 7
+l and ! and A produce <eos>	erm erm erm ! l A	1 3 4 5 5 5 6
+M and U and W and ; produce <eos>	erm erm erm erm M ; U W	1 3 5 6 7 7 7 7 8
+D and v verify } $ <eos>	erm erm erm no	1 2 3 5 6
+c and ; and | produce <eos>	erm erm erm | ; c	1 3 4 5 5 5 6
+not 6 and not i and Z produce <eos>	erm erm erm x : Z	2 5 6 7 7 7 8
+F or v or A produce <eos>	erm erm erm v F	1 3 4 5 5 6
+Z or 4 or 7 verify Z 0 7 <eos>	erm erm erm erm yes	1 3 4 5 8 9
+S verify D h Q H , d % <eos>	erm erm no	0 1 8 9
+s and m produce <eos>	erm erm m s	1 2 3 3 4
+c and J produce <eos>	erm erm c J	1 2 3 3 4
+L or ) produce <eos>	erm erm ) L	1 2 3 3 4
+not ? and not V and [ produce <eos>	erm erm erm Q > [	2 5 6 7 7 7 8
+D and I and E and I produce <eos>	erm erm erm erm D I I E	1 3 5 6 7 7 7 7 8
+k and not 4 and not R and not y produce <eos>	erm erm erm erm k p / r	1 4 7 9 10 10 10 10 11
+G or / produce <eos>	erm erm G /	1 2 3 3 4
+d and not o produce <eos>	erm erm d v	1 3 4 4 5
+{ and Y produce <eos>	erm erm Y {	1 2 3 3 4
+F or E or k produce <eos>	erm erm erm k F E	1 3 4 5 5 5 6
+^ and T verify ' b T ^ <eos>	erm erm erm yes	1 2 3 7 8
+7 or s produce <eos>	erm erm 7	1 2 3 4
+P and 9 and . and Y produce <eos>	erm erm erm erm P . Y 9	1 3 5 6 7 7 7 7 8
+J and < produce <eos>	erm erm J <	1 2 3 3 4
+1 and not ! and o and R verify 1 R 0 o 6 <eos>	erm erm erm erm erm yes	1 4 6 7 8 13 14
+not < and not P and z and \ produce <eos>	erm erm erm erm O m z \	2 5 7 8 9 9 9 9 10
+not " and not H verify x B " g - { " H <eos>	erm erm erm no	2 4 5 13 14
+= and - and e and | produce <eos>	erm erm erm erm = - e |	1 3 5 6 7 7 7 7 8
+not 2 and not p and not * verify 8 - I m + 4 <eos>	erm erm erm erm yes	2 5 7 8 14 15
+@ and b and * produce <eos>	erm erm erm * b @	1 3 4 5 5 5 6
+& and H and x produce <eos>	erm erm erm H x &	1 3 4 5 5 5 6
+I and D and B verify < ] } <eos>	erm erm erm erm no	1 3 4 5 8 9
+, or / or n verify 3 W $ <eos>	erm erm erm erm no	1 3 4 5 8 9
+, and f and d verify $ d T f ] , <eos>	erm erm erm erm yes	1 3 4 5 11 12
+> verify % A q > <eos>	erm erm yes	0 1 5 6
+f or # produce <eos>	erm erm #	1 2 3 4
+1 verify ` <eos>	erm erm no	0 1 2 3
+D or " or s or d produce <eos>	erm erm erm erm D " d	1 3 5 6 7 7 7 8
+w or H produce <eos>	erm erm H	1 2 3 4
+4 and b verify 4 l b <eos>	erm erm erm yes	1 2 3 6 7
+" or 3 verify 2 k L 3 " < i <eos>	erm erm erm yes	1 2 3 10 11
+q and D and j verify ? <eos>	erm erm erm erm no	1 3 4 5 6 7
+] verify ^ G ] w ) <eos>	erm erm yes	0 1 6 7
+not " and not o and not R and not 0 produce <eos>	erm erm erm erm . J z $	2 5 8 10 11 11 11 11 12
+not r and not q produce <eos>	erm erm b :	2 4 5 5 6
+B or S verify ` + Z S <eos>	erm erm erm yes	1 2 3 7 8
+not R and not F and r produce <eos>	erm erm erm ] h r	2 5 6 7 7 7 8
+A or l or ( or 8 produce <eos>	erm erm erm erm A l	1 3 5 6 7 7 8
+r and u and p and I produce <eos>	erm erm erm erm p I u r	1 3 5 6 7 7 7 7 8
+^ verify 0 ; [ $ / <eos>	erm erm no	0 1 6 7
+N or ' or d produce <eos>	erm erm erm N	1 3 4 5 6
+not T and ) and w and } produce <eos>	erm erm erm erm $ ) w }	2 4 6 7 8 8 8 8 9
+b and B produce <eos>	erm erm b B	1 2 3 3 4
+not G and not ) produce <eos>	erm erm w 0	2 4 5 5 6
++ and h and _ and " verify d R < 6 C W <eos>	erm erm erm erm erm no	1 3 5 6 7 13 14
+# or h or f produce <eos>	erm erm erm f #	1 3 4 5 5 6
+4 or m or ' produce <eos>	erm erm erm m	1 3 4 5 6
+not f and not i verify 1 _ z m f i <eos>	erm erm erm no	2 4 5 11 12
+J and ; and { and b produce <eos>	erm erm erm erm b ; J {	1 3 5 6 7 7 7 7 8
+~ verify r w ; % h . F <eos>	erm erm no	0 1 8 9
+L or ( or 8 verify D q | 9 <eos>	erm erm erm erm no	1 3 4 5 9 10
+K and not N produce <eos>	erm erm K y	1 3 4 4 5
+not R and not Z and not " produce <eos>	erm erm erm T r -	2 5 7 8 8 8 9
+| or Q verify k @ W n <eos>	erm erm erm no	1 2 3 7 8
+" and ' and N produce <eos>	erm erm erm N ' "	1 3 4 5 5 5 6
+( and 3 and F and K produce <eos>	erm erm erm erm ( K 3 F	1 3 5 6 7 7 7 7 8
+| and 6 and & verify f & | Y 6 <eos>	erm erm erm erm yes	1 3 4 5 10 11
+N verify g < 1 n <eos>	erm erm no	0 1 5 6
+$ or @ or B produce <eos>	erm erm erm B $ @	1 3 4 5 5 5 6
+N and [ and not " produce <eos>	erm erm erm N [ .	1 3 5 6 6 6 7
+4 and not V and not 7 produce <eos>	erm erm erm 4 P }	1 4 6 7 7 7 8
+f verify 7 f <eos>	erm erm yes	0 1 3 4
+( and M and Z verify 9 <eos>	erm erm erm erm no	1 3 4 5 6 7
+z or & or T produce <eos>	erm erm erm & T z	1 3 4 5 5 5 6
+A or ( or % produce <eos>	erm erm erm % A (	1 3 4 5 5 5 6
+not \ and not O and k and { verify ) & - 8 " R C \ O <eos>	erm erm erm erm erm no	2 5 7 8 9 18 19
+O and R and l produce <eos>	erm erm erm O l R	1 3 4 5 5 5 6
+L verify s 8 ~ <eos>	erm erm no	0 1 4 5
+F and % verify % F ~ b <eos>	erm erm erm yes	1 2 3 7 8
+( verify q B ( ' p F / @ <eos>	erm erm yes	0 1 9 10
+not g and not S verify ~ ~ <eos>	erm erm erm yes	2 4 5 7 8
+6 or + or s or 2 produce <eos>	erm erm erm erm 6	1 3 5 6 7 8
+not % and [ produce <eos>	erm erm o [	2 3 4 4 5
+] and m and ] verify ] <eos>	erm erm erm erm no	1 3 4 5 6 7
+K and O and r and 0 produce <eos>	erm erm erm erm r K O 0	1 3 5 6 7 7 7 7 8
+8 or u produce <eos>	erm erm 8	1 2 3 4
+N or O or A or ' produce <eos>	erm erm erm erm O	1 3 5 6 7 8
+" and G and V and . verify Z . } V N 6 " . G <eos>	erm erm erm erm erm yes	1 3 5 6 7 16 17
+H and ? and e and } verify = ( <eos>	erm erm erm erm erm no	1 3 5 6 7 9 10
+not < and not Q and not W and not / produce <eos>	erm erm erm erm [ G > h	2 5 8 10 11 11 11 11 12
+J or . produce <eos>	erm erm J	1 2 3 4
+not o and not O and l produce <eos>	erm erm erm ' 1 l	2 5 6 7 7 7 8
+' or % or p or p produce <eos>	erm erm erm erm p '	1 3 5 6 7 7 8
+P and c produce <eos>	erm erm c P	1 2 3 3 4
+# and > and 7 verify & ~ 7 B U <eos>	erm erm erm erm no	1 3 4 5 10 11
+0 verify 0 <eos>	erm erm yes	0 1 2 3
+T and < produce <eos>	erm erm T <	1 2 3 3 4
+' and not z and not 1 and 5 verify : ' ^ . d 1 z <eos>	erm erm erm erm erm no	1 4 7 8 9 16 17
+o verify t m k + Q <eos>	erm erm no	0 1 6 7
+/ and n verify ) <eos>	erm erm erm no	1 2 3 4 5
+d or # or n verify n t d b & 6 7 < <eos>	erm erm erm erm yes	1 3 4 5 13 14
+i and 7 and not q produce <eos>	erm erm erm i 7 `	1 3 5 6 6 6 7
+= and c and _ produce <eos>	erm erm erm = c _	1 3 4 5 5 5 6
+k and d and 4 produce <eos>	erm erm erm d k 4	1 3 4 5 5 5 6
+f or 4 or $ verify { L <eos>	erm erm erm erm no	1 3 4 5 7 8
+4 or F or z or k verify 8 P W 6 1 y A <eos>	erm erm erm erm erm no	1 3 5 6 7 14 15
+u and p produce <eos>	erm erm p u	1 2 3 3 4
+not : and not 3 and v produce <eos>	erm erm erm i r v	2 5 6 7 7 7 8
+l or + or ! or 8 produce <eos>	erm erm erm erm l	1 3 5 6 7 8
+$ and ) and } produce <eos>	erm erm erm $ } )	1 3 4 5 5 5 6
+f or # or Z produce <eos>	erm erm erm f	1 3 4 5 6
+6 or Q verify 2 <eos>	erm erm erm no	1 2 3 4 5
+0 and not 8 and not ? and not I produce <eos>	erm erm erm erm 0 r c k	1 4 7 9 10 10 10 10 11
+; and N verify z <eos>	erm erm erm no	1 2 3 4 5
+7 and Y verify ? q <eos>	erm erm erm no	1 2 3 5 6
+not / and not X and not . and not $ produce <eos>	erm erm erm erm 0 x @ @	2 5 8 10 11 11 11 11 12
+not O and not ? and not R produce <eos>	erm erm erm I ' /	2 5 7 8 8 8 9

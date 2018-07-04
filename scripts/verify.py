@@ -25,23 +25,33 @@ random.shuffle(alphabets)
 subset1 = alphabets[:pidx]
 subset2 = alphabets[pidx:]
 operators = ['copy','and', 'or', 'not']
+ponder = 'erm'
+eois = '<eos>'
+def attn_list(sep):
+    ## Get attention
+    sep = sep.split(' ')
+    temp_attn = []
+    indices = [i for i, x in enumerate(sep) if x == "and" or x == "or"]
+    temp_attn.extend(indices)
+    ver_idx = sep.index('verify')
+    temp_attn.extend([ver_idx - 1, ver_idx])
+    temp_attn.append(len(sep) - 1)
+    return(temp_attn)
 
-def attn_list(ps, ipt, binary, gate=''):
-    sep = ['<sep>']
-    temp_ipt = list(set(ipt) - set(['verify', 'and', 'or', 'not']))
+
+def lookup_str(ps, ipt, binary, token, gate=''):
+    sep = [token] #['<sep>']
+    temp_ipt = list(set(ipt) - set(['and', 'or', 'not'])) #'verify',
     size = random.sample(np.arange(0, opt.max_test_com + 1, dtype=int).tolist(), 1)
     ps.extend(np.random.choice(alphabets, size=size, replace=False).tolist())
     random.shuffle(ps)
-    # temp_attn = []
-    # for s in ipt:
-    #     temp_attn.append(ipt.index(s))
     if(binary=='no' and gate != 'not'):
         for word in temp_ipt:
             if word in ps:
                 ps.pop(ps.index(word))
-            if(len(ps)==0):
-                temp_alphabets = list(set(alphabets) - set(temp_ipt))
-                ps.append(np.random.choice(temp_alphabets, size=1)[0])
+        if(len(ps)==0):
+            temp_alphabets = list(set(alphabets) - set(temp_ipt))
+            ps.append(np.random.choice(temp_alphabets, size=1)[0])
     elif(binary=='no' and gate == 'not'):
         for word in temp_ipt:
             if(ipt[ipt.index(word)-1]=='not'):
@@ -49,60 +59,60 @@ def attn_list(ps, ipt, binary, gate=''):
             elif(ipt[ipt.index(word)-1] != 'not'):
                 ps.pop(ps.index(word))
     sep.extend(ps)
-    return (sep) #temp_attn
+    return (sep)
 
 
 def copy_gate(ps, token, binary):
-    temp_ipt = [token]
+    temp_ipt = [] #[token]
     for s in ps:
         temp_ipt.append(s)
-    ps = attn_list(ps, temp_ipt, binary) #, temp_attn
-    return (ps, temp_ipt) #temp_attn
+    ps = lookup_str(ps, temp_ipt, binary, token) #
+    return (ps, temp_ipt)
 
 def and_gate(ps, token,  binary):
-    temp_ipt = [token]
-    for s in ps:
+    temp_ipt = [] #[token]
+    for i, s in enumerate(ps):
         temp_ipt.append(s)
-        if (ps.index(s) != len(ps) - 1):
+        if (i != len(ps) - 1):
             temp_ipt.append('and')
-    ps = attn_list(ps, temp_ipt, binary) #, temp_attn
+    ps = lookup_str(ps, temp_ipt, binary, token) #, temp_attn
 
     return(ps, temp_ipt)
 
 def or_gate(ps, token, binary):
-    temp_ipt = [token]
-    for s in ps:
+    temp_ipt = [] #[token]
+    for i, s in enumerate(ps):
         temp_ipt.append(s)
-        if (ps.index(s) != len(ps) - 1):
+        if (i != len(ps) - 1):
             temp_ipt.append('or')
     size = random.sample(np.arange(1, len(ps) + 1, dtype=int).tolist(), 1)
     out_str = np.random.choice(ps, size=size, replace=False).tolist()
-    out_str = attn_list(out_str, temp_ipt, binary) #, temp_attn
+    out_str = lookup_str(out_str, temp_ipt, binary, token) #, temp_attn
     return(out_str, temp_ipt)
 
 def not_gate(ps, token, binary):
-    temp_ipt = [token]
+    temp_ipt = [] #[token]
     temp_opt = []
-    cvocab = []
     num_nots = random.sample(np.arange(1,len(ps)+1, dtype=int).tolist(),1)[0]
     not_pfx = random.sample(ps, num_nots)
-    for pf in not_pfx:
-        temp_alpha = list(set(alphabets) - set([pf]))
-        cvocab.append(temp_alpha)
-    for s in ps:
+    cvocab = list(set(alphabets) - set(not_pfx))
+    # for pf in not_pfx:
+    #     temp_alpha = list(set(alphabets) - set([pf]))
+    #     cvocab.append(temp_alpha)
+    for i, s in enumerate(ps):
         if (s in not_pfx):
             temp_ipt.append('not')
             temp_ipt.append(s)
-            if (ps.index(s) != len(ps) - 1):
+            if (i != len(ps) - 1):
                 temp_ipt.append('and')
-            temp_opt.append(random.sample(cvocab[not_pfx.index(s)], 1)[0])
+            temp_opt.append(random.sample(cvocab, 1)[0])
         else:
             temp_ipt.append(s)
             temp_opt.append(s)
-        if (ps.index(s) != len(ps) - 1):
-            temp_ipt.append('and')
-    temp_opt = attn_list(temp_opt, temp_ipt,binary, 'not') #, temp_attn
-    return (temp_opt, temp_ipt) # temp_attn
+            if (i != len(ps) - 1):
+                temp_ipt.append('and')
+    temp_opt = lookup_str(temp_opt, temp_ipt,binary,token, 'not') #, temp_attn
+    return (temp_opt, temp_ipt)
 
 
 def io_strings(word, all_words, comp_len, token):
@@ -132,14 +142,21 @@ def io_strings(word, all_words, comp_len, token):
             tout.append(' '.join(map(str, str_tup[0])))
             tin.append(' '.join(map(str, str_tup[1])))
             tin.extend(tout)
+            tattn = attn_list(' '.join(map(str, tin)))
+            tin.append(eois)
             ipt.append(' '.join(map(str, tin)))
-            #attn.append(' '.join(map(str, str_tup[2])))
-            fout.append(b)
-    return (ipt, fout) #, attn
+            pre_out = []
+            for i in range(len(tattn)-1):
+                pre_out.append(ponder)
+            pre_out.append(b)
+            fout.append(' '.join(map(str, pre_out)))
+            tattn.append(tattn[-1] + 1)
+            attn.append(' '.join(map(str, tattn)))
+    return (ipt, fout, attn)
 
 def train(words, dsize):
     comp_lens = np.arange(2, opt.max_train_com+1, dtype=int).tolist()
-    data = np.zeros((dsize, 2), dtype=object)
+    data = np.zeros((dsize, 3), dtype=object)
     idx = 0
     try:
         while idx < data.shape[0]:
@@ -148,7 +165,7 @@ def train(words, dsize):
                 tup = io_strings(w, words, comp_lens, 'verify')
                 data[idx:idx+len(tup[0]),0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                #data[idx:idx + len(tup[0]), 2] = tup[2]
+                data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -158,7 +175,7 @@ def train(words, dsize):
 
 def unseen(words1, words2, dsize):
     comp_lens = np.arange(2, opt.max_train_com+1, dtype=int).tolist()
-    data = np.zeros((dsize, 2), dtype=object)
+    data = np.zeros((dsize, 3), dtype=object)
     idx = 0
     try:
         while idx < data.shape[0]:
@@ -167,7 +184,7 @@ def unseen(words1, words2, dsize):
                 tup = io_strings(w, words2, comp_lens, 'verify')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                #data[idx:idx + len(tup[0]), 2] = tup[2]
+                data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -176,7 +193,7 @@ def unseen(words1, words2, dsize):
                 tup = io_strings(w, words1, comp_lens, 'verify')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                #data[idx:idx + len(tup[0]), 2] = tup[2]
+                data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -187,7 +204,7 @@ def unseen(words1, words2, dsize):
 
 def longer(words, dsize):
     comp_lens = np.arange(opt.max_train_com+1, opt.max_test_com+1, dtype=int).tolist()
-    data = np.zeros((dsize, 2), dtype=object)
+    data = np.zeros((dsize, 3), dtype=object)
     idx = 0
     try:
         while idx < data.shape[0]:
@@ -196,7 +213,7 @@ def longer(words, dsize):
                 tup = io_strings(w, words, comp_lens, 'verify')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                #data[idx:idx + len(tup[0]), 2] = tup[2]
+                data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -206,7 +223,7 @@ def longer(words, dsize):
 
 def long_unseen(words1, words2, dsize):
     comp_lens = np.arange(opt.max_train_com + 1, opt.max_test_com + 1, dtype=int).tolist()
-    data = np.zeros((dsize, 2), dtype=object)
+    data = np.zeros((dsize, 3), dtype=object)
     idx = 0
     try:
         while idx < data.shape[0]:
@@ -215,7 +232,7 @@ def long_unseen(words1, words2, dsize):
                 tup = io_strings(w, words2, comp_lens, 'verify')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                #data[idx:idx + len(tup[0]), 2] = tup[2]
+                data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -225,7 +242,7 @@ def long_unseen(words1, words2, dsize):
                 tup = io_strings(w, words1, comp_lens, 'verify')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                #data[idx:idx + len(tup[0]), 2] = tup[2]
+                data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -271,6 +288,6 @@ for k, size in enumerate(data_sizes):
         out_file = open(os.path.join(data_splits[k], 'Verify_Produce_{}.tsv'.format(fname)), 'w')
         file_data = dataset[j]
         for i in range(file_data.shape[0]):
-            out_file.write("{}\t{}\n".format(file_data[i,0], file_data[i,1]))
+            out_file.write("{}\t{}\t{}\n".format(file_data[i,0], file_data[i,1], file_data[i,2]))
 
     print('finished generating verify data')
