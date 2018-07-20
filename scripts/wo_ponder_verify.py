@@ -3,9 +3,9 @@ import random
 import string
 import argparse
 import os
-from scripts.produce import get_data
+from scripts.wo_ponder_produce import get_data
 
-mfolder = '../CommaiMini-^$'
+mfolder = '../CommaiMini-^$/Ponderless'
 parser = argparse.ArgumentParser()
 parser.add_argument('--max_train_com', type=int, help= 'max length of compositions in train', default=4)
 parser.add_argument('--max_test_com', type=int, help= 'max length of compositions in test', default=7)
@@ -146,17 +146,18 @@ def io_strings(word, all_words, comp_len, token):
             tin.append(eois)
             ipt.append(' '.join(map(str, tin)))
             pre_out = []
-            for i in range(len(tattn)-1):
-                pre_out.append(ponder)
-            pre_out.append(b)
-            fout.append(' '.join(map(str, pre_out)))
+            # for i in range(len(tattn)-1):
+            #     pre_out.append(ponder)
+            # pre_out.append(b)
+            # fout.append(' '.join(map(str, pre_out)))
+            fout.append(b)
             tattn.append(tattn[-1] + 1)
             attn.append(' '.join(map(str, tattn)))
     return (ipt, fout, attn)
 
 def train(words, dsize):
     comp_lens = np.arange(2, opt.max_train_com+1, dtype=int).tolist()
-    data = np.zeros((dsize, 3), dtype=object)
+    data = np.zeros((dsize, 2), dtype=object)
     idx = 0
     try:
         while idx < data.shape[0]:
@@ -165,7 +166,7 @@ def train(words, dsize):
                 tup = io_strings(w, words, comp_lens, 'verify')
                 data[idx:idx+len(tup[0]),0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                data[idx:idx + len(tup[0]), 2] = tup[2]
+                #data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -175,7 +176,7 @@ def train(words, dsize):
 
 def unseen(words1, words2, dsize):
     comp_lens = np.arange(2, opt.max_train_com+1, dtype=int).tolist()
-    data = np.zeros((dsize, 3), dtype=object)
+    data = np.zeros((dsize, 2), dtype=object)
     idx = 0
     try:
         while idx < data.shape[0]:
@@ -184,7 +185,7 @@ def unseen(words1, words2, dsize):
                 tup = io_strings(w, words2, comp_lens, 'verify')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                data[idx:idx + len(tup[0]), 2] = tup[2]
+                #data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -193,7 +194,7 @@ def unseen(words1, words2, dsize):
                 tup = io_strings(w, words1, comp_lens, 'verify')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                data[idx:idx + len(tup[0]), 2] = tup[2]
+                #data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -204,7 +205,7 @@ def unseen(words1, words2, dsize):
 
 def longer(words, dsize):
     comp_lens = np.arange(opt.max_train_com+1, opt.max_test_com+1, dtype=int).tolist()
-    data = np.zeros((dsize, 3), dtype=object)
+    data = np.zeros((dsize, 2), dtype=object)
     idx = 0
     try:
         while idx < data.shape[0]:
@@ -213,7 +214,7 @@ def longer(words, dsize):
                 tup = io_strings(w, words, comp_lens, 'verify')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                data[idx:idx + len(tup[0]), 2] = tup[2]
+                #data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -223,7 +224,7 @@ def longer(words, dsize):
 
 def long_unseen(words1, words2, dsize):
     comp_lens = np.arange(opt.max_train_com + 1, opt.max_test_com + 1, dtype=int).tolist()
-    data = np.zeros((dsize, 3), dtype=object)
+    data = np.zeros((dsize, 2), dtype=object)
     idx = 0
     try:
         while idx < data.shape[0]:
@@ -232,7 +233,7 @@ def long_unseen(words1, words2, dsize):
                 tup = io_strings(w, words2, comp_lens, 'verify')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                data[idx:idx + len(tup[0]), 2] = tup[2]
+                #data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -242,7 +243,7 @@ def long_unseen(words1, words2, dsize):
                 tup = io_strings(w, words1, comp_lens, 'verify')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                data[idx:idx + len(tup[0]), 2] = tup[2]
+                #data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -288,6 +289,6 @@ for k, size in enumerate(data_sizes):
         out_file = open(os.path.join(data_splits[k], 'Verify_Produce_{}.tsv'.format(fname)), 'w')
         file_data = dataset[j]
         for i in range(file_data.shape[0]):
-            out_file.write("{}\t{}\t{}\n".format(file_data[i,0], file_data[i,1], file_data[i,2]))
+            out_file.write("{}\t{}\n".format(file_data[i,0], file_data[i,1]))
 
     print('finished generating verify data')

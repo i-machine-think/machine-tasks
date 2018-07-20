@@ -51,7 +51,7 @@ def and_gate(ps, token):
         temp_attn.append(prod_attn)
     pre_opt.extend(ps)
     temp_attn.append(temp_attn[-1] + 1)
-    return(pre_opt, temp_ipt, temp_attn)
+    return(ps, temp_ipt, temp_attn)
 
 def or_gate(ps, token):
     temp_ipt = [] #[token]
@@ -73,7 +73,7 @@ def or_gate(ps, token):
         temp_attn.append(prod_attn)
     pre_opt.extend(out_str)
     temp_attn.append(temp_attn[-1] + 1)
-    return(pre_opt, temp_ipt, temp_attn)
+    return(out_str, temp_ipt, temp_attn)
 
 def not_gate(ps, token):
     temp_ipt = [] #[token]
@@ -108,7 +108,7 @@ def not_gate(ps, token):
         temp_attn.append(prod_attn)
     pre_opt.extend(temp_opt)
     temp_attn.append(temp_attn[-1] + 1)
-    return (pre_opt, temp_ipt, temp_attn)
+    return (temp_opt, temp_ipt, temp_attn)
 
 
 
@@ -135,7 +135,7 @@ def io_strings(word, all_words, comp_len, token):
 
 def train(words, size):
     comp_lens = np.arange(2, opt.max_train_com+1, dtype=int).tolist()
-    data = np.zeros((size, 3), dtype=object)
+    data = np.zeros((size, 2), dtype=object)
     idx = 0
     try:
         while idx < data.shape[0]:
@@ -144,7 +144,7 @@ def train(words, size):
                 tup = io_strings(w, words, comp_lens, 'produce')
                 data[idx:idx+len(tup[0]),0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                data[idx:idx + len(tup[0]), 2] = tup[2]
+                #data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if(idx > data.shape[0]-len(operators)):
                     raise StopIteration()
@@ -155,7 +155,7 @@ def train(words, size):
 
 def unseen(words1, words2, size):
     comp_lens = np.arange(2, opt.max_train_com+1, dtype=int).tolist()
-    data = np.zeros((size, 3), dtype=object)
+    data = np.zeros((size, 2), dtype=object)
     idx = 0
     try:
         while idx < data.shape[0]:
@@ -164,7 +164,7 @@ def unseen(words1, words2, size):
                 tup = io_strings(w, words2, comp_lens, 'produce')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                data[idx:idx + len(tup[0]), 2] = tup[2]
+                #data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -174,7 +174,7 @@ def unseen(words1, words2, size):
                 tup = io_strings(w, words1, comp_lens, 'produce')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                data[idx:idx + len(tup[0]), 2] = tup[2]
+                #data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -185,7 +185,7 @@ def unseen(words1, words2, size):
 
 def longer(words, size):
     comp_lens = np.arange(opt.max_train_com+1, opt.max_test_com+1, dtype=int).tolist()
-    data = np.zeros((size, 3), dtype=object)
+    data = np.zeros((size, 2), dtype=object)
     idx = 0
     try:
         while idx < data.shape[0]:
@@ -194,7 +194,7 @@ def longer(words, size):
                 tup = io_strings(w, words, comp_lens, 'produce')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                data[idx:idx + len(tup[0]), 2] = tup[2]
+                #data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -204,7 +204,7 @@ def longer(words, size):
 
 def long_unseen(words1, words2, size):
     comp_lens = np.arange(opt.max_train_com + 1, opt.max_test_com + 1, dtype=int).tolist()
-    data = np.zeros((size, 3), dtype=object)
+    data = np.zeros((size, 2), dtype=object)
     idx = 0
     try:
         while idx < data.shape[0]:
@@ -213,7 +213,7 @@ def long_unseen(words1, words2, size):
                 tup = io_strings(w, words2, comp_lens, 'produce')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                data[idx:idx + len(tup[0]), 2] = tup[2]
+                #data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()
@@ -222,7 +222,7 @@ def long_unseen(words1, words2, size):
                 tup = io_strings(w, words1, comp_lens, 'produce')
                 data[idx:idx + len(tup[0]), 0] = tup[0]
                 data[idx:idx + len(tup[0]), 1] = tup[1]
-                data[idx:idx + len(tup[0]), 2] = tup[2]
+                #data[idx:idx + len(tup[0]), 2] = tup[2]
                 idx += len(tup[0])
                 if (idx > data.shape[0] - len(operators)):
                     raise StopIteration()

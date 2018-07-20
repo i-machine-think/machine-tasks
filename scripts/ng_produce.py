@@ -24,13 +24,30 @@ alphabets = [string.printable[i] for i in range(len(string.printable)-6)]
 operators = ['and', 'or', 'not']
 ponder = 'erm'
 eois = '<eos>'
-def attn_list(sep):
+def attn_list(ipt, opt):
     temp_attn = []
-    indices = [i for i, x in enumerate(sep) if x == "and" or x== "or"]
-    temp_attn.extend(indices)
-    ver_idx = sep.index('produce')
+    pre_opt = []
+    ver_idx = ipt.index('produce')
     temp_attn.extend([ver_idx - 1, ver_idx])
-    return(temp_attn)
+    for i in range(len(temp_attn)):
+        pre_opt.append(ponder)
+    if ('not' not in ipt):
+        for o in opt:
+            temp_attn.append(ipt.index(o))
+    else:
+        not_idx = []
+        for i in range(1,len(ipt)):
+            if(ipt[i-1]=='not'):
+                not_idx.append(i)
+        for o in opt:
+            if(o in ipt):
+                temp_attn.append(ipt.index(o))
+            else:
+                temp_attn.append(not_idx[0])
+                not_idx.pop(0)
+    temp_attn.append(ipt.index(eois))
+    pre_opt.extend(opt)
+    return(temp_attn, pre_opt)
 
 
 def and_gate(ps, token):
@@ -41,16 +58,8 @@ def and_gate(ps, token):
             temp_ipt.append('and')
     random.shuffle(ps)
     temp_ipt.append(token)
-    temp_attn = attn_list(temp_ipt)
     temp_ipt.append(eois)
-    pre_opt = []
-    for i in range(len(temp_attn) - 1):
-        pre_opt.append(ponder)
-    prod_attn = temp_attn[-1]
-    for i in range(len(ps) - 1):
-        temp_attn.append(prod_attn)
-    pre_opt.extend(ps)
-    temp_attn.append(temp_attn[-1] + 1)
+    temp_attn, pre_opt = attn_list(temp_ipt, ps)
     return(pre_opt, temp_ipt, temp_attn)
 
 def or_gate(ps, token):
@@ -61,22 +70,13 @@ def or_gate(ps, token):
             temp_ipt.append('or')
     size = random.sample(np.arange(1, len(ps) + 1, dtype=int).tolist(), 1)
     out_str = np.random.choice(ps, size=size, replace=False).tolist()
-    #out_str.append('<eos>')
     temp_ipt.append(token)
-    temp_attn = attn_list(temp_ipt)
     temp_ipt.append(eois)
-    pre_opt = []
-    for i in range(len(temp_attn) - 1):
-        pre_opt.append(ponder)
-    prod_attn = temp_attn[-1]
-    for i in range(len(out_str) - 1):
-        temp_attn.append(prod_attn)
-    pre_opt.extend(out_str)
-    temp_attn.append(temp_attn[-1] + 1)
+    temp_attn, pre_opt = attn_list(temp_ipt, out_str)
     return(pre_opt, temp_ipt, temp_attn)
 
 def not_gate(ps, token):
-    temp_ipt = [] #[token]
+    temp_ipt = []
     temp_opt = []
     num_nots = random.sample(np.arange(1,len(ps)+1, dtype=int).tolist(),1)[0]
     not_pfx = random.sample(ps, num_nots)
@@ -96,18 +96,9 @@ def not_gate(ps, token):
             if (i != len(ps) - 1):
                 temp_ipt.append('and')
             temp_opt.append(s)
-    #temp_opt.append('<eos>')
     temp_ipt.append(token)
-    temp_attn = attn_list(temp_ipt)
     temp_ipt.append(eois)
-    pre_opt = []
-    for i in range(len(temp_attn)-1):
-        pre_opt.append(ponder)
-    prod_attn = temp_attn[-1]
-    for i in range(len(temp_opt)-1):
-        temp_attn.append(prod_attn)
-    pre_opt.extend(temp_opt)
-    temp_attn.append(temp_attn[-1] + 1)
+    temp_attn, pre_opt = attn_list(temp_ipt, temp_opt)
     return (pre_opt, temp_ipt, temp_attn)
 
 

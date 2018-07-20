@@ -3,9 +3,9 @@ import random
 import string
 import argparse
 import os
-from scripts.produce import get_data
+from scripts.ng_produce import get_data
 
-mfolder = '../CommaiMini-^$'
+mfolder = '../CommaiMini-^$/New_Guidance'
 parser = argparse.ArgumentParser()
 parser.add_argument('--max_train_com', type=int, help= 'max length of compositions in train', default=4)
 parser.add_argument('--max_test_com', type=int, help= 'max length of compositions in test', default=7)
@@ -31,12 +31,17 @@ def attn_list(sep):
     ## Get attention
     sep = sep.split(' ')
     temp_attn = []
-    indices = [i for i, x in enumerate(sep) if x == "and" or x == "or"]
-    temp_attn.extend(indices)
+    pre_opt = []
     ver_idx = sep.index('verify')
     temp_attn.extend([ver_idx - 1, ver_idx])
-    temp_attn.append(len(sep) - 1)
-    return(temp_attn)
+    for i in range(len(temp_attn)):
+        pre_opt.append(ponder)
+    eos_index = sep.index(eois)
+    temp_attn.extend([eos_index-1, eos_index])
+    # indices = [i for i, x in enumerate(sep) if x == "and" or x == "or"]
+    # temp_attn.extend(indices)
+    # temp_attn.append(len(sep) - 1)
+    return(temp_attn, pre_opt)
 
 
 def lookup_str(ps, ipt, binary, token, gate=''):
@@ -142,15 +147,15 @@ def io_strings(word, all_words, comp_len, token):
             tout.append(' '.join(map(str, str_tup[0])))
             tin.append(' '.join(map(str, str_tup[1])))
             tin.extend(tout)
-            tattn = attn_list(' '.join(map(str, tin)))
             tin.append(eois)
+            tattn, pre_out = attn_list(' '.join(map(str, tin)))
             ipt.append(' '.join(map(str, tin)))
-            pre_out = []
-            for i in range(len(tattn)-1):
-                pre_out.append(ponder)
+            # pre_out = []
+            # for i in range(len(tattn)-1):
+            #     pre_out.append(ponder)
+            # tattn.append(tattn[-1] + 1)
             pre_out.append(b)
             fout.append(' '.join(map(str, pre_out)))
-            tattn.append(tattn[-1] + 1)
             attn.append(' '.join(map(str, tattn)))
     return (ipt, fout, attn)
 
