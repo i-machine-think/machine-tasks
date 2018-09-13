@@ -1,0 +1,1 @@
+Namespace(length=[5], length_longer=15, longer=False, num_eval_examples=1000, num_train_examples=10000, output_folder='sample3', seed=2, test=False, valid=False)

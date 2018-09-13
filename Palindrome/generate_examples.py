@@ -6,31 +6,46 @@ import argparse
 
 def main(args):
 
+    print(args)
+
+    np.random.seed(args.seed)
+
     if not os.path.exists(args.output_folder):
         os.mkdir(args.output_folder)
 
-    train_path = os.path.join(args.output_folder,
-                              'train_{}.tsv'.format(args.length))
-    generate_and_save_examples(args.length, args.num_train_examples,
-                               train_path)
+    for length in args.length:
+        train_path = os.path.join(args.output_folder,
+                                  'train_{:03d}.tsv'.format(length))
+        generate_and_write_examples(length, args.num_train_examples,
+                                    train_path)
 
-    test_path = os.path.join(args.output_folder,
-                             'test_{}.tsv'.format(args.length))
-    generate_and_save_examples(args.length, args.num_test_examples,
-                               test_path)
+        if args.valid:
+            valid_path = os.path.join(args.output_folder,
+                                      'valid_{:03d}.tsv'.format(length))
+            generate_and_write_examples(length, args.num_eval_examples,
+                                        valid_path)
+
+        if args.test:
+            test_path = os.path.join(args.output_folder,
+                                     'test_{:03d}.tsv'.format(length))
+            generate_and_write_examples(length, args.num_eval_examples,
+                                        test_path)
 
     if args.longer:
-        if args.length_longer < args.length:
+        if args.length_longer < max(args.length):
             raise ValueError(("Expected longer length to be greater than " +
                               "{}, but got {}.")
-                             .format(args.length, args.length_longer))
-        longer_path = os.path.join(args.output_folder,
-                                   'test_{}.tsv'.format(args.length))
-        generate_and_save_examples(args.length_longer,
-                                   args.num_longer_examples, longer_path)
+                             .format(max(args.length), args.length_longer))
+        longer_path = os.path.join(args.output_folder, 'test_longer_' +
+                                   '{:03d}.tsv'.format(args.length_longer))
+        generate_and_write_examples(args.length_longer,
+                                    args.num_eval_examples, longer_path)
+
+    with open(os.path.join(args.output_folder, 'args.txt'), 'w') as file:
+        file.write(str(args))
 
 
-def generate_and_save_examples(length, num_examples, file_path):
+def generate_and_write_examples(length, num_examples, file_path):
 
     if os.path.exists(file_path):
         os.remove(file_path)
@@ -39,10 +54,8 @@ def generate_and_save_examples(length, num_examples, file_path):
     for _ in range(num_examples):
         X, y = generate_palindrome_example(length)
         with open(file_path, 'a') as file:
-            file.write(' '.join(map(str, X)) +
-                       '\t' +
-                       ' '.join(map(str, y)) +
-                       '\n')
+            file.write(' '.join(map(str, X)) + '\t' +
+                       ' '.join(map(str, y)) + '\n')
 
 
 def generate_palindrome_example(length, pad_token='<pad>'):
@@ -62,15 +75,19 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--output-folder', type=str, default='sample1')
+    parser.add_argument('-s', '--seed', type=int, default=1)
 
-    parser.add_argument('-l', '--length', type=int, default=10)
+    parser.add_argument('-l', '--length', nargs='*', type=int, default=[10])
     parser.add_argument('-n-train', '--num-train-examples', type=int,
                         default=10000)
-    parser.add_argument('-n-test', '--num-test-examples', type=int,
-                        default=1000)
+
+    parser.add_argument('--valid', action='store_true')
+    parser.add_argument('--test', action='store_true')
+    parser.add_argument('-n-eval', '--num-eval-examples', type=int,
+                        default=1000,
+                        help='Number of examples in evaluation sets.')
+
     parser.add_argument('--longer', action='store_true')
-    parser.add_argument('-n-longer', '--num-longer-examples', type=int,
-                        default=1000)
     parser.add_argument('-l-longer', '--length-longer', type=int,
                         default=15)
 
