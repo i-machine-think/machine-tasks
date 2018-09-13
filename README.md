@@ -1,7 +1,7 @@
 # machine-tasks
 Datasets for compositional learning
 
-This repository contains several datasets used to evaluate to what extent a system has learned a compositional or systematic solution. Currenty, it contains three tasks.
+This repository contains several datasets used to evaluate to what extent a system has learned a compositional or systematic solution. Currently, it contains four tasks.
 
 ## SCAN
 
@@ -14,6 +14,10 @@ A dataset proposed in [[2]](https://arxiv.org/abs/1802.06467) to evaluate compos
 ## Symbol-rewriting
 
 A dataset proposed in [[3]](https://arxiv.org/abs/1805.01445) to evaluate a model's ability to generalise on a simple symbol rewriting task.
+
+## Palindrome
+
+A dataset to check long term memory capabilities.
 
 ## References
 \[1\] Brenden M. Lake and Marco Baroni. Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks, 2017. <br />
