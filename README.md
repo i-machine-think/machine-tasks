@@ -15,6 +15,10 @@ A dataset proposed in [[2]](https://arxiv.org/abs/1802.06467) to evaluate compos
 
 A dataset proposed in [[3]](https://arxiv.org/abs/1805.01445) to evaluate a model's ability to generalise on a simple symbol rewriting task.
 
+## Palindrome
+
+A dataset to check longer term memory capabilities.
+
 ## References
 \[1\] Brenden M. Lake and Marco Baroni. Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks, 2017. <br />
 \[2\] Adam Liška, Germán Kruszewski, and Marco Baroni. Memorize or generalize? searching for a
