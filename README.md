@@ -17,7 +17,7 @@ A dataset proposed in [[3]](https://arxiv.org/abs/1805.01445) to evaluate a mode
 
 ## Palindrome
 
-A dataset to check longer term memory capabilities.
+A dataset to check long term memory capabilities.
 
 ## References
 \[1\] Brenden M. Lake and Marco Baroni. Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks, 2017. <br />
