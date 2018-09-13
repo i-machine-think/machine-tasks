@@ -1,7 +1,7 @@
 # machine-tasks
 Datasets for compositional learning
 
-This repository contains several datasets used to evaluate to what extent a system has learned a compositional or systematic solution. Currenty, it contains three tasks.
+This repository contains several datasets used to evaluate to what extent a system has learned a compositional or systematic solution. Currently, it contains four tasks.
 
 ## SCAN
 
