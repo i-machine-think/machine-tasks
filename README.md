@@ -26,4 +26,5 @@ compositional rnn in a haystack, 2018. <br />
 \[3\] Noah Weber, Leena Shekhar, and Niranjan Balasubramanian. The fine line between linguistic
 generalization and failure in seq2seq-attention models. In Workshop on new forms of generalization
 in deep learning and natural language processing, NAACL’18, 2018. <br />
-\[4\] Tal Linzen, Emmanuel Dupoux, and Yoav Goldberg.
+\[4\] Tal Linzen, Emmanuel Dupoux, and Yoav Goldberg. 2016. Assessing the ability of lstms to learn
+syntax sensitive dependencies. Transactions of the Association for Computational Linguistics, 4:521–535.
