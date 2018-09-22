@@ -27,7 +27,6 @@ def main(args):
             tar.extract(member, path=args.data_dir)
 
     # preprocess
-    decode_pos = {'VBZ': 0, 'VBP': 1}  # singular, plural
     extract_dir = os.path.join(args.data_dir, 'rnn_agr_simple')
     for file in os.listdir(extract_dir):
 
@@ -37,9 +36,15 @@ def main(args):
             writer = csv.writer(ot_file, delimiter='\t')
 
             for r in reader:
-                assert len(r) == 2 and len(decode_pos[r[0]]) == 1, \
+                assert len(r) == 2 and r[0] in ['VBZ', 'VBP'], \
                     "Something's wrong with this line:\n{}".format(r)
-                writer.writerow([r[1], decode_pos[r[0]]])
+
+                input = r[1]
+                # add <pad> tokens to target to make it compatible with machine
+                target = ['<pad>'] * (len(input.split())-1) + [r[0]]
+                target = ' '.join(target)
+
+                writer.writerow([input, target])
 
 
 if __name__ == '__main__':
