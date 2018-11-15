@@ -1,0 +1,9 @@
+{
+    "task_defaults": {
+        "batch_size": 128,
+        "k": 3,
+        "max_len": 60,
+        "patience": 5,
+        "epochs": 20
+    }
+}
