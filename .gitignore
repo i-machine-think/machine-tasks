@@ -1,16 +1,2 @@
-# directories
-venv*/
-notebooks/
-.DS_Store
-.ipynb_checkpoints
-__pycache__/
-
-# files
-#.gitignore
-..gitignore.icloud
-
-# extensions
-*.pyc
-*.egg-info
-
+#generated data folders
 LongLookupTables/*/data/
