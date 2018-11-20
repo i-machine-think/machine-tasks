@@ -1,5 +1,4 @@
-from tasks.tasks import get_task
-
+from tasks import get_task
 
 task_a = get_task("long_lookup_reverse")
 task_b = get_task("lookup")
