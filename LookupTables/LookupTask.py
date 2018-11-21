@@ -1,5 +1,5 @@
 from tasks import Task
-from utils.get_default_params import get_default_params
+from utils import get_default_params
 import os
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
