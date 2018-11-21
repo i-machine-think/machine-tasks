@@ -1,7 +1,7 @@
 from LongLookupTables import LongLookupTask
 from LookupTables import LookupTask
 from SymbolRewriting import SymbolTask
-from Task import Task
+from tasks import Task
 
 
 def get_task(name,
