@@ -11,10 +11,27 @@ def get_task(name,
     """Return the wanted tasks.
 
     Args:
-        name ({"lookup", "long_lookup", "long_lookup_oneshot",
-            "long_lookup_reverse", "noisy_long_lookup_multi", "noisy_long_lookup_single",
-            "long_lookup_intermediate_noise", "symbol_rewriting", "SCAN"}) 
-            name of the task to get.
+        name (str): name of the task to get
+            Implemented Options: 
+                "symbol_rewriting" : classical symbol rewriting task
+                "lookup" : classical lookup table task
+                "long_lookup" :  Lookup tables with training up to 3 compositions
+                "long_lookup_oneshot" : long lookup tables with a iniital training 
+                                        file without t7 and t8 and then adding
+                                        uncomposed t7 and t8 with all the rest
+                "long_lookup_reverse" : reverse long lookup table (i.e right to left hard attention)
+                "noisy_long_lookup_multi" : noisy long lookup table where between each
+                                            "real" table there's one noisy one.
+                                            The hard attention is thus a diagonal wich is less steep
+                "noisy_long_lookup_single" : noisy long lookup table with a special start token saying
+                                            when are the "real tables" starting. The hard attention
+                                            is thus a diagonal that starts at some random position.
+                "long_lookup_intermediate_noise" : noisy long lookup table where there are multiple
+                                                start token and only the last one really counts
+                NotImplemented Option:
+                "long lookup jump" : Lookup tables with training 1 2 and 4 compositions (i.e jumping 3)
+                                    currently does not have appropriate generation.txt
+                "SCAN": classical SCAN task
         is_small (bool, optional): whether to run a smaller verson of the task.
             Used for getting less statistically significant results.
         is_mini (bool, optional): whether to run a smaller verson of the task.
