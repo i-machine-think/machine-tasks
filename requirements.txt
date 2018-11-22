@@ -2,4 +2,4 @@ numpy
 pandas
 sklearn
 scipy
-
+torchtext>=0.3.1
