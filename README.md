@@ -32,7 +32,7 @@ The purpose of the `Task` objects is to contain meta data information about the 
 ### The `Task` Object class contains: 
 - `name`: (str) name of Task
 -  `train_path`: (str) absolute path to train file
--  `val_path`: (str) absolute path to validation file
+-  `valid_path`: (str) absolute path to validation file
 -  `test_paths` (list of str) list of absolute paths to test files
 -  `default_params`: (dict) default parameters stored in the respective `default_params.yml` for each task
 -  `extension`: (str) defaults '.tsv'. Note: that the extension is already present in the paths so does not need to be added, but can be used to determine if reading method will work on the paths provided by Task object.
@@ -62,7 +62,7 @@ from tasks import get_task
 lookup_task = get_task("lookup")
 ```
 
-Then to get the filepaths to the train/test/validations files is easy. You can simply call your loading function using the file paths stored in the Task object under `lookup_task.train_path`, `lookup_task.val_path` and `lookup_task.test_paths`. Note that the train and validation paths are strings, but the `test_paths` is a list of paths. This is because there are more than one test file provided by the datasets. 
+Then to get the filepaths to the train/test/validations files is easy. You can simply call your loading function using the file paths stored in the Task object under `lookup_task.train_path`, `lookup_task.valid_path` and `lookup_task.test_paths`. Note that the train and validation paths are strings, but the `test_paths` is a list of paths. This is because there are more than one test file provided by the datasets. 
 
 The Task object also offers a dictionary of recommended training parameters under `lookup_task.default_params`. This dictionary is loaded from the `default_params.yml` present in the task directory. The idea behind offering such suggestions is to allow us to track commonly used parameters and parameters used in specific publications. Tracking typical parameters used in publications helps in the reproducibility of experiments. 
 
