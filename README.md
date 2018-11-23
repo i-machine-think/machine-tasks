@@ -1,19 +1,22 @@
 # machine-tasks
 Datasets for compositional learning
 
-This repository contains several datasets used to evaluate to what extent a system has learned a compositional or systematic solution. Currenty, it contains four tasks. 
+This repository contains several datasets used to evaluate to what extent a system has learned a compositional or systematic solution. 
 
-## SCAN
+## Tasks
+
+Currenty, the repository contains three tasks. 
+
+### SCAN
 
 A dataset proposed in [[1]](https://arxiv.org/abs/1711.00350) of mapping simple input instructions to an output sequence, designed to evaluate to what extent a network learns a systematic solution.
 
-## Lookup-tables
+### Lookup-tables
 
 A dataset proposed in [[2]](https://arxiv.org/abs/1802.06467) to evaluate compositional learning.
 
-## LongLookupTables
-
-An extension to the Lookup-tables task. There are several subtasks included in this, meant to test different aspects of compositional learning. 
+This library also includes an extention to the lookup table task, which involves lookup tables with more than 3 possibly noisy compositions.
+This LongLookupTables task contains several subtasks:
 
 -  **Long Lookup Tables**: Lookup tables with training up to 3 compositions
 -  **Long Lookup Tables with Intermediate Noise**: noisy long lookup table where there are multiple start token and only the last one really counts
@@ -22,12 +25,12 @@ An extension to the Lookup-tables task. There are several subtasks included in t
 -  **Noisy Long Lookup Tables Multi**: noisy long lookup table where between each "real" table there's one noisy one. The hard attention is thus a diagonal which is less steep.
 -  **Long Lookup Tables Single**: noisy long lookup table with a special start token saying when are the "real tables" starting. The hard attention is thus a diagonal that starts at some random position.
 
-## Symbol-rewriting
+### Symbol-rewriting
 
 A dataset proposed in [[3]](https://arxiv.org/abs/1805.01445) to evaluate a model's ability to generalise on a simple symbol rewriting task.
 
 ## Obtaining a Task Object
-The purpose of the `Task` objects is to contain meta data information about the datasets, in order to streamline the data loading pipeline. 
+The `Task` object contains meta data about the datasets to streamline the data loading pipeline. 
 
 ### The `Task` Object class contains: 
 - `name`: (str) name of Task
