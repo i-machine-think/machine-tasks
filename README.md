@@ -1,3 +1,5 @@
+# machine &middot; [![Build Status](https://travis-ci.org/i-machine-think/machine-tasks.svg?branch=master)](https://travis-ci.org/i-machine-think/machine-tasks)
+
 # machine-tasks
 Datasets for compositional learning
 
