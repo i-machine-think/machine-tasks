@@ -1,4 +1,5 @@
 pytest
+yaml
 tqdm
 numpy
 pandas
