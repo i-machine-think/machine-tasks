@@ -4,7 +4,28 @@
 # default suggestions of parameters for datasets 
 # which have been used in past papers
 task_defaults:
-    batch_size": 1
+    batch_size: 1
     k: 10
-    max_len: 10
+    max_len: 50
     patience: 15
+    epochs: 100
+# Baseline used in Learning compositionally through attentive guidance (Hupkes et al. 2018)
+baseline_2018: 
+    full_focus: False
+    batch_size: 1
+    embedding_size: 128
+    hidden_size: 512
+    rnn_cell: 'gru'
+    attention: 'pre-rnn'
+    attention_method: 'mlp'
+    max_len: 50
+# Final Model used in Learning compositionally through attentive guidance (Hupkes et al. 2018)
+Hupkes_2018:
+    full_focus: True
+    batch_size: 1
+    embedding_size: 16
+    hidden_size: 512
+    rnn_cell: 'gru'
+    attention: 'pre-rnn'
+    attention_method: 'mlp'
+    max_len: 50
