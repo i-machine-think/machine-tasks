@@ -4,11 +4,11 @@
 # default suggestions of parameters for datasets 
 # which have been used in past papers
 task_defaults:
-    batch_size: 128
-    k: 3
-    max_len: 60
-    patience: 5
-    epochs: 20
+    batch_size: 1
+    k: 10
+    max_len: 50
+    patience: 15
+    epochs: 100
 # Baseline used in Learning compositionally through attentive guidance (Hupkes et al. 2018)
 baseline_2018: 
     full_focus: False
