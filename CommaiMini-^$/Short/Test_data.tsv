@@ -1,0 +1,25 @@
+not o and not 7 produce <eos>	erm erm O i	2 4 5 5 6
+e and ; verify U ] f ; / e : <eos>	erm erm erm yes	1 2 3 10 11
+not ! and $ and L verify Q c K [ p ! <eos>	erm erm erm erm no	2 4 5 6 12 13
+z or . or x produce <eos>	erm erm erm x	1 3 4 5 6
+N and j verify n ) ` ( j N Y <eos>	erm erm erm yes	1 2 3 10 11
+y or r verify O <eos>	erm erm erm no	1 2 3 4 5
+- and J and Q verify Q F 0 - J j n Q <eos>	erm erm erm erm yes	1 3 4 5 13 14
+T and > and a and not @ produce <eos>	erm erm erm erm T > a s	1 3 5 7 8 8 8 8 9
+not . and b produce <eos>	erm erm h b	2 3 4 4 5
+h and A produce <eos>	erm erm h A	1 2 3 3 4
+not 8 and r produce <eos>	erm erm n r	2 3 4 4 5
+E and not v and k and p produce <eos>	erm erm erm erm E z k p	1 4 6 7 8 8 8 8 9
+U and not r verify I r <eos>	erm erm erm no	1 3 4 6 7
+T and G and w produce <eos>	erm erm erm T G w	1 3 4 5 5 5 6
+1 and A and 5 verify + <eos>	erm erm erm erm no	1 3 4 5 6 7
+f and n and p verify p > Q n : f <eos>	erm erm erm erm yes	1 3 4 5 11 12
+2 or f produce <eos>	erm erm f	1 2 3 4
+& or e or @ produce <eos>	erm erm erm @ &	1 3 4 5 5 6
+0 verify q <eos>	erm erm no	0 1 2 3
+s or ' or O produce <eos>	erm erm erm O	1 3 4 5 6
+F or 0 verify B = <eos>	erm erm erm no	1 2 3 5 6
+/ and L and X and ' verify B l 2 E <eos>	erm erm erm erm erm no	1 3 5 6 7 11 12
+i or 7 produce <eos>	erm erm 7 i	1 2 3 3 4
+B or $ or Y produce <eos>	erm erm erm Y B	1 3 4 5 5 6
+0 or C verify _ 0 0 <eos>	erm erm erm yes	1 2 3 6 7
